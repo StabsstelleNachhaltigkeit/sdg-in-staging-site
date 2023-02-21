@@ -1,25 +1,25 @@
 # Jekyll configuration for Open SDG platform
 
 # primary settings:
-baseurl: "/site-repo" # change here!
-remote_data_prefix: "https://tt053626.github.io/data-repo"
+baseurl: "/sdg-in-staging-site" # change here!
+remote_data_prefix: "https://KeCoINGO.github.io/sdg-in-staging-data"
 
 # URL for the "Edit Data" and "Edit Metadata" button on indicators.
-data_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_[id].csv
-metadata_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/meta/[id].md
+data_edit_url: http://prose.io/#/KeCoINGO/sdg-in-staging-data/edit/develop/data/indicator_[id].csv
+metadata_edit_url: http://prose.io/#/KeCoINGO/sdg-in-staging-data/edit/develop/meta/[id].md
 
 languages:
   - de
   - en
 
 country: # or place name
-  name: Australia
-  adjective: Australian
+  name: Ingolstadt
+  adjective: Ingolstadt
 
-email_contacts:
-  questions: nachhaltigkeit@ba-tk.berlin.de
-  suggestions: nachhaltigkeit@ba-tk.berlin.de
-  functional: nachhaltigkeit@ba-tk.berlin.de
+# email_contacts:
+#   questions: nachhaltigkeit@ba-tk.berlin.de
+#   suggestions: nachhaltigkeit@ba-tk.berlin.de
+#   functional: nachhaltigkeit@ba-tk.berlin.de
 
 frontpage_introduction_banner:
  title: frontpage.intro_title
@@ -117,32 +117,32 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 graph_color_set: accessible
 header_language_toggle: dropdown
 
-map_options:
- minZoom: 5
- maxZoom: 20
- tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
- tileOptions:
-   attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
-map_layers:
- - min_zoom: 0
-   max_zoom: 30
-   subfolder: districts
-   label: District
-   # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
-   colorRange: chroma.brewer.BuGn
-   # Set the color for boundaries that have no data.
-   noValueColor: #f0f0f0
-   # https://leafletjs.com/reference-1.4.0.html#path-option
-   styleNormal:
-     weight: 1
-     opacity: 1
-     color: #888888
-     fillOpacity: 0.7
-   styleHighlighted:
-     weight: 1
-     opacity: 1
-     color: #111111
-     fillOpacity: 0.7
+# map_options:
+#  minZoom: 5
+#  maxZoom: 20
+#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+#  tileOptions:
+#    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+# map_layers:
+#  - min_zoom: 0
+#    max_zoom: 30
+#    subfolder: districts
+#    label: District
+#    # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
+#    colorRange: chroma.brewer.BuGn
+#    # Set the color for boundaries that have no data.
+#    noValueColor: #f0f0f0
+#    # https://leafletjs.com/reference-1.4.0.html#path-option
+#    styleNormal:
+#      weight: 1
+#      opacity: 1
+#      color: #888888
+#      fillOpacity: 0.7
+#    styleHighlighted:
+#      weight: 1
+#      opacity: 1
+#      color: #111111
+#      fillOpacity: 0.7
 
 menu:
   - path: /goals
