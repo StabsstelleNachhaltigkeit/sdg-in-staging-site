@@ -230,11 +230,6 @@ h1.header {
       box-shadow: 5px 5px 5px 0px rgba(5,5,5,0.4);
   }
 }
-.frontpage-cards {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 
 /*#1-3. cards on landing page*/
@@ -281,6 +276,15 @@ h1.header {
 
 
 /*#2. goal page */
+.previous-next-links.row {
+  position: relative;
+  top: -170px;
+  left: 4vw;
+}
+.col-md-auto {
+  width: 25%;
+}
+
 @for $i from 1 through length($goal-banner-backgroundColors) {
   $background-c: nth($goal-banner-backgroundColors, $i);
 
@@ -299,16 +303,6 @@ h1.header {
       }
       .container{
         height: 200px;
-      }
-      .btn-left{
-        position: relative;
-        top: -175px;
-        left: 250px;
-      }
-      .btn-right{
-       position: relative;
-       top: -175px;
-       right: -730px;
       }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,75%);
@@ -352,9 +346,6 @@ h1.header {
   .goal-indicator {
     margin-top: 0px;
   }
-  // .goal-page-target-rule, .goal-page-column-header-rule {
-  //   border-top: 0px solid transparent;
-  // }
   .status {
     display: block;
     float: right;
@@ -364,6 +355,10 @@ h1.header {
     margin-top: -5px;
   }
 
+}
+
+h4 {
+  font-size: 14pt;
 }
 
 // .btn.goal-banner:hover {
@@ -467,8 +462,8 @@ transform: translateX(0);
 .carousel-control-prev,
 .carousel-control-next {
   top: 50%;
-  margin-right: -5.5rem;
-  margin-left: -5.5rem;
+  margin-right: -6rem;
+  margin-left: -6rem;
   transform: translateY(-50%);
   text-decoration: none !important;
 }
