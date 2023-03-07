@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230307020458">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230307115037">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -169,21 +169,19 @@ layout-page
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                <!-- change image src on mouse hover to have darken effect-->
-
-<a class="navbar-brand" href="/sdg-in-staging-site/en/" id="home" aria-label="" title="">
-    <img src="/sdg-in-staging-site/assets/img/SDG_logo.png"
-    onmouseover="this.src='/sdg-in-staging-site/assets/img/SDG_logo_focus.png'"
-    onmouseout="this.src='/sdg-in-staging-site/assets/img/SDG_logo.png'" alt="Sustainable Development Goals - 17 Goals to Transform our World"/>
-</a>
-
+                <a class="navbar-brand" href="/sdg-in-staging-site/en/" id="home" aria-label="" title="">
+                    <img src="/sdg-in-staging-site/assets/img/SDG_logo.png"
+                    onmouseover="this.src='/sdg-in-staging-site/assets/img/SDG_logo.png'"
+                    onmouseout="this.src='/sdg-in-staging-site/assets/img/SDG_logo.png'" alt="Sustainable Development Goals - 17 Goals to Transform our World"/>
+                </a>
+<!-- 
                 
                 <h1 class="header">
                     Monitoring of the <br>
                     Municipal Sustainability Strategy <br>
                     Ingolstadt
                 </h1>
-                
+                 -->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
                     <span class="navbar-toggler-icon"></span>
@@ -288,53 +286,39 @@ data-event-label="high"
 </div>
 
 
-<footer role="contentinfo" style="padding-top: 65px;">
+<footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
-                    
-                    <p>Our project partners</p>
-                    
+                    <p>Unsere Projektpartner</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection" style="padding: 1em; margin-bottom: 2%;">
+        <div class="row flexdirection justify-content-around">
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder3" style="background-color:white;">
-                    
-                    <a href="https://www.engagement-global.de/homepage.html" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    
+                <div id="bilder3" style="background-color:white; padding-top: 1.5rem;">
+                    <!-- <h5 style="margin-top: 3%; margin-bottom: 2%;">Gefördert durch</h5> -->
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
-                    
-                    <h5 style="margin-top: 3%; margin-bottom: 2%;">with its</h5>
-                    <a href="https://skew.engagement-global.de/home.html" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    
+                    <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder2" style="background-color:white">
-                    
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">On behalf of</h5>
-                    <a href="https://www.bmz.de/en" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    
+                <div id="bilder2" style="background-color:white;">
+                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
-                </div>
-            </div>
-            <div class="col-xs-3" id="footer-binder">
-                <div id="bilder4" style="background-color:white;">
-                    
-                    <a href="https://www.htw-berlin.de/en/" id="footer-binder-href" target="_blank"><img src="/sdg-in-staging-site/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    
+                <div id="bilder4" style="background-color:white; padding-top: 1.4rem;">
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/sdg-in-staging-site/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
          </div>
@@ -342,25 +326,25 @@ data-event-label="high"
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
-                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                <div id="footerLinks" style="background-color:#003E59;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
+                                        <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">Download</a>
                                         
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Contact us</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/sdg-in-staging-site/en/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Legal Notice</a>
+                                    <a href="/sdg-in-staging-site/en/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Legal Notice</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/sdg-in-staging-site/en/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical References</a>
+                                    <a href="/sdg-in-staging-site/en/guidance" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">Technical References</a>
                                     
                                     </li>
                             
@@ -373,14 +357,12 @@ data-event-label="high"
     <div class="container">
         <div class="row" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
-                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
-                    <ul style="text-align: center;"
-                    
-                    <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
-                    </li>
-                    
-                </ul>
+                <div id="footerende" style="background-color:#003E59;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                    <ul style="text-align: center;">
+                        <li style="color:white;margin: 15px;font-weight: bold; list-style-type: none;">
+                            <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none; color:white; margin:10px; font-size:15px;">Diese Webseite wurde mit Open SDG erstellt</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -412,12 +394,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230307020458'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230307115037'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230307020458"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230307115037"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
