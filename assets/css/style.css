@@ -2691,9 +2691,6 @@ h1.header {
 .wide-background {
   padding: 50px 0 120px 0; }
 
-#frontpage-handlungsfelder {
-  background-color: #00b1da; }
-
 .hf-title {
   margin-top: 10vh;
   color: white;
@@ -3226,7 +3223,7 @@ h1.header {
     .layout-goal .indicator-name {
       width: 75%; }
       .layout-goal .indicator-name a:hover {
-        border-bottom: 3px solid #444444; } }
+        border-bottom: 3px solid black; } }
 @media screen and (min-width: 992px) {
   .layout-goal {
     min-height: auto; }
