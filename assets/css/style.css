@@ -2792,12 +2792,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-1.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #0f0203; }
     .goal-1.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #0f0203; }
   .goal-1.goal-title-by-goal {
     color: #E52B3D;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-1.indicator-title-by-indicator {
     color: #E52B3D;
@@ -2818,12 +2818,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-2.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #140f04; }
     .goal-2.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #140f04; }
   .goal-2.goal-title-by-goal {
     color: #DDA63A;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-2.indicator-title-by-indicator {
     color: #DDA63A;
@@ -2849,7 +2849,7 @@ h1.header {
       color: black; }
   .goal-3.goal-title-by-goal {
     color: #4C9F38;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-3.indicator-title-by-indicator {
     color: #4C9F38;
@@ -2875,7 +2875,7 @@ h1.header {
       color: black; }
   .goal-4.goal-title-by-goal {
     color: #C42130;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-4.indicator-title-by-indicator {
     color: #C42130;
@@ -2896,12 +2896,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-5.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #240400; }
     .goal-5.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #240400; }
   .goal-5.goal-title-by-goal {
     color: #FF3E24;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-5.indicator-title-by-indicator {
     color: #FF3E24;
@@ -2922,12 +2922,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-6.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #010709; }
     .goal-6.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #010709; }
   .goal-6.goal-title-by-goal {
     color: #28BCE1;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-6.indicator-title-by-indicator {
     color: #28BCE1;
@@ -2948,12 +2948,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-7.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #080600; }
     .goal-7.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #080600; }
   .goal-7.goal-title-by-goal {
     color: #FCC30B;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-7.indicator-title-by-indicator {
     color: #FCC30B;
@@ -2979,7 +2979,7 @@ h1.header {
       color: black; }
   .goal-8.goal-title-by-goal {
     color: #A21942;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-8.indicator-title-by-indicator {
     color: #A21942;
@@ -3000,12 +3000,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-9.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #230b00; }
     .goal-9.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #230b00; }
   .goal-9.goal-title-by-goal {
     color: #FD6925;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-9.indicator-title-by-indicator {
     color: #FD6925;
@@ -3031,7 +3031,7 @@ h1.header {
       color: black; }
   .goal-10.goal-title-by-goal {
     color: #DD1367;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-10.indicator-title-by-indicator {
     color: #DD1367;
@@ -3052,12 +3052,12 @@ h1.header {
       height: 100%;
       z-index: 1; }
     .goal-11.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
-      color: black; }
+      color: #251400; }
     .goal-11.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
-      color: black; }
+      color: #251400; }
   .goal-11.goal-title-by-goal {
     color: #FD9C27;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-11.indicator-title-by-indicator {
     color: #FD9C27;
@@ -3083,7 +3083,7 @@ h1.header {
       color: black; }
   .goal-12.goal-title-by-goal {
     color: #BF8B2E;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-12.indicator-title-by-indicator {
     color: #BF8B2E;
@@ -3109,7 +3109,7 @@ h1.header {
       color: black; }
   .goal-13.goal-title-by-goal {
     color: #417D46;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-13.indicator-title-by-indicator {
     color: #417D46;
@@ -3135,7 +3135,7 @@ h1.header {
       color: black; }
   .goal-14.goal-title-by-goal {
     color: #0A96D8;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-14.indicator-title-by-indicator {
     color: #0A96D8;
@@ -3161,7 +3161,7 @@ h1.header {
       color: black; }
   .goal-15.goal-title-by-goal {
     color: #57BE2F;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-15.indicator-title-by-indicator {
     color: #57BE2F;
@@ -3187,7 +3187,7 @@ h1.header {
       color: black; }
   .goal-16.goal-title-by-goal {
     color: #00689C;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-16.indicator-title-by-indicator {
     color: #00689C;
@@ -3213,7 +3213,7 @@ h1.header {
       color: black; }
   .goal-17.goal-title-by-goal {
     color: #1F4A6A;
-    font-weight: 900;
+    font-weight: 700;
     margin-top: 30px; }
   .goal-17.indicator-title-by-indicator {
     color: #1F4A6A;
@@ -3224,7 +3224,9 @@ h1.header {
     min-height: 80px;
     position: relative; }
     .layout-goal .indicator-name {
-      width: 75%; } }
+      width: 75%; }
+      .layout-goal .indicator-name a:hover {
+        border-bottom: 3px solid #444444; } }
 @media screen and (min-width: 992px) {
   .layout-goal {
     min-height: auto; }
@@ -3280,13 +3282,6 @@ h1.header {
     .layout-goal .status.notapplicable .status-inner {
       background-color: rgba(255, 255, 255, 0.8);
       background: rgba(255, 255, 255, 0.8); }
-
-h4 {
-  font-size: 14pt; }
-
-/* goal-navigation-top.night mode*/
-body.contrast-high .goal-banner img {
-  background-color: black !important; }
 
 /*#3. indicator page */
 #toolbar {
