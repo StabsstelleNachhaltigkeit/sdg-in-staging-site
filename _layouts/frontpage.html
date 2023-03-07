@@ -6,6 +6,11 @@
 <!-- custom header. Design specified in _sass/custom.scss -->
 {% include header.html %}
 
+<div class ="main-image scroll-area">
+    <a><img src="{{ site.baseurl }}/assets/img/full-size-img.jpg"></a>
+</div>
+
+
 <div id="main-content" class="container" role="main">
     {% if site.frontpage_introduction_banner %}
         {% if page.language == 'en' %}
@@ -41,123 +46,21 @@
 
 
 <!-- Handlungsfelder -->
-<div class ="wide-background scroll-area"  id="frontpage-handlungsfelder">
+{% if site.frontpage_handlungsfelder %}
+{% for thema in site.frontpage_handlungsfelder %}
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: {{ thema.bg_color }};">
     <div id="second-content" class="container">
+        {%- if forloop.first -%}
         <h2 class="hf-title">Handlungsfelder entdecken</h2>
         <div class="hf-description">Die Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt</div>
-        
-        <div class="row">
-        <div class="col-md-7">
-            <div>
-            <h3 class="hf-subtitle">Bildung</h3>
-            <div class="hf-thema-title">Vision</div>
-            <div class="hf-thema-text">Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
-                Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
-                hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
-                habe sind fester Bestandteil von Bildungsangeboten.</div>
-            <div class="hf-thema-title">Leitsatz</div>
-            <div class="hf-thema-text">Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
-                Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
-                eine nachhaltige Zukunft.</div>
-            </div>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-4">
-            <div class="hf-goal-tiles">
-            <div class="flex-grid">
-                {% assign hf-goals = "4,9,10,11,16" | split: "," %}
-                {% for item in hf-goals -%}
-                <div>
-                    <a href="{{ site.baseurl }}/{{ item }}">
-                    <img src="{{ site.baseurl }}/assets/img/goals/de/{{ item }}.png" class="block img-responsive img-hf-goal"
-                        alt="Hochwertige Bildung - Goal {{ item }}" id="goal{{ item }}"/>
-                    </a>
-                </div>
-                {%- endfor %}
-            </div>  
-            </div>
-        </div>
-        </div>
-    
+        {%- endif -%}
+
+        <!-- hier Handlungsfelder von _config.yml importieren -->
+        {% include components/thema.html thema=thema %}
     </div>
 </div>
-
-<div class ="wide-background scroll-area"  id="frontpage-wirtschaft">
-<div id="second-content" class="container">
-    <div class="row">
-    <div class="col-md-7">
-        <div>
-        <h3 class="hf-subtitle">Leben</h3>
-        <div class="hf-thema-title">Vision</div>
-        <div class="hf-thema-text">Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
-            breiten und nutzer/-innenfreundlichen Angebot für alle. Gemeinschaftlichkeit und Wohlbefinden sind Kennzeichen der
-            nachhaltigen Stadtviertel der kurzen Wege, in denen sich die Generationen treffen. Zukunftskaufhäuser verdienen an
-            langlebigen Produkten zur Nutzung statt zum Besitz, weil sie auch Reparatur anbieten. Seltener wird ganz neu Pro-
-            duziertes gekauft.</div>
-        <div class="hf-thema-title">Leitsatz</div>
-        <div class="hf-thema-text">Wir ermöglichen ein gesundes und sicheres Miteinander im Alltag für die Menschen
-            in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.</div>
-        </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-4">
-        <div class="hf-goal-tiles">
-        <div class="flex-grid">
-            {% assign hf-goals  = "2,3,6,9,10,11,12,13,15,16" | split: "," %}
-            {% for item in hf-goals -%}
-            <div>
-                <a href="{{ site.baseurl }}/{{ item }}">
-                <img src="{{ site.baseurl }}/assets/img/goals/de/{{ item }}.png" class="block img-responsive img-hf-goal"
-                    alt="Hochwertige Bildung - Goal {{ item }}" id="goal{{ item }}"/>
-                </a>
-            </div>
-            {%- endfor %}
-        </div>  
-        </div>
-    </div>
-    </div>
-
-</div>
-</div>
-
-<div class ="wide-background scroll-area"  id="frontpage-umwelt">
-<div id="second-content" class="container">
-    <div class="row">
-    <div class="col-md-7">
-        <div>
-        <h3 class="hf-subtitle">Umwelt</h3>
-        <div class="hf-thema-title">Vision</div>
-        <div class="hf-thema-text">Ingolstadt verbindet Stadt und Natur und gilt als grüne Lunge unter den
-            Städten Bayerns. Ingolstadt versorgt sich selbst mit Energie - ist autark und setzt
-            Kreislaufwirtschaft um. Die Donau ist sauber und die CO2-Bilanz der Stadt weist
-            aus: Ingolstadt ist klimapositiv.</div>
-        <div class="hf-thema-title">Leitsatz</div>
-        <div class="hf-thema-text">Ingolstadt lebt und wirtschaftet klima- und ressourcenschützend. Wir
-            schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese.
-            Mit einer positiven und effektiven Sichtweise auf die Ökologie treten wir mit Natur und Technik 
-            in eine neue Beziehung.</div>
-        </div>
-    </div>
-    <div class="col-md-1"></div>
-    <div class="col-md-4">
-        <div class="hf-goal-tiles">
-        <div class="flex-grid">
-            {% assign hf-goals = "2,6,7,9,10,11,12,13,14,15" | split: "," %}
-            {% for item in hf-goals -%}
-            <div>
-                <a href="{{ site.baseurl }}/{{ item }}">
-                <img src="{{ site.baseurl }}/assets/img/goals/de/{{ item }}.png" class="block img-responsive img-hf-goal"
-                    alt="Hochwertige Bildung - Goal {{ item }}" id="goal{{ item }}"/>
-                </a>
-            </div>
-            {%- endfor %}
-        </div>  
-        </div>
-    </div>
-    </div>
-
-</div>
-</div>  
+{% endfor %}
+{% endif %}
 
 
 <!-- cards (imported from separate file) -->

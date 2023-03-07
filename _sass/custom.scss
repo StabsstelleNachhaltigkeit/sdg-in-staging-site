@@ -9,6 +9,10 @@
   padding-bottom: 8rem;
 }
 
+.row {
+  margin-left: 0px;
+}
+
 /*#0. header */
 /* a-tag style after clicked */
 // #home:focus {
@@ -38,12 +42,19 @@ h1.header {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 } 
+#home{
+  display: inline-block;
+  position: relative;
+  max-width: 15%;
+  text-decoration: none;
+}
 
 /*  ab hier von open-sdg*/
 .navbar-brand {
   width: calc(100% - 75px);
   max-width: 80px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
   padding:0;
   img {
     max-width: 100%;
@@ -54,9 +65,11 @@ h1.header {
     outline: 7px solid $focusOutlineColor !important;
   }
 }
-
 .navbar.navbar-nav.nav-item.nav-link {
   font-size: 15px;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  border-bottom: 2px solid $text-color;
 }
 
 /* search field*/
@@ -68,81 +81,12 @@ h1.header {
   padding-bottom: 0.7em;
 }
 
-
-/* ab hier nichts geaendert */
-  .header-toggles {
-    margin-left: auto;
-  }
-
-  #menu {
-    margin-bottom: 5px;
-  }
-
-  /* colorful-bar on top */
-  /*
-  body {
-    background: $backgroundColor url("../img/sdgbg.png") top left repeat-x;
-    top: 0;
-  } 
-
-  header {
-    .navbar {
-        .navbar-nav {
-            .nav-item:first-child {
-                .nav-link {
-                    padding-left: 0;
-                }
-            }
-        }
-    }
-  }
-
-  body.contrast-high {
-    .navbar-brand {
-        &:focus {
-            background-color: transparent !important;
-            outline: 7px solid $focusOutlineColor !important;
-        }
-    }
-  }
-
-  .internet-explorer-message {
-    display: none;
-    border: 5px solid $disclaimer-tag-backgroundColor;
-    background-color: $disclaimer-tag-backgroundColor;
-    padding: 0;
-    .internet-explorer-message-title {
-        padding: 2px 20px 5px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0);
-        margin: 0;
-        color: $disclaimer-tag-color;
-    }
-    .internet-explorer-message-body {
-        padding: 20px;
-        color: $disclaimer-text-color;
-        background-color: $backgroundColor;
-        margin: 0;
-    }
-  }
-  body.contrast-high {
-    .internet-explorer-message {
-        border: 5px solid $color-light-highContrast;
-        background-color: $color-light-highContrast;
-        .internet-explorer-message-title {
-            color: $color-dark-highContrast;
-        }
-        .internet-explorer-message-body {
-            color: $color-light-highContrast;
-            background-color: $color-dark-highContrast;
-        }
-    }
-  }
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .internet-explorer-message {
-        display: block;
-    }col-md-4
-  }
-*/
+.header-toggles {
+  margin-left: auto;
+}
+#menu {
+  margin-bottom: 5px;
+}
 
 
 /*1-1. frontpage */
@@ -151,7 +95,9 @@ h1.header {
 //   overflow-y: scroll;
 //   scroll-snap-type: y proximity;
 // }
-
+.main-image {
+  padding-bottom: 5rem;
+}
 .site-intro {
   background: none!important;
   padding-right: 0px!important;
@@ -165,12 +111,7 @@ h1.header {
 #frontpage-handlungsfelder {
   background-color: #00b1da;
 }
-#frontpage-wirtschaft {
-  background-color: #fbb52f;
-}
-#frontpage-umwelt {
-  background-color: #65b447;
-}
+
 .hf-title{
   margin-top: 10vh;
   color: white;
@@ -234,56 +175,47 @@ h1.header {
 
 /*#1-3. cards on landing page*/
 .col-md-4 {
-  width: 33%;
+  // width: 33%;
   height: max-content;
 }
 .card1, .card2, .card3{
-    width: 100%;
-    height:450px;
-    margin-top: 10px!important;
-    margin-left: 0px!important;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-    transition: 0.3s;
-}
-@media screen and (min-width: 450px) and (max-width: 992px) {
-  .card.col-md-4 {
-    width: 50%!important;
-    height: max-content;
-  }
+  // width: 33%;
+  height:28rem;
+  // margin-top: 10px!important;
+  // margin-left: 0px!important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: white;
 }
 .card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .card3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .cont{
-  margin-top: 20px;
-  padding: 2px 16px;
+  margin-top: 1.5rem;
+  padding: 0px 16px 2px 20px ;
+  color: black;
 }
 .card-img-top{
   width:100%;
   height:65%;
 }
-.card2 a, .card3 a {
-  color: #1d70b8!important;
-}
+
+
 
 
 
 
 /*#2. goal page */
-.previous-next-links.row {
-  position: relative;
-  top: -170px;
-  left: 4vw;
-}
-.col-md-auto {
-  width: 25%;
-}
+// .breadcrumb {
+//   margin-top: 1rem;
+//   margin-bottom: 0rem;
+// }
 
 @for $i from 1 through length($goal-banner-backgroundColors) {
   $background-c: nth($goal-banner-backgroundColors, $i);
@@ -292,6 +224,8 @@ h1.header {
   .goal-#{$i} {
     &.goal-banner {
       background-color: $background-c;
+      padding-top: 0px;
+      padding-bottom: 0px;
       .Image{
         display: block;
         margin: auto;
@@ -299,10 +233,6 @@ h1.header {
         width: 25%;
         height: 100%;
         z-index: 1;
-        margin-top: -25px;
-      }
-      .container{
-        height: 200px;
       }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,75%);
@@ -472,11 +402,21 @@ transform: translateX(0);
 
  
 /*#5. Footer*/
+footer{
+  position:relative;
+  width:100%;
+  height: auto;
+  //background-color: #363636;
+  //background-image: url('../img/bg_site-header.png');
+  //background-position: top -150px left -500px;
+  background-repeat: no-repeat;
+}
+
 #footer-binder {
-  width: 16rem; 
+  width: 13em; 
   height: 5.5em; 
   margin-top: 4%; 
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
 #footer-binder-image {
   max-width: 100%;
@@ -484,20 +424,26 @@ transform: translateX(0);
   height: auto;
 }
 
-// remove the focus style for footer binder png
-#footer-binder-href:focus {
-  color: $focusBackgroundColor !important;
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
-}
 
+// remove the focus style for footer binder png
 #footerende-href {
   color: white !important;
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
+  box-shadow: 0px 0px 0px 0px white !important;
+}
+#footer-binder-href:focus {
+  color: white !important;
+  box-shadow: 2px solid white !important;
+}
+footer a:hover {
+  border-bottom: 3px solid white;
+}
+ul {
+  margin-bottom: 0px;
 }
 
 
 #kooperation {
-      background-color: #19486a;
+      background-color: #003E59;
       color: white;
       padding-top: 30px;
       padding-bottom: 15px;
@@ -526,11 +472,13 @@ transform: translateX(0);
   display: flex;
   flex-direction: row;
   align-items: center;
+  row-gap: 1rem;
 }
 
 h5 {    
-  font-size: 0.65em; 
-  font-weight: 500;
+  font-size: 0.9rem; 
+  font-weight: 300;
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {

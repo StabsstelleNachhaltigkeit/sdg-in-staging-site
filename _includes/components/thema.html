@@ -1,0 +1,34 @@
+<div class="row">
+    <div class="col-md-7">
+        {% if include.thema.title and include.thema.title != '' %}
+        <h3 class="hf-subtitle">{{ include.thema.title }}</h3>
+        {% endif %}
+        {% if include.thema.vision and include.thema.vision != '' %}
+        <div class="hf-thema-title">Vision</div>
+        <div class="hf-thema-text">{{ include.thema.vision }}</div>
+        {% endif %}
+        {% if include.thema.leitsatz and include.thema.leitsatz != '' %}
+        <div class="hf-thema-title">Leitsatz</div>
+        <div class="hf-thema-text">{{ include.thema.leitsatz }}</div>
+        {% endif %}
+    </div>
+    <div class="col-md-1"></div>
+    {% if include.thema.hf-goals %}
+    <div class="col-md-4">
+        <div class="hf-goal-tiles">
+            <div class="flex-grid">
+                {% capture hf-goals %}{{ include.thema.hf-goals }}{% endcapture %}
+                {% assign hf-goals = hf-goals | split: "," %}
+                {% for item in hf-goals %}
+                <div>
+                    <a href="{{ site.baseurl }}/{{ item }}">
+                        <img src="{{ site.baseurl }}/assets/img/goals/de/{{ item }}.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal {{ item }}" id="goal{{ item }}"/>
+                    </a>
+                </div>
+                {%- endfor %}
+            </div>  
+        </div>
+    </div>
+    {% endif %}
+</div>

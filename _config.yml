@@ -12,6 +12,73 @@ languages:
   - de
   - en
 
+frontpage_handlungsfelder:
+  - title: Wirtschaft
+    vision: |
+      Ingolstadt wirtschaftet in 2045 nachhaltig: Die Wirtschaft schützt den Planeten 
+      und stärkt das Gemeinwohl. Nicht nur die Lebensqualität ist auf einem Höchststand. Auch sind 
+      Ingolstädter/-innen die zufriedensten Bürger/-innen in Deutschland:
+      Die Balance zwischen Arbeit und Leben steht in Ingolstadt im Vordergrund.
+    leitsatz: |
+      Ingolstadt ist ein attraktiver und nachhaltiger Wirtschaftsstandort. Als
+      vernetzte und zukunftsorientierte Stadt sichern wir mit technologischem, sozialem
+      und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstadt.
+      Ökonomie und Ökologie betrachten wir nicht als Widersprüche, sondern als Quelle
+      für Synergien.
+    hf-goals: "4,5,8,9,10,11,12,13"
+    bg_color: '#007dbd'
+  - title: Umwelt
+    vision: |
+      Ingolstadt verbindet Stadt und Natur und gilt als grüne Lunge unter den
+      Städten Bayerns. Ingolstadt versorgt sich selbst mit Energie - ist autark und setzt
+      Kreislaufwirtschaft um. Die Donau ist sauber und die CO2-Bilanz der Stadt weist
+      aus: Ingolstadt ist klimapositiv.
+    leitsatz: |
+      Ingolstadt lebt und wirtschaftet klima- und ressourcenschützend. Wir
+      schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese.
+      Mit einer positiven und effektiven Sichtweise auf die Ökologie treten wir mit Natur und Technik 
+      in eine neue Beziehung.
+    hf-goals: "2,6,7,9,11,12,13,14,15"
+    bg_color: '#65b447'
+  - title: Leben
+    vision: |
+      Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
+      breiten und nutzer/-innenfreundlichen Angebot für alle. Gemeinschaftlichkeit und Wohlbefinden sind Kennzeichen der
+      nachhaltigen Stadtviertel der kurzen Wege, in denen sich die Generationen treffen. Zukunftskaufhäuser verdienen an
+      langlebigen Produkten zur Nutzung statt zum Besitz, weil sie auch Reparatur anbieten. Seltener wird ganz neu Pro-
+      duziertes gekauft.
+    leitsatz: |
+        Wir ermöglichen ein gesundes und sicheres Miteinander im Alltag für die Menschen
+        in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
+    hf-goals: "2,3,6,9,10,11,12,13,15,16"
+    bg_color: '#fbb715'
+  - title: Bildung
+    vision: |
+      Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
+      Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
+      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
+      habe sind fester Bestandteil von Bildungsangeboten.
+    leitsatz: |
+        Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
+        Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
+        eine nachhaltige Zukunft.
+    hf-goals: "4,9,10,11,16"
+    bg_color: '#52c2e4'
+  - title: Vielfalt
+    vision: |
+      Ingolstadt ist weltoffen und leistet ihren Beitrag zur globalen Verantwortung. 
+      Verschiedenheit wird in Ingolstadt respektiert und wertgeschätzt. Engagierte 
+      Ingolstädter/-innen stärken den Gemeinsinn. Diskriminierungen hingegen – auch
+       bei der Entlohnung – gehören schon lange der Vergangenheit an.
+    leitsatz: |
+      Die Stadt Ingolstadt steht für Vielfalt, Offenheit und Toleranz. Durch unsere 
+      vielfältige Gesellschaft fördern wir Kreativität und Produktivität. Wir engagieren
+      uns lokal und global für ein gerechtes, gesundes und inklusives Miteinander. Damit
+      fördern wir die Glokalisierung
+    hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
+    bg_color: '#ed6d26'
+
+
 country: # or place name
   name: Ingolstadt
   adjective: Ingolstadt
@@ -37,22 +104,6 @@ environment: staging
 analytics:
   ga_prod: ''
 
-breadcrumbs:
-  post:
-  - label: general.home
-    path: /
-  - label: menu.updates
-    path: /news
-  goal:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
-  indicator:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
 
 collections:
   pages:

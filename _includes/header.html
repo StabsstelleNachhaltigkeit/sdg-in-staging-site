@@ -11,8 +11,12 @@
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                {% include components/header/logo.html %}
-
+                <a class="navbar-brand" href="{{ page.baseurl }}" id="home" aria-label="{{ page.t.header.logo_title }}" title="{{ page.t.header.logo_title }}">
+                    <img src="{{ page.logo.src }}"
+                    onmouseover="this.src='{{ page.logo.src }}'"
+                    onmouseout="this.src='{{ page.logo.src }}'" alt="{{ page.logo.alt }}"/>
+                </a>
+<!-- 
                 {% if page.language == 'de' %}
                 <h1 class="header">
                     Monitoring der <br>
@@ -25,7 +29,7 @@
                     Municipal Sustainability Strategy <br>
                     Ingolstadt
                 </h1>
-                {% endif %}
+                {% endif %} -->
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
                     <span class="navbar-toggler-icon"></span>
