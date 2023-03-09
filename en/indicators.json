@@ -7,7 +7,7 @@
         
         {
           "id": "1-1",
-          "title": "Empfänger/innen von Grundsicherung nach SGB II insgesamt",
+          "title": "global_indicators.1-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/1-1",
@@ -15,7 +15,7 @@
         },
         {
           "id": "1-2",
-          "title": "Kinder unter 15 J. in Grundsicherung (SGB II)",
+          "title": "global_indicators.1-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/1-2",
@@ -23,10 +23,122 @@
         },
         {
           "id": "1-3",
-          "title": "Empfänger/innen von Grundsicherung im Alter",
+          "title": "global_indicators.1-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/1-3",
+          "status": "complete"
+        },
+        {
+          "id": "1-4-1",
+          "title": "Proportion of population living in households with access to basic services",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-4-2",
+          "title": "Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-4-2",
+          "status": "complete"
+        },
+        {
+          "id": "1-5",
+          "title": "global_indicators.1-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-5",
+          "status": "complete"
+        },
+        {
+          "id": "1-6",
+          "title": "global_indicators.1-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-6",
+          "status": "complete"
+        },
+        {
+          "id": "1-7",
+          "title": "global_indicators.1-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-7",
+          "status": "complete"
+        },
+        {
+          "id": "1-8",
+          "title": "global_indicators.1-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/1-8",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "2",
+      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "indicators": [
+        
+        {
+          "id": "2-1",
+          "title": "global_indicators.2-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-2",
+          "title": "global_indicators.2-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-2",
+          "status": "complete"
+        },
+        {
+          "id": "2-3",
+          "title": "global_indicators.2-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-3",
+          "status": "complete"
+        },
+        {
+          "id": "2-4",
+          "title": "global_indicators.2-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-4",
+          "status": "complete"
+        },
+        {
+          "id": "2-5",
+          "title": "global_indicators.2-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-5",
+          "status": "complete"
+        },
+        {
+          "id": "2-6",
+          "title": "global_indicators.2-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-6",
+          "status": "complete"
+        },
+        {
+          "id": "2-7",
+          "title": "global_indicators.2-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/2-7",
           "status": "complete"
         }]
     }
@@ -39,7 +151,7 @@
         
         {
           "id": "3-1",
-          "title": "Vorzeitige Sterblickeit (unter 70 Jahre, Todesfälle)",
+          "title": "global_indicators.3-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/3-1",
@@ -47,7 +159,7 @@
         },
         {
           "id": "3-2",
-          "title": "Wohnungsnahe Grundversorgung - Krankenhaus (Krankenhausbetten je 100.000 Einwohner:innen)",
+          "title": "global_indicators.3-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/3-2",
@@ -55,10 +167,90 @@
         },
         {
           "id": "3-3",
-          "title": "Immission von Luftschadstoffen (µg / m³)",
+          "title": "global_indicators.3-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/3-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-4",
+          "title": "global_indicators.3-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-4",
+          "status": "complete"
+        },
+        {
+          "id": "3-5",
+          "title": "global_indicators.3-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-5",
+          "status": "complete"
+        },
+        {
+          "id": "3-6",
+          "title": "global_indicators.3-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-6",
+          "status": "complete"
+        },
+        {
+          "id": "3-7",
+          "title": "global_indicators.3-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-8",
+          "title": "global_indicators.3-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-8",
+          "status": "complete"
+        },
+        {
+          "id": "3-9",
+          "title": "global_indicators.3-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-9",
+          "status": "complete"
+        },
+        {
+          "id": "3-10",
+          "title": "global_indicators.3-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-10",
+          "status": "complete"
+        },
+        {
+          "id": "3-11",
+          "title": "global_indicators.3-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-11",
+          "status": "complete"
+        },
+        {
+          "id": "3-12",
+          "title": "global_indicators.3-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-12",
+          "status": "complete"
+        },
+        {
+          "id": "3-13",
+          "title": "global_indicators.3-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/3-13",
           "status": "complete"
         }]
     }
@@ -71,7 +263,7 @@
         
         {
           "id": "4-1",
-          "title": "Betreuung von Kindern in öff. KiTa (unter 3-Jährige / in %)",
+          "title": "global_indicators.4-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/4-1",
@@ -79,7 +271,7 @@
         },
         {
           "id": "4-2",
-          "title": "Personal in öffentlich geförderter Kindertagespflege",
+          "title": "global_indicators.4-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/4-2",
@@ -87,7 +279,7 @@
         },
         {
           "id": "4-3",
-          "title": "Integrative Kindertageseinrichtungen (in %)",
+          "title": "global_indicators.4-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/4-3",
@@ -95,10 +287,130 @@
         },
         {
           "id": "4-4",
-          "title": "Schulabbrecherquote* (in % / ohne Mittelschulabschluss)",
+          "title": "global_indicators.4-4-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/4-4",
+          "status": "complete"
+        },
+        {
+          "id": "4-5",
+          "title": "global_indicators.4-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-5",
+          "status": "complete"
+        },
+        {
+          "id": "4-6",
+          "title": "global_indicators.4-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-6",
+          "status": "complete"
+        },
+        {
+          "id": "4-7",
+          "title": "global_indicators.4-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-7",
+          "status": "complete"
+        },
+        {
+          "id": "4-8",
+          "title": "global_indicators.4-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-8",
+          "status": "complete"
+        },
+        {
+          "id": "4-9",
+          "title": "global_indicators.4-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-9",
+          "status": "complete"
+        },
+        {
+          "id": "4-10",
+          "title": "global_indicators.4-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-10",
+          "status": "complete"
+        },
+        {
+          "id": "4-11",
+          "title": "global_indicators.4-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-11",
+          "status": "complete"
+        },
+        {
+          "id": "4-12",
+          "title": "global_indicators.4-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-12",
+          "status": "complete"
+        },
+        {
+          "id": "4-13",
+          "title": "global_indicators.4-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-13",
+          "status": "complete"
+        },
+        {
+          "id": "4-14",
+          "title": "global_indicators.4-14-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-14",
+          "status": "complete"
+        },
+        {
+          "id": "4-15",
+          "title": "global_indicators.4-15-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-15",
+          "status": "complete"
+        },
+        {
+          "id": "4-16",
+          "title": "global_indicators.4-16-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-16",
+          "status": "complete"
+        },
+        {
+          "id": "4-17",
+          "title": "global_indicators.4-17-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-17",
+          "status": "complete"
+        },
+        {
+          "id": "4-18",
+          "title": "global_indicators.4-18-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-18",
+          "status": "complete"
+        },
+        {
+          "id": "4-19",
+          "title": "global_indicators.4-19-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/4-19",
           "status": "complete"
         }]
     }
@@ -111,7 +423,7 @@
         
         {
           "id": "5-1",
-          "title": "sv-Beschäftigungsquote (in % (15-65 J))",
+          "title": "global_indicators.5-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/5-1",
@@ -119,7 +431,7 @@
         },
         {
           "id": "5-2",
-          "title": "Verdienstabstand zwischen Frauen und Männern (Medianeinkommen-Abstand in Euro (Vollzeit))",
+          "title": "global_indicators.5-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/5-2",
@@ -127,7 +439,7 @@
         },
         {
           "id": "5-3",
-          "title": "Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag (in %)",
+          "title": "global_indicators.5-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/5-3",
@@ -156,6 +468,142 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/en/5-6",
           "status": "complete"
+        },
+        {
+          "id": "5-7",
+          "title": "global_indicators.5-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/5-7",
+          "status": "complete"
+        },
+        {
+          "id": "5-8",
+          "title": "global_indicators.5-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/5-8",
+          "status": "complete"
+        },
+        {
+          "id": "5-9",
+          "title": "global_indicators.5-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/5-9",
+          "status": "complete"
+        },
+        {
+          "id": "5-10",
+          "title": "global_indicators.5-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/5-10",
+          "status": "complete"
+        },
+        {
+          "id": "5-11",
+          "title": "global_indicators.5-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/5-11",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "indicators": [
+        
+        {
+          "id": "6-1",
+          "title": "global_indicators.6-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-1",
+          "status": "complete"
+        },
+        {
+          "id": "6-2",
+          "title": "global_indicators.6-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-2",
+          "status": "complete"
+        },
+        {
+          "id": "6-3",
+          "title": "global_indicators.6-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-3",
+          "status": "complete"
+        },
+        {
+          "id": "6-4",
+          "title": "global_indicators.6-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-4",
+          "status": "complete"
+        },
+        {
+          "id": "6-5",
+          "title": "global_indicators.6-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-5",
+          "status": "complete"
+        },
+        {
+          "id": "6-6",
+          "title": "global_indicators.6-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-6",
+          "status": "complete"
+        },
+        {
+          "id": "6-7",
+          "title": "global_indicators.6-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-7",
+          "status": "complete"
+        },
+        {
+          "id": "6-8",
+          "title": "global_indicators.6-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-8",
+          "status": "complete"
+        },
+        {
+          "id": "6-9",
+          "title": "global_indicators.6-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-9",
+          "status": "complete"
+        },
+        {
+          "id": "6-10",
+          "title": "global_indicators.6-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-10",
+          "status": "complete"
+        },
+        {
+          "id": "6-11",
+          "title": "global_indicators.6-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/6-11",
+          "status": "complete"
         }]
     }
   },
@@ -167,10 +615,58 @@
         
         {
           "id": "7-1",
-          "title": "Strom aus Windkraft* (Watt je Einwohner:in)",
+          "title": "global_indicators.7-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/7-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-2",
+          "title": "global_indicators.7-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-3",
+          "title": "global_indicators.7-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-3",
+          "status": "complete"
+        },
+        {
+          "id": "7-4",
+          "title": "global_indicators.7-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-4",
+          "status": "complete"
+        },
+        {
+          "id": "7-5",
+          "title": "global_indicators.7-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-5",
+          "status": "complete"
+        },
+        {
+          "id": "7-6",
+          "title": "global_indicators.7-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-6",
+          "status": "complete"
+        },
+        {
+          "id": "7-7",
+          "title": "global_indicators.7-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/7-7",
           "status": "complete"
         }]
     }
@@ -183,7 +679,7 @@
         
         {
           "id": "8-1",
-          "title": "Bruttoinlandsprodukt (€ je Einwohner/in)",
+          "title": "global_indicators.8-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/8-1",
@@ -191,7 +687,7 @@
         },
         {
           "id": "8-2",
-          "title": "Langzeitarbeitslosenquote (Prozentualer Anteil, der länger als 1 Jahr arbeitslos ist)",
+          "title": "global_indicators.8-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/8-2",
@@ -199,7 +695,7 @@
         },
         {
           "id": "8-3",
-          "title": "Beschäftigungsquote (15- bis 64-Jährige / in %)",
+          "title": "global_indicators.8-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/8-3",
@@ -207,7 +703,7 @@
         },
         {
           "id": "8-4",
-          "title": "sv-Beschäftigte (55 Jahre und älter)",
+          "title": "global_indicators.8-4-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/8-4",
@@ -215,10 +711,58 @@
         },
         {
           "id": "8-5",
-          "title": "Aufstocker (Anteil der erwerbstätigen ALG-II Bezieher an allen erwerbsfähigen Leistungsbeziehern)",
+          "title": "global_indicators.8-5-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/8-5",
+          "status": "complete"
+        },
+        {
+          "id": "8-6",
+          "title": "global_indicators.8-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-6",
+          "status": "complete"
+        },
+        {
+          "id": "8-7",
+          "title": "global_indicators.8-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-7",
+          "status": "complete"
+        },
+        {
+          "id": "8-8",
+          "title": "global_indicators.8-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-8",
+          "status": "complete"
+        },
+        {
+          "id": "8-9",
+          "title": "global_indicators.8-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-9",
+          "status": "complete"
+        },
+        {
+          "id": "8-10",
+          "title": "global_indicators.8-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-10",
+          "status": "complete"
+        },
+        {
+          "id": "8-11",
+          "title": "global_indicators.8-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/8-11",
           "status": "complete"
         }]
     }
@@ -231,7 +775,7 @@
         
         {
           "id": "9-1",
-          "title": "sv-Beschäftigte mit Hochschulabschluss (Arbeitsort, im Juni)",
+          "title": "global_indicators.9-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/9-1",
@@ -239,7 +783,7 @@
         },
         {
           "id": "9-2",
-          "title": "Existenzgründungen* (je 1.000 Einwohner:innen)",
+          "title": "global_indicators.9-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/9-2",
@@ -247,10 +791,114 @@
         },
         {
           "id": "9-3",
-          "title": "Breitbandversorgung - private Haushalte",
+          "title": "global_indicators.9-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/9-3",
+          "status": "complete"
+        },
+        {
+          "id": "9-4",
+          "title": "global_indicators.9-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-5",
+          "title": "global_indicators.9-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-5",
+          "status": "complete"
+        },
+        {
+          "id": "9-6",
+          "title": "global_indicators.9-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-6",
+          "status": "complete"
+        },
+        {
+          "id": "9-7",
+          "title": "global_indicators.9-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-7",
+          "status": "complete"
+        },
+        {
+          "id": "9-8",
+          "title": "global_indicators.9-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-8",
+          "status": "complete"
+        },
+        {
+          "id": "9-9",
+          "title": "global_indicators.9-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-9",
+          "status": "complete"
+        },
+        {
+          "id": "9-10",
+          "title": "global_indicators.9-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-10",
+          "status": "complete"
+        },
+        {
+          "id": "9-11",
+          "title": "global_indicators.9-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-11",
+          "status": "complete"
+        },
+        {
+          "id": "9-12",
+          "title": "global_indicators.9-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-12",
+          "status": "complete"
+        },
+        {
+          "id": "9-13",
+          "title": "global_indicators.9-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-13",
+          "status": "complete"
+        },
+        {
+          "id": "9-14",
+          "title": "global_indicators.9-14-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-14",
+          "status": "complete"
+        },
+        {
+          "id": "9-15",
+          "title": "global_indicators.9-15-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-15",
+          "status": "complete"
+        },
+        {
+          "id": "9-16",
+          "title": "global_indicators.9-16-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/9-16",
           "status": "complete"
         }]
     }
@@ -263,7 +911,7 @@
         
         {
           "id": "10-1",
-          "title": "Beschäftigungsquote - Ausländer (in %)",
+          "title": "global_indicators.10-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/10-1",
@@ -271,7 +919,7 @@
         },
         {
           "id": "10-2",
-          "title": "Schulabbrecherquote - Ausländer (in % / im Verhältnis zur Schulabbrecherquote in der Gesamtbevölkerung)",
+          "title": "global_indicators.10-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/10-2",
@@ -279,10 +927,82 @@
         },
         {
           "id": "10-3",
-          "title": "Einbürgerungen im Jahr* (absolut)",
+          "title": "global_indicators.10-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/10-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-4",
+          "title": "global_indicators.10-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-4",
+          "status": "complete"
+        },
+        {
+          "id": "10-5",
+          "title": "global_indicators.10-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-5",
+          "status": "complete"
+        },
+        {
+          "id": "10-6",
+          "title": "global_indicators.10-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-6",
+          "status": "complete"
+        },
+        {
+          "id": "10-7",
+          "title": "global_indicators.10-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-7",
+          "status": "complete"
+        },
+        {
+          "id": "10-8",
+          "title": "global_indicators.10-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-8",
+          "status": "complete"
+        },
+        {
+          "id": "10-9",
+          "title": "global_indicators.10-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-9",
+          "status": "complete"
+        },
+        {
+          "id": "10-10",
+          "title": "global_indicators.10-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-10",
+          "status": "complete"
+        },
+        {
+          "id": "10-11",
+          "title": "global_indicators.10-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-11",
+          "status": "complete"
+        },
+        {
+          "id": "10-12",
+          "title": "global_indicators.10-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/10-12",
           "status": "complete"
         }]
     }
@@ -295,7 +1015,7 @@
         
         {
           "id": "11-1",
-          "title": "Naherholungsflächen (mit Wald) in Hektar je 1000 Einwohner/-innen",
+          "title": "global_indicators.11-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-1",
@@ -303,7 +1023,7 @@
         },
         {
           "id": "11-2",
-          "title": "Flächeninanspruchnahme (in %)",
+          "title": "global_indicators.11-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-2",
@@ -311,7 +1031,7 @@
         },
         {
           "id": "11-3",
-          "title": "Flächenneuinanspruchnahme (in %)",
+          "title": "global_indicators.11-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-3",
@@ -319,7 +1039,7 @@
         },
         {
           "id": "11-4",
-          "title": "Flächennutzungsintensität (m² je Einwohner/-in)",
+          "title": "global_indicators.11-4-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-4",
@@ -327,7 +1047,7 @@
         },
         {
           "id": "11-5",
-          "title": "Mietpreise (ohne geförderten Wohnungsbau) (Durchschnittliche Nettokaltmiete / € je m²)",
+          "title": "global_indicators.11-5-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-5",
@@ -335,7 +1055,7 @@
         },
         {
           "id": "11-6",
-          "title": "Wohnfläche je Einwohner (in m²)",
+          "title": "global_indicators.11-6-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-6",
@@ -343,7 +1063,7 @@
         },
         {
           "id": "11-7",
-          "title": "ÖPNV* (Nahversorgung mit Haltestellen)",
+          "title": "global_indicators.11-7-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-7",
@@ -351,7 +1071,7 @@
         },
         {
           "id": "11-8",
-          "title": "PKW-Dichte* (Anzahl der PKW je 1.000 Einwohner:innen)",
+          "title": "global_indicators.11-8-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-8",
@@ -359,7 +1079,7 @@
         },
         {
           "id": "11-9",
-          "title": "Beteigte an Unfällen mit Personenschaden",
+          "title": "global_indicators.11-9-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-9",
@@ -367,10 +1087,146 @@
         },
         {
           "id": "11-10",
-          "title": "Fertiggestellte Wohngebäude mit erneuerbarer Heizenergie bzw. Fernwärme (in %)",
+          "title": "global_indicators.11-10-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/11-10",
+          "status": "complete"
+        },
+        {
+          "id": "11-11",
+          "title": "global_indicators.11-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-11",
+          "status": "complete"
+        },
+        {
+          "id": "11-12",
+          "title": "global_indicators.11-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-12",
+          "status": "complete"
+        },
+        {
+          "id": "11-13",
+          "title": "global_indicators.11-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-13",
+          "status": "complete"
+        },
+        {
+          "id": "11-14",
+          "title": "global_indicators.11-14-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-14",
+          "status": "complete"
+        },
+        {
+          "id": "11-15",
+          "title": "global_indicators.11-15-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-15",
+          "status": "complete"
+        },
+        {
+          "id": "11-16",
+          "title": "global_indicators.11-16-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-16",
+          "status": "complete"
+        },
+        {
+          "id": "11-17",
+          "title": "global_indicators.11-17-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-17",
+          "status": "complete"
+        },
+        {
+          "id": "11-18",
+          "title": "global_indicators.11-18-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-18",
+          "status": "complete"
+        },
+        {
+          "id": "11-19",
+          "title": "global_indicators.11-19-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-19",
+          "status": "complete"
+        },
+        {
+          "id": "11-20",
+          "title": "global_indicators.11-20-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-20",
+          "status": "complete"
+        },
+        {
+          "id": "11-21",
+          "title": "global_indicators.11-21-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-21",
+          "status": "complete"
+        },
+        {
+          "id": "11-22",
+          "title": "global_indicators.11-22-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-22",
+          "status": "complete"
+        },
+        {
+          "id": "11-23",
+          "title": "global_indicators.11-23-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-23",
+          "status": "complete"
+        },
+        {
+          "id": "11-24",
+          "title": "global_indicators.11-24-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-24",
+          "status": "complete"
+        },
+        {
+          "id": "11-25",
+          "title": "global_indicators.11-25-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-25",
+          "status": "complete"
+        },
+        {
+          "id": "11-26",
+          "title": "global_indicators.11-26-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-26",
+          "status": "complete"
+        },
+        {
+          "id": "11-27",
+          "title": "global_indicators.11-27-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/11-27",
           "status": "complete"
         }]
     }
@@ -383,7 +1239,7 @@
         
         {
           "id": "12-1",
-          "title": "Abfallmenge (private Haushalte)* (Tonne je Einwohner:in)",
+          "title": "global_indicators.12-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/12-1",
@@ -391,7 +1247,7 @@
         },
         {
           "id": "12-2",
-          "title": "Fairtrade-Town* (Anzahl der Zertifizierungen)",
+          "title": "global_indicators.12-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/12-2",
@@ -399,7 +1255,7 @@
         },
         {
           "id": "12-3",
-          "title": "Trinkwasserverbrauch - private Haushalte (Liter je Einwohner:in und Tag)",
+          "title": "global_indicators.12-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/12-3",
@@ -407,10 +1263,218 @@
         },
         {
           "id": "12-4",
-          "title": "Fairtrade-Schools (Anzahl der Schulen mit Zertifizierung)",
+          "title": "global_indicators.12-4-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/12-4",
+          "status": "complete"
+        },
+        {
+          "id": "12-5",
+          "title": "global_indicators.12-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-5",
+          "status": "complete"
+        },
+        {
+          "id": "12-6",
+          "title": "global_indicators.12-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-6",
+          "status": "complete"
+        },
+        {
+          "id": "12-7",
+          "title": "global_indicators.12-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-7",
+          "status": "complete"
+        },
+        {
+          "id": "12-8",
+          "title": "global_indicators.12-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-8",
+          "status": "complete"
+        },
+        {
+          "id": "12-9",
+          "title": "global_indicators.12-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-9",
+          "status": "complete"
+        },
+        {
+          "id": "12-10",
+          "title": "global_indicators.12-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-10",
+          "status": "complete"
+        },
+        {
+          "id": "12-11",
+          "title": "global_indicators.12-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-11",
+          "status": "complete"
+        },
+        {
+          "id": "12-12",
+          "title": "global_indicators.12-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-12",
+          "status": "complete"
+        },
+        {
+          "id": "12-13",
+          "title": "global_indicators.12-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-13",
+          "status": "complete"
+        },
+        {
+          "id": "12-14",
+          "title": "global_indicators.12-14-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-14",
+          "status": "complete"
+        },
+        {
+          "id": "12-15",
+          "title": "global_indicators.12-15-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-15",
+          "status": "complete"
+        },
+        {
+          "id": "12-16",
+          "title": "global_indicators.12-16-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-16",
+          "status": "complete"
+        },
+        {
+          "id": "12-17",
+          "title": "global_indicators.12-17-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-17",
+          "status": "complete"
+        },
+        {
+          "id": "12-18",
+          "title": "global_indicators.12-18-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/12-18",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Take urgent action to combat climate change and its impacts",
+      "indicators": [
+        
+        {
+          "id": "13-1",
+          "title": "global_indicators.13-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-2",
+          "title": "global_indicators.13-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-3",
+          "title": "global_indicators.13-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-4",
+          "title": "global_indicators.13-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-4",
+          "status": "complete"
+        },
+        {
+          "id": "13-5",
+          "title": "global_indicators.13-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-5",
+          "status": "complete"
+        },
+        {
+          "id": "13-6",
+          "title": "global_indicators.13-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-6",
+          "status": "complete"
+        },
+        {
+          "id": "13-7",
+          "title": "global_indicators.13-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-7",
+          "status": "complete"
+        },
+        {
+          "id": "13-8",
+          "title": "global_indicators.13-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-8",
+          "status": "complete"
+        },
+        {
+          "id": "13-9",
+          "title": "global_indicators.13-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-9",
+          "status": "complete"
+        },
+        {
+          "id": "13-10",
+          "title": "global_indicators.13-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-10",
+          "status": "complete"
+        },
+        {
+          "id": "13-11",
+          "title": "global_indicators.13-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/13-11",
           "status": "complete"
         }]
     }
@@ -423,10 +1487,114 @@
         
         {
           "id": "14-1",
-          "title": "Fließwasserqualität in % (Ökologisches Potenzial von x% der Fließgewässer in der Kommune ist mind. 'gut' bewertet)",
+          "title": "global_indicators.14-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/14-1",
+          "status": "complete"
+        },
+        {
+          "id": "14-2",
+          "title": "global_indicators.14-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/14-2",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "indicators": [
+        
+        {
+          "id": "15-1",
+          "title": "global_indicators.15-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-1",
+          "status": "complete"
+        },
+        {
+          "id": "15-2",
+          "title": "global_indicators.15-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-2",
+          "status": "complete"
+        },
+        {
+          "id": "15-3",
+          "title": "global_indicators.15-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-3",
+          "status": "complete"
+        },
+        {
+          "id": "15-4",
+          "title": "global_indicators.15-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-4",
+          "status": "complete"
+        },
+        {
+          "id": "15-5",
+          "title": "global_indicators.15-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-5",
+          "status": "complete"
+        },
+        {
+          "id": "15-6",
+          "title": "global_indicators.15-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-6",
+          "status": "complete"
+        },
+        {
+          "id": "15-7",
+          "title": "global_indicators.15-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-7",
+          "status": "complete"
+        },
+        {
+          "id": "15-8",
+          "title": "global_indicators.15-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-8",
+          "status": "complete"
+        },
+        {
+          "id": "15-9",
+          "title": "global_indicators.15-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-9",
+          "status": "complete"
+        },
+        {
+          "id": "15-10",
+          "title": "global_indicators.15-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-10",
+          "status": "complete"
+        },
+        {
+          "id": "15-11",
+          "title": "global_indicators.15-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/15-11",
           "status": "complete"
         }]
     }
@@ -439,7 +1607,7 @@
         
         {
           "id": "16-1",
-          "title": "Straftaten (polizeilich gemeldet)* (je 1.000 Einwohner:innen)",
+          "title": "global_indicators.16-1-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/16-1",
@@ -447,7 +1615,7 @@
         },
         {
           "id": "16-2",
-          "title": "Finanzmittelsaldo (€ je Einwohner:in)",
+          "title": "global_indicators.16-2-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/16-2",
@@ -455,7 +1623,7 @@
         },
         {
           "id": "16-3",
-          "title": "Steuereinnahmen (€ je Einwohner:in)",
+          "title": "global_indicators.16-3-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/16-3",
@@ -463,10 +1631,186 @@
         },
         {
           "id": "16-4",
-          "title": "Liquiditätskredite (€ je Einwohner:in)",
+          "title": "global_indicators.16-4-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/en/16-4",
+          "status": "complete"
+        },
+        {
+          "id": "16-5",
+          "title": "global_indicators.16-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-5",
+          "status": "complete"
+        },
+        {
+          "id": "16-6",
+          "title": "global_indicators.16-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-6",
+          "status": "complete"
+        },
+        {
+          "id": "16-7",
+          "title": "global_indicators.16-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-7",
+          "status": "complete"
+        },
+        {
+          "id": "16-8",
+          "title": "global_indicators.16-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-8",
+          "status": "complete"
+        },
+        {
+          "id": "16-9",
+          "title": "global_indicators.16-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-9",
+          "status": "complete"
+        },
+        {
+          "id": "16-10",
+          "title": "global_indicators.16-10-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-10",
+          "status": "complete"
+        },
+        {
+          "id": "16-11",
+          "title": "global_indicators.16-11-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-11",
+          "status": "complete"
+        },
+        {
+          "id": "16-12",
+          "title": "global_indicators.16-12-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-12",
+          "status": "complete"
+        },
+        {
+          "id": "16-13",
+          "title": "global_indicators.16-13-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-13",
+          "status": "complete"
+        },
+        {
+          "id": "16-14",
+          "title": "global_indicators.16-14-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-14",
+          "status": "complete"
+        },
+        {
+          "id": "16-15",
+          "title": "global_indicators.16-15-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-15",
+          "status": "complete"
+        },
+        {
+          "id": "16-16",
+          "title": "global_indicators.16-16-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/16-16",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "indicators": [
+        
+        {
+          "id": "17-1",
+          "title": "global_indicators.17-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-1",
+          "status": "complete"
+        },
+        {
+          "id": "17-2",
+          "title": "global_indicators.17-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-2",
+          "status": "complete"
+        },
+        {
+          "id": "17-3",
+          "title": "global_indicators.17-3-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-3",
+          "status": "complete"
+        },
+        {
+          "id": "17-4",
+          "title": "global_indicators.17-4-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-4",
+          "status": "complete"
+        },
+        {
+          "id": "17-5",
+          "title": "global_indicators.17-5-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-5",
+          "status": "complete"
+        },
+        {
+          "id": "17-6",
+          "title": "global_indicators.17-6-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-6",
+          "status": "complete"
+        },
+        {
+          "id": "17-7",
+          "title": "global_indicators.17-7-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-7",
+          "status": "complete"
+        },
+        {
+          "id": "17-8",
+          "title": "global_indicators.17-8-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-8",
+          "status": "complete"
+        },
+        {
+          "id": "17-9",
+          "title": "global_indicators.17-9-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/en/17-9",
           "status": "complete"
         }]
     }
