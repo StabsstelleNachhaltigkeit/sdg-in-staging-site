@@ -82,14 +82,8 @@
               <span class="indicator-name">{{ indicator.placeholder }}</span>
               {% else %}
               <span class="indicator-name"><a href="{{ indicator.url }}" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">{{ indicator.name }}</a></span>
-              {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
             </div>
-            {% if indicator_has_progress %}
-            <div class="col-lg-2 goal-page-indicator-progress">
-              <span class="visually-hidden">{{ site.progress_status.status_heading | t }}</span>
-              {% include components/progress/progress-status.html indicator=indicator %}
-            </div>
-            {% endif %}
+
             {% endif %}
           </div>
         {% endfor %}
