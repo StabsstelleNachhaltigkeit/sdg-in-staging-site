@@ -2,11 +2,11 @@
 
 # primary settings:
 baseurl: "/sdg-in-staging-site" # change here!
-remote_data_prefix: "https://KeCoINGO.github.io/sdg-in-staging-data"
+remote_data_prefix: "https://StabsstelleNachhaltigkeit.github.io/sdg-in-staging-data"
 
 # URL for the "Edit Data" and "Edit Metadata" button on indicators.
-data_edit_url: http://prose.io/#/KeCoINGO/sdg-in-staging-data/edit/develop/data/indicator_[id].csv
-metadata_edit_url: http://prose.io/#/KeCoINGO/sdg-in-staging-data/edit/develop/meta/[id].md
+data_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/data/indicator_[id].csv
+metadata_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/meta/[id].md
 
 languages:
   - de
