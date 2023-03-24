@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324151709">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324160006">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -190,21 +190,23 @@ layout-page
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/goals">Ziele</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/goals"  target="">Ziele</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/reporting-status">Berichtsstatus</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/reporting-status"  target="">Berichtsstatus</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/about">Über uns</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/about"  target="">Über uns</a>
 </li><li class="nav-item active">
-    <a class="nav-link" href="/sdg-in-staging-site/faq">FAQ</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/faq"  target="">FAQ</a>
 </li></ul>
     
                     </div>
                     <div class="d-flex header-toggle">
-                        <form class="align-self-lg-end" id="search" action="/sdg-in-staging-site/search/">
+                        <!-- add placeholder in input field -->
+
+<form class="search-field" id="search" action="/sdg-in-staging-site/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Suche</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Suche">
+        <input class="form-control" type="search" placeholder="Indikatoren suchen" name="q" id="indicator_search" title="Suche">
         <span class="input-group-append">
             <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
@@ -286,7 +288,7 @@ data-event-label="high"
 
 <footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
-        <div class="row" style="padding: 0px;">
+        <div class="row g-0" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
                     <p>Unsere Projektpartner</p>
@@ -295,34 +297,34 @@ data-event-label="high"
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection justify-content-around">
+        <div class="row g-0 flexdirection justify-content-around">
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder3" style="background-color:white; padding-top: 1.5rem;">
-                    <!-- <h5 style="margin-top: 3%; margin-bottom: 2%;">Gefördert durch</h5> -->
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 3%; margin-bottom: 2%;">In Koorperation mit</h5>
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder5" style="background-color:white;">
+                <div id="bilder" style="background-color:white;">
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder2" style="background-color:white;">
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">mit Mitteln des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder4" style="background-color:white; padding-top: 1.4rem;">
+                <div id="bilder" style="background-color:white; padding-top: 1.4rem;">
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/sdg-in-staging-site/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
          </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align: center;">
+        <div class="row g-0" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#003E59;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
@@ -347,13 +349,13 @@ data-event-label="high"
                                     </li>
                             
                         
-                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align:center">
+        <div class="row g-0" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
                 <div id="footerende" style="background-color:#003E59;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
                     <ul style="text-align: center;">
@@ -392,12 +394,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324151709'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324160006'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324151709"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324160006"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -133,7 +133,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324151709">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324160006">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -195,21 +195,23 @@ layout-frontpage
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/goals">Ziele</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/goals"  target="">Ziele</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/reporting-status">Berichtsstatus</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/reporting-status"  target="">Berichtsstatus</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/about">Über uns</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/about"  target="">Über uns</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/faq">FAQ</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/faq"  target="">FAQ</a>
 </li></ul>
     
                     </div>
                     <div class="d-flex header-toggle">
-                        <form class="align-self-lg-end" id="search" action="/sdg-in-staging-site/search/">
+                        <!-- add placeholder in input field -->
+
+<form class="search-field" id="search" action="/sdg-in-staging-site/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Suche</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Suche">
+        <input class="form-control" type="search" placeholder="Indikatoren suchen" name="q" id="indicator_search" title="Suche">
         <span class="input-group-append">
             <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
@@ -243,25 +245,23 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
     
-        
         <div class="site-intro">
-        <h1>17 Ziele, um unsere Welt zu verändern</h1>
-        <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
-            Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
-            Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
+            <h1 style="font-weight: 700;">17 Ziele, um unsere Welt zu verändern</h1>
+            <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
+                Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
+                Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
         </div>
-        
     
 
     
     <div class="frontpage-goals-grid">
 
         
-        <h2 class="frontpage-goals-grid-title">Daten für die nachhaltigen Entwicklungsziele (SDGs) in Ingolstadt</h2>
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">Daten für die nachhaltigen Entwicklungsziele (SDGs) in Ingolstadt</h2>
         
 
         
-        <div class="frontpage-goals-grid-description"><p>Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen Indikatoren für nachhaltige Entwicklung anzuzeigen.</p>
+        <div class="frontpage-goals-grid-description"  style="font-size: 22px;"><p>Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen Indikatoren für nachhaltige Entwicklung anzuzeigen.</p>
 </div>
         
 
@@ -380,7 +380,7 @@ data-event-label="high"
 <!-- Handlungsfelder -->
 
 
-<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #007dbd;">
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #007ebe;">
     <div id="second-content" class="container"><h2 class="hf-title">Handlungsfelder entdecken</h2>
         <div class="hf-description">Die Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt</div><!-- hier Handlungsfelder von _config.yml importieren -->
         <div class="row">
@@ -471,7 +471,7 @@ für Synergien.
     </div>
 </div>
 
-<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #65b447;">
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #65b448;">
     <div id="second-content" class="container"><!-- hier Handlungsfelder von _config.yml importieren -->
         <div class="row">
     <div class="col-md-7">
@@ -566,7 +566,7 @@ in eine neue Beziehung.
     </div>
 </div>
 
-<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #fbb715;">
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #f8b715;">
     <div id="second-content" class="container"><!-- hier Handlungsfelder von _config.yml importieren -->
         <div class="row">
     <div class="col-md-7">
@@ -666,77 +666,7 @@ in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
     </div>
 </div>
 
-<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #52c2e4;">
-    <div id="second-content" class="container"><!-- hier Handlungsfelder von _config.yml importieren -->
-        <div class="row">
-    <div class="col-md-7">
-        
-        <h3 class="hf-subtitle">Bildung</h3>
-        
-        
-        <div class="hf-thema-title">Vision</div>
-        <div class="hf-thema-text">Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
-Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
-hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
-habe sind fester Bestandteil von Bildungsangeboten.
-</div>
-        
-        
-        <div class="hf-thema-title">Leitsatz</div>
-        <div class="hf-thema-text">Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
-Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
-eine nachhaltige Zukunft.
-</div>
-        
-    </div>
-    <div class="col-md-1"></div>
-    
-    <div class="col-md-4">
-        <div class="hf-goal-tiles">
-            <div class="flex-grid">
-                
-                
-                
-                <div>
-                    <a href="/sdg-in-staging-site/4">
-                        <img src="/sdg-in-staging-site/assets/img/goals/de/4.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 4" id="goal4"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/sdg-in-staging-site/9">
-                        <img src="/sdg-in-staging-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 9" id="goal9"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/sdg-in-staging-site/10">
-                        <img src="/sdg-in-staging-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 10" id="goal10"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/sdg-in-staging-site/11">
-                        <img src="/sdg-in-staging-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 11" id="goal11"/>
-                    </a>
-                </div>
-                <div>
-                    <a href="/sdg-in-staging-site/16">
-                        <img src="/sdg-in-staging-site/assets/img/goals/de/16.png" class="block img-responsive img-hf-goal"
-                            alt="Handlungsfelder - Goal 16" id="goal16"/>
-                    </a>
-                </div>
-            </div>  
-        </div>
-    </div>
-    
-</div>
-
-    </div>
-</div>
-
-<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #ed6d26;">
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #ed6d29;">
     <div id="second-content" class="container"><!-- hier Handlungsfelder von _config.yml importieren -->
         <div class="row">
     <div class="col-md-7">
@@ -843,13 +773,83 @@ fördern wir die Glokalisierung
     </div>
 </div>
 
+<div class ="wide-background scroll-area" id="frontpage-handlungsfelder" style="background-color: #05afda;">
+    <div id="second-content" class="container"><!-- hier Handlungsfelder von _config.yml importieren -->
+        <div class="row">
+    <div class="col-md-7">
+        
+        <h3 class="hf-subtitle">Bildung</h3>
+        
+        
+        <div class="hf-thema-title">Vision</div>
+        <div class="hf-thema-text">Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
+Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
+hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
+habe sind fester Bestandteil von Bildungsangeboten.
+</div>
+        
+        
+        <div class="hf-thema-title">Leitsatz</div>
+        <div class="hf-thema-text">Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
+Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
+eine nachhaltige Zukunft.
+</div>
+        
+    </div>
+    <div class="col-md-1"></div>
+    
+    <div class="col-md-4">
+        <div class="hf-goal-tiles">
+            <div class="flex-grid">
+                
+                
+                
+                <div>
+                    <a href="/sdg-in-staging-site/4">
+                        <img src="/sdg-in-staging-site/assets/img/goals/de/4.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 4" id="goal4"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="/sdg-in-staging-site/9">
+                        <img src="/sdg-in-staging-site/assets/img/goals/de/9.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 9" id="goal9"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="/sdg-in-staging-site/10">
+                        <img src="/sdg-in-staging-site/assets/img/goals/de/10.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 10" id="goal10"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="/sdg-in-staging-site/11">
+                        <img src="/sdg-in-staging-site/assets/img/goals/de/11.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 11" id="goal11"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="/sdg-in-staging-site/16">
+                        <img src="/sdg-in-staging-site/assets/img/goals/de/16.png" class="block img-responsive img-hf-goal"
+                            alt="Handlungsfelder - Goal 16" id="goal16"/>
+                    </a>
+                </div>
+            </div>  
+        </div>
+    </div>
+    
+</div>
+
+    </div>
+</div>
+
 
 
 
 <!-- cards (imported from separate file) -->
 <!-- cards for publication etc-->
 <div id="sub-content" class="container" style="padding-top: 65px;">
-    <div class="row frontpage-card" style="padding-left: -calc(var(--bs-gutter-x) * -.5)">
+    <div class="row g-0 frontpage-card" style="padding-left: -calc(var(--bs-gutter-x) * -.5)">
         
         <h2 style="font-size: 32px; font-weight: 700; color: #444444; padding-top: 5rem;">Veröffentlichungen</h2>
         <h4 style="font-size: 22px; color: #444444; margin-bottom: 20px;">Bleibe auf dem Laufenden...</h4>
@@ -896,7 +896,7 @@ fördern wir die Glokalisierung
 
 <footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
-        <div class="row" style="padding: 0px;">
+        <div class="row g-0" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
                     <p>Unsere Projektpartner</p>
@@ -905,34 +905,34 @@ fördern wir die Glokalisierung
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection justify-content-around">
+        <div class="row g-0 flexdirection justify-content-around">
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder3" style="background-color:white; padding-top: 1.5rem;">
-                    <!-- <h5 style="margin-top: 3%; margin-bottom: 2%;">Gefördert durch</h5> -->
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 3%; margin-bottom: 2%;">In Koorperation mit</h5>
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder5" style="background-color:white;">
+                <div id="bilder" style="background-color:white;">
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder2" style="background-color:white;">
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">mit Mitteln des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder4" style="background-color:white; padding-top: 1.4rem;">
+                <div id="bilder" style="background-color:white; padding-top: 1.4rem;">
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/sdg-in-staging-site/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
          </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align: center;">
+        <div class="row g-0" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#003E59;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
@@ -957,13 +957,13 @@ fördern wir die Glokalisierung
                                     </li>
                             
                         
-                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align:center">
+        <div class="row g-0" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
                 <div id="footerende" style="background-color:#003E59;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
                     <ul style="text-align: center;">
@@ -1002,12 +1002,12 @@ fördern wir die Glokalisierung
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324151709'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324160006'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324151709"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324160006"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

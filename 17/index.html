@@ -129,7 +129,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324151709">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230324160006">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -190,21 +190,23 @@ layout-goal
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/goals">Ziele</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/goals"  target="">Ziele</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/reporting-status">Berichtsstatus</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/reporting-status"  target="">Berichtsstatus</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/about">Über uns</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/about"  target="">Über uns</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/sdg-in-staging-site/faq">FAQ</a>
+    <a class="container nav-link" href="/sdg-in-staging-site/faq"  target="">FAQ</a>
 </li></ul>
     
                     </div>
                     <div class="d-flex header-toggle">
-                        <form class="align-self-lg-end" id="search" action="/sdg-in-staging-site/search/">
+                        <!-- add placeholder in input field -->
+
+<form class="search-field" id="search" action="/sdg-in-staging-site/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Suche</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Suche">
+        <input class="form-control" type="search" placeholder="Indikatoren suchen" name="q" id="indicator_search" title="Suche">
         <span class="input-group-append">
             <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
@@ -276,376 +278,299 @@ data-event-label="high"
 
 
 
+
 <div id="main-content" class="container" role="main" style="padding-bottom:0px">
 
-    
+  
 
 
-    <h1 class="goal-title-by-goal goal-17">
-        
-            Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen
-        
-    </h1>
+  <h2 class="goal-title-by-goal goal-17">
+      
+          Umsetzungsmittel stärken und die Globale Partnerschaft für nachhaltige Entwicklung mit neuem Leben erfüllen
+      
+  </h2>
+
 
   <div class="container g-0 ">
-    <div class="row align-items-end" style="margin-bottom: 1rem;">
+    <!-- sdg name -->
+    <div class="row g-0 align-items-end" style="margin-bottom: 1rem;">
       <div class="col">
-        <h2 class="goal-page-heading">Ziele und Indikatoren</h2>
+        <h3 class="goal-page-heading">Ziele und Indikatoren</h3>
       </div>
       
     </div>
     <!-- <hr class="goal-page-column-header-rule"> -->
     
       
-      <div class="row align-items-start goal-target">
-          <!-- <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Unterziel</span> 17.1</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Anzahl Partnerschaften mit Kommunen aus dem Globalen Süden</span>
-          </div> -->
-          
-      </div>
+        
+        
+        
         
 
-          
-          
-          
-          
-
-          <div class="row g-4 align-items-start goal-indicator">
-          
-            <div class="col-1 goal-page-indicator-number">
-              <a>
-                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">Indikator</span> 17.1</span>
-              </a>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/sdg-in-staging-site/17-1" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">Anzahl Partnerschaften mit Kommunen aus dem Globalen Süden</a></span>
-            </div>
-
+        <div class="row g-0 align-items-start justify-content-start goal-indicator" style="padding-bottom: 1rem;">
+          <div class="col-1 goal-page-indicator-number">
+            <a>
+              <span class="indicator-number"><span class="visually-hidden">Indikator</span> 17.1</span>
+            </a>
+          </div>
+          <div class="col goal-page-indicator-name">
             
+            <span class="indicator-name"><a href="/sdg-in-staging-site/17-1">Anzahl Partnerschaften mit Kommunen aus dem Globalen Süden</a></span>
           </div>
-        
-        <!-- <hr class="goal-page-target-rule" /> -->
+            
+        </div>
+      
     
       
-      <div class="row align-items-start goal-target">
-          <!-- <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Unterziel</span> 17.2</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Anzahl Projekte mit den Partnerstädten</span>
-          </div> -->
-          
-      </div>
+        
+        
+        
         
 
-          
-          
-          
-          
-
-          <div class="row g-4 align-items-start goal-indicator">
-          
-            <div class="col-1 goal-page-indicator-number">
-              <a>
-                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">Indikator</span> 17.2</span>
-              </a>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/sdg-in-staging-site/17-2" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">Anzahl Projekte mit den Partnerstädten</a></span>
-            </div>
-
+        <div class="row g-0 align-items-start justify-content-start goal-indicator" style="padding-bottom: 1rem;">
+          <div class="col-1 goal-page-indicator-number">
+            <a>
+              <span class="indicator-number"><span class="visually-hidden">Indikator</span> 17.2</span>
+            </a>
+          </div>
+          <div class="col goal-page-indicator-name">
             
+            <span class="indicator-name"><a href="/sdg-in-staging-site/17-2">Anzahl Projekte mit den Partnerstädten</a></span>
           </div>
-        
-        <!-- <hr class="goal-page-target-rule" /> -->
+            
+        </div>
+      
     
       
-      <div class="row align-items-start goal-target">
-          <!-- <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Unterziel</span> 17.3</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Anzahl Projekte mit migrantischen Organisationen</span>
-          </div> -->
-          
-      </div>
+        
+        
+        
         
 
-          
-          
-          
-          
-
-          <div class="row g-4 align-items-start goal-indicator">
-          
-            <div class="col-1 goal-page-indicator-number">
-              <a>
-                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">Indikator</span> 17.3</span>
-              </a>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/sdg-in-staging-site/17-3" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">Anzahl Projekte mit migrantischen Organisationen</a></span>
-            </div>
-
+        <div class="row g-0 align-items-start justify-content-start goal-indicator" style="padding-bottom: 1rem;">
+          <div class="col-1 goal-page-indicator-number">
+            <a>
+              <span class="indicator-number"><span class="visually-hidden">Indikator</span> 17.3</span>
+            </a>
+          </div>
+          <div class="col goal-page-indicator-name">
             
+            <span class="indicator-name"><a href="/sdg-in-staging-site/17-3">Anzahl Projekte mit migrantischen Organisationen</a></span>
           </div>
-        
-        <!-- <hr class="goal-page-target-rule" /> -->
+            
+        </div>
+      
     
       
-      <div class="row align-items-start goal-target">
-          <!-- <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Unterziel</span> 17.4</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Ausgaben für Entwicklungspolitik je 10.000 E</span>
-          </div> -->
-          
-      </div>
+        
+        
+        
         
 
-          
-          
-          
-          
-
-          <div class="row g-4 align-items-start goal-indicator">
-          
-            <div class="col-1 goal-page-indicator-number">
-              <a>
-                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">Indikator</span> 17.4</span>
-              </a>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/sdg-in-staging-site/17-4" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">Ausgaben für Entwicklungspolitik je 10.000 E</a></span>
-            </div>
-
+        <div class="row g-0 align-items-start justify-content-start goal-indicator" style="padding-bottom: 1rem;">
+          <div class="col-1 goal-page-indicator-number">
+            <a>
+              <span class="indicator-number"><span class="visually-hidden">Indikator</span> 17.4</span>
+            </a>
+          </div>
+          <div class="col goal-page-indicator-name">
             
+            <span class="indicator-name"><a href="/sdg-in-staging-site/17-4">Ausgaben für Entwicklungspolitik je 10.000 E</a></span>
           </div>
-        
-        <!-- <hr class="goal-page-target-rule" /> -->
+            
+        </div>
+      
     
       
-      <div class="row align-items-start goal-target">
-          <!-- <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Unterziel</span> 17.5</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">global_indicators.17-5-title</span>
-          </div> -->
-          
-      </div>
+        
+        
+        
         
 
-          
-          
-          
-          
-
-          <div class="row g-4 align-items-start goal-indicator">
-          
-            <div class="col-1 goal-page-indicator-number">
-              <a>
-                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">Indikator</span> 17.5</span>
-              </a>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/sdg-in-staging-site/17-5" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">global_indicators.17-5-title</a></span>
-            </div>
-
+        <div class="row g-0 align-items-start justify-content-start goal-indicator" style="padding-bottom: 1rem;">
+          <div class="col-1 goal-page-indicator-number">
+            <a>
+              <span class="indicator-number"><span class="visually-hidden">Indikator</span> 17.5</span>
+            </a>
+          </div>
+          <div class="col goal-page-indicator-name">
             
+            <span class="indicator-name"><a href="/sdg-in-staging-site/17-5">global_indicators.17-5-title</a></span>
           </div>
-        
-        <!-- <hr class="goal-page-target-rule" /> -->
+            
+        </div>
+      
     
   </div>
   <a href="#top">Zurück nach oben</a>
 </div>
 
 <!-- lower navigation bar -->
-<div class="carousel-container" id="contain">
+<div class="carousel-container" id="contain" style="padding-bottom: 0px;">
     <div class="row">
         <div id="text">
-            
-            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Entdecke mehr SDGS</b></h2>
-            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
-            
+            <h3 class="text-center" style="margin-bottom: 20px ; font-weight: 700;"><b> Entdecke mehr SDGS</b></h2>
+            <h4 class="text-center" style="margin-bottom: 10px; color: #adadad;">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
         </div>
         <div id="carouselLowerNavigation" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <!-- iterate over a specified list: create the initial carousel-item and modify them in custom.js -->
             <div class="carousel-inner">
                 
-                    <div class="carousel-item active">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/1">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/1.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-1" alt="Keine Armut - Ziel 1"/>
-                            </a>
-                        </div>
+                <div class="carousel-item active">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/1">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/1.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-1" alt="Keine Armut - Ziel 1"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/2">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/2.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-2" alt="Kein Hunger - Ziel 2"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/2">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/2.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-2" alt="Kein Hunger - Ziel 2"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/3">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/3.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-3" alt="Gesundheit und Wohlergehen - Ziel 3"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/3">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/3.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-3" alt="Gesundheit und Wohlergehen - Ziel 3"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/4">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/4.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-4" alt="Hochwertige Bildung - Ziel 4"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/4">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/4.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-4" alt="Hochwertige Bildung - Ziel 4"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/5">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/5.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-5" alt="Geschlechtergleichstellung - Ziel 5"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/5">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/5.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-5" alt="Geschlechtergleichstellung - Ziel 5"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/6">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/6.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-6" alt="Sauberes Wasser und Sanitärversorgung - Ziel 6"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/6">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/6.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-6" alt="Sauberes Wasser und Sanitärversorgung - Ziel 6"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/7">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/7.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-7" alt="Bezahlbare und saubere Energie - Ziel 7"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/7">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/7.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-7" alt="Bezahlbare und saubere Energie - Ziel 7"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/8">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/8.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-8" alt="Menschenwürdige Arbeit und Wirtschaftswachstum - Ziel 8"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/8">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/8.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-8" alt="Menschenwürdige Arbeit und Wirtschaftswachstum - Ziel 8"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/9">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/9.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-9" alt="Industrie, Innovationen und Infrastruktur - Ziel 9"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/9">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/9.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-9" alt="Industrie, Innovationen und Infrastruktur - Ziel 9"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/10">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/10.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-10" alt="Weniger Ungleichheiten - Ziel 10"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/10">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/10.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-10" alt="Weniger Ungleichheiten - Ziel 10"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/11">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/11.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-11" alt="Nachhaltige Städte und Gemeinden - Ziel 11"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/11">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/11.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-11" alt="Nachhaltige Städte und Gemeinden - Ziel 11"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/12">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/12.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-12" alt="Verantwortungsvolle Konsum- und Produktionsmuster - Ziel 12"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/12">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/12.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-12" alt="Verantwortungsvolle Konsum- und Produktionsmuster - Ziel 12"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/13">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/13.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-13" alt="Maßnahmen zum Klimaschutz - Ziel 13"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/13">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/13.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-13" alt="Maßnahmen zum Klimaschutz - Ziel 13"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/14">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/14.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-14" alt="Leben unter Wasser - Ziel 14"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/14">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/14.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-14" alt="Leben unter Wasser - Ziel 14"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/15">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/15.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-15" alt="Leben an Land - Ziel 15"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/15">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/15.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-15" alt="Leben an Land - Ziel 15"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/16">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/16.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-16" alt="Frieden, Gerechtigkeit und starke Institutionen - Ziel 16"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/16">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/16.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-16" alt="Frieden, Gerechtigkeit und starke Institutionen - Ziel 16"/>
+                        </a>
                     </div>
+                </div>
                 
-                    <div class="carousel-item ">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="/sdg-in-staging-site/17">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/17.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-17" alt="Partnerschaften zur Erreichung der Ziele - Ziel 17"/>
-                            </a>
-                        </div>
+                <div class="carousel-item ">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="/sdg-in-staging-site/17">
+                            <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/17.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-17" alt="Partnerschaften zur Erreichung der Ziele - Ziel 17"/>
+                        </a>
                     </div>
+                </div>
                 
             </div>
             
-            <a class="carousel-control-prev" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="prev">
+            <a class="carousel-control-prev" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="next">
                 <span class="fa fa-chevron-left" id="nav-arrow" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="next">
+            <a class="carousel-control-next" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="prev">
                 <span class="fa fa-chevron-right" id="nav-arrow" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
         </div>
+
     </div>
 </div>
 
 
 <footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
-        <div class="row" style="padding: 0px;">
+        <div class="row g-0" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
                     <p>Unsere Projektpartner</p>
@@ -654,34 +579,34 @@ data-event-label="high"
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection justify-content-around">
+        <div class="row g-0 flexdirection justify-content-around">
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder3" style="background-color:white; padding-top: 1.5rem;">
-                    <!-- <h5 style="margin-top: 3%; margin-bottom: 2%;">Gefördert durch</h5> -->
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 3%; margin-bottom: 2%;">In Koorperation mit</h5>
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder5" style="background-color:white;">
+                <div id="bilder" style="background-color:white;">
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder2" style="background-color:white;">
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
+                <div id="bilder" style="background-color:white;">
+                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">mit Mitteln des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/sdg-in-staging-site/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
-                <div id="bilder4" style="background-color:white; padding-top: 1.4rem;">
+                <div id="bilder" style="background-color:white; padding-top: 1.4rem;">
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/sdg-in-staging-site/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
          </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align: center;">
+        <div class="row g-0" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#003E59;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
@@ -706,13 +631,13 @@ data-event-label="high"
                                     </li>
                             
                         
-                        </ul>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row" style="padding: 0px;text-align:center">
+        <div class="row g-0" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
                 <div id="footerende" style="background-color:#003E59;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
                     <ul style="text-align: center;">
@@ -751,12 +676,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324151709'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230324160006'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324151709"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230324160006"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
