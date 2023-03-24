@@ -25,7 +25,7 @@ frontpage_handlungsfelder:
       Ökonomie und Ökologie betrachten wir nicht als Widersprüche, sondern als Quelle
       für Synergien.
     hf-goals: "4,5,8,9,10,11,12,13"
-    bg_color: '#007dbd'
+    bg_color: '#007ebe'
   - title: Umwelt
     vision: |
       Ingolstadt verbindet Stadt und Natur und gilt als grüne Lunge unter den
@@ -38,7 +38,7 @@ frontpage_handlungsfelder:
       Mit einer positiven und effektiven Sichtweise auf die Ökologie treten wir mit Natur und Technik 
       in eine neue Beziehung.
     hf-goals: "2,6,7,9,11,12,13,14,15"
-    bg_color: '#65b447'
+    bg_color: '#65b448'
   - title: Leben
     vision: |
       Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
@@ -50,19 +50,7 @@ frontpage_handlungsfelder:
         Wir ermöglichen ein gesundes und sicheres Miteinander im Alltag für die Menschen
         in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
     hf-goals: "2,3,6,9,10,11,12,13,15,16"
-    bg_color: '#fbb715'
-  - title: Bildung
-    vision: |
-      Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
-      Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
-      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
-      habe sind fester Bestandteil von Bildungsangeboten.
-    leitsatz: |
-        Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
-        Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
-        eine nachhaltige Zukunft.
-    hf-goals: "4,9,10,11,16"
-    bg_color: '#52c2e4'
+    bg_color: '#f8b715'
   - title: Vielfalt
     vision: |
       Ingolstadt ist weltoffen und leistet ihren Beitrag zur globalen Verantwortung. 
@@ -75,7 +63,19 @@ frontpage_handlungsfelder:
       uns lokal und global für ein gerechtes, gesundes und inklusives Miteinander. Damit
       fördern wir die Glokalisierung
     hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
-    bg_color: '#ed6d26'
+    bg_color: '#ed6d29'
+  - title: Bildung
+    vision: |
+      Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
+      Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
+      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
+      habe sind fester Bestandteil von Bildungsangeboten.
+    leitsatz: |
+        Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
+        Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
+        eine nachhaltige Zukunft.
+    hf-goals: "4,9,10,11,16"
+    bg_color: '#05afda'
 
 
 country: # or place name
@@ -203,6 +203,12 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
+
+metadata_tabs:
+  - scope: national
+    title: Metadaten
+    description: indicator.national_metadata_blurb
+
 
 plugins:
   - jekyll-remote-theme

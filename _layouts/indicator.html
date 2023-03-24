@@ -1,5 +1,11 @@
 {% include head.html %}
 {% include header.html %}
+
+<div class="container">
+    {% include components/goal/breadcrumbs.html %}
+ </div>
+ 
+<!-- add upper navigation bar -->
 {% include components/goal-navigation-top.html %}
 
 {% include components/indicator/fields-template.html %}
@@ -9,9 +15,7 @@
 {% include multilingual-js.html key="data" %}
 
 <div class="container">
-    {% include components/indicator/breadcrumbs.html %}
-
-    <div class="row">
+    <div class="row g-0">
         {% unless page.indicator.standalone %}
         <div class="col-8 col-md-9 col-lg-10 indicator-details">
         {% else %}
@@ -19,8 +23,8 @@
         {% endunless %}
             <div class="goal-titles">
                 {% unless page.indicator.standalone %}
-                <h1 class="indicator-title-by-indicator goal-{{ page.goal.number }}">{{ page.t.general.indicator }} {{ page.indicator.number }}</h1>
-                <h1 class="indicator-title-by-indicator goal-{{ page.goal.number }}">{{ page.indicator.name }}</h1>
+                <h2 class="indicator-title-by-indicator goal-{{ page.goal.number }}">{{ page.t.general.indicator }} {{ page.indicator.number }}</h2>
+                <h2 class="indicator-title-by-indicator goal-{{ page.goal.number }}" style="font-weight:600">{{ page.indicator.name }}</h2>
                 {% endunless %}
             </div>
         </div>
