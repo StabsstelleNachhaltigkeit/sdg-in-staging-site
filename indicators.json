@@ -44,38 +44,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/1-4-2",
           "status": "complete"
-        },
-        {
-          "id": "1-5",
-          "title": "Ältere Bewohner:innen in privaten Wohnungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/1-5",
-          "status": "complete"
-        },
-        {
-          "id": "1-6",
-          "title": "Anlauf-/ Beratungsstellen für Alleinerziehende",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/1-6",
-          "status": "complete"
-        },
-        {
-          "id": "1-7",
-          "title": "Anteil Menschen mit Behinderung auf dem ersten Arbeitsmarkt",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/1-7",
-          "status": "complete"
-        },
-        {
-          "id": "1-8",
-          "title": "Anzahl Beratungsangebote/ Veranstaltungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/1-8",
-          "status": "complete"
         }]
     }
   },
@@ -91,54 +59,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/2-1",
-          "status": "complete"
-        },
-        {
-          "id": "2-2",
-          "title": "Angebot an gesunden und ausgewogenen Verpflegungsmöglichkeiten",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-2",
-          "status": "complete"
-        },
-        {
-          "id": "2-3",
-          "title": "Anteil der übergewichtigen Kinder im Schuleingangsjahr",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-3",
-          "status": "complete"
-        },
-        {
-          "id": "2-4",
-          "title": "Anteil verschwendeter Lebensmittel (im privaten Haushalt)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-4",
-          "status": "complete"
-        },
-        {
-          "id": "2-5",
-          "title": "Anzahl Beratungs- und Informationsangebote zum Thema gesunde Ernährung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-5",
-          "status": "complete"
-        },
-        {
-          "id": "2-6",
-          "title": "Anzahl und Art der Beratungs- und Aufklärungsangebote zum Thema 'hochwertige Ess-Kultur'",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-6",
-          "status": "complete"
-        },
-        {
-          "id": "2-7",
-          "title": "Diversität der Angebote zum Thema 'hochwertige Ess-Kultur'",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/2-7",
           "status": "complete"
         }]
     }
@@ -211,46 +131,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/3-8",
-          "status": "complete"
-        },
-        {
-          "id": "3-9",
-          "title": "Altersspezifische Krankheitsdauer und -art",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/3-9",
-          "status": "complete"
-        },
-        {
-          "id": "3-10",
-          "title": "Angebote zur gesunden Ernährung im Rahmen der Stadt",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/3-10",
-          "status": "complete"
-        },
-        {
-          "id": "3-11",
-          "title": "Anzahl an Initiativen zur Prävention (Sicherstellung einer ausreichenden medizinischen Infrastruktur)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/3-11",
-          "status": "complete"
-        },
-        {
-          "id": "3-12",
-          "title": "Anzahl an Sportplätzen und Bewegungsangeboten (z.B. Disc-Golf, Lauftreffs etc.)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/3-12",
-          "status": "complete"
-        },
-        {
-          "id": "3-13",
-          "title": "Präventionsangebote zur Reduzierung der gesundheitlichen physischen und psychischen Belastung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/3-13",
           "status": "complete"
         }]
     }
@@ -332,86 +212,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/4-9",
           "status": "complete"
-        },
-        {
-          "id": "4-10",
-          "title": "Anteil nachhaltige Hochschulen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-10",
-          "status": "complete"
-        },
-        {
-          "id": "4-11",
-          "title": "Anteil nachhaltige Kitas",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-11",
-          "status": "complete"
-        },
-        {
-          "id": "4-12",
-          "title": "Anteil nachhaltiger Schulen (Fairtrade-Schools) - zertifiziert",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-12",
-          "status": "complete"
-        },
-        {
-          "id": "4-13",
-          "title": "Anzahl der geförderten Bildungsangebote im Bereich Nachhaltigkeit",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-13",
-          "status": "complete"
-        },
-        {
-          "id": "4-14",
-          "title": "Anzahl der TN bei Bildungsangeboten zur nachhaltigen Entwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-14",
-          "status": "complete"
-        },
-        {
-          "id": "4-15",
-          "title": "Anzahl Kurse und teilnehmende Mitarbeiter:innen der Stadt zur Stärkung der digitalen Kompetenzen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-15",
-          "status": "complete"
-        },
-        {
-          "id": "4-16",
-          "title": "Anzahl Leihgeräte/ Schuljahr",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-16",
-          "status": "complete"
-        },
-        {
-          "id": "4-17",
-          "title": "Anzahl und Art der Angebote für die digitale Kompetenzentwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-17",
-          "status": "complete"
-        },
-        {
-          "id": "4-18",
-          "title": "Anzahl und Art der Fördermittel für Bildungsangebote für nachhaltige Entwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-18",
-          "status": "complete"
-        },
-        {
-          "id": "4-19",
-          "title": "Anzahl und Art der Initiativen für Bildung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/4-19",
-          "status": "complete"
         }]
     }
   },
@@ -468,46 +268,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/5-6",
           "status": "complete"
-        },
-        {
-          "id": "5-7",
-          "title": "Anzahl der gemeldeten Diskriminierungsfälle",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/5-7",
-          "status": "complete"
-        },
-        {
-          "id": "5-8",
-          "title": "Anzahl und Art der Initiativen für Chancengleichheit",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/5-8",
-          "status": "complete"
-        },
-        {
-          "id": "5-9",
-          "title": "Anzahl und Art der Projekte zur Geschlechtergerechtigkeit (mit Partnerstädten oder Kooperationen mit Vereinen)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/5-9",
-          "status": "complete"
-        },
-        {
-          "id": "5-10",
-          "title": "Geschlechterunabhängige & geschlechterspezifische Angebote (z.B. Beratungsstellen, Schutz-Anlaufstellen etc.)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/5-10",
-          "status": "complete"
-        },
-        {
-          "id": "5-11",
-          "title": "Haushalte mit niedrigem, mittlerem und hohem Einkommen (%)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/5-11",
-          "status": "complete"
         }]
     }
   },
@@ -559,50 +319,10 @@
         },
         {
           "id": "6-6",
-          "title": "Verhältnis von Trennsystemen zu Mischwasserkanälen#",
+          "title": "Verhältnis von Trennsystemen zu Mischwasserkanälen",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/6-6",
-          "status": "complete"
-        },
-        {
-          "id": "6-7",
-          "title": "Bildungangebote zum Thema Wasser",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-7",
-          "status": "complete"
-        },
-        {
-          "id": "6-8",
-          "title": "Qualität des Parterre-Wassers",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-8",
-          "status": "complete"
-        },
-        {
-          "id": "6-9",
-          "title": "Renautierung und Schaffung von Fließ- und Stillgewässern",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-9",
-          "status": "complete"
-        },
-        {
-          "id": "6-10",
-          "title": "Trinkwasserqualität",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-10",
-          "status": "complete"
-        },
-        {
-          "id": "6-11",
-          "title": "Verhältnis Grundwasser-Verbrauch zur Neubildung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-11",
           "status": "complete"
         }]
     }
@@ -619,54 +339,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/7-1",
-          "status": "complete"
-        },
-        {
-          "id": "7-2",
-          "title": "Anteil der städtischen Gebäude mit PV-Anlagen (%)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-2",
-          "status": "complete"
-        },
-        {
-          "id": "7-3",
-          "title": "Anteil erneuerbare Energien (am Bruttoenergieverbrauch in %)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-3",
-          "status": "complete"
-        },
-        {
-          "id": "7-4",
-          "title": "Anteil erneuerbare Energien (am Strommix der Stadtwerke IN)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-4",
-          "status": "complete"
-        },
-        {
-          "id": "7-5",
-          "title": "Anteil im Stadtgebiet Ingolstadt, eurzeugter erneuerbarer Energien",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-5",
-          "status": "complete"
-        },
-        {
-          "id": "7-6",
-          "title": "Anteil kommunale Investitionen in erneuerbare Energien (%)1",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-6",
-          "status": "complete"
-        },
-        {
-          "id": "7-7",
-          "title": "Kenntnisstand bzgl. Informationsangebot (Aufklärung und Beratung von Bürgern bzgl. erneuerbarer Energien)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-7",
           "status": "complete"
         }]
     }
@@ -724,46 +396,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/8-6",
           "status": "complete"
-        },
-        {
-          "id": "8-7",
-          "title": "Anteil und Art der Gewerbeanmeldungen und -abmeldungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/8-7",
-          "status": "complete"
-        },
-        {
-          "id": "8-8",
-          "title": "Anteil und Art der Neugründungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/8-8",
-          "status": "complete"
-        },
-        {
-          "id": "8-9",
-          "title": "Anzahl Netzwerke und Mitglieder (Förderung der Vernetzung von Unternehmen in der Stadt)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/8-9",
-          "status": "complete"
-        },
-        {
-          "id": "8-10",
-          "title": "Identifikation mit dem Standort Ingolstadt (Förderung der Vernetzung von Unternehmen in der Stadt)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/8-10",
-          "status": "complete"
-        },
-        {
-          "id": "8-11",
-          "title": "Qualitativ hochwertige Arbeitsverträge der Stadt Ingolstadt",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/8-11",
-          "status": "complete"
         }]
     }
   },
@@ -811,94 +443,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-5",
-          "status": "complete"
-        },
-        {
-          "id": "9-6",
-          "title": "Anzahl der Förderprogramme (Förderung branchenübergreifender Existenzgründungen)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-6",
-          "status": "complete"
-        },
-        {
-          "id": "9-7",
-          "title": "Anzahl der Förderprojekte des Innovationsmanagements",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-7",
-          "status": "complete"
-        },
-        {
-          "id": "9-8",
-          "title": "Anzahl der Förderungen mit städtischen Beteiligung und der daraus resultierenden Maßnahmen für Innovationen mit gesellschaftem, sozialem oder technischem Schwerpunkt",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-8",
-          "status": "complete"
-        },
-        {
-          "id": "9-9",
-          "title": "Anzahl und Art der Bildungsangebote",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-9",
-          "status": "complete"
-        },
-        {
-          "id": "9-10",
-          "title": "Anzahl und Art der geförderten Projekte (Förderung der Wissenschaft und deren Vernetzung mit Gesellschaft und Wirtschaft)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-10",
-          "status": "complete"
-        },
-        {
-          "id": "9-11",
-          "title": "Anzahl und Art der genehmigten Förderanträge (bei Arbeitsamt und Jobcenter)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-11",
-          "status": "complete"
-        },
-        {
-          "id": "9-12",
-          "title": "Anzahl und Art der Kultureinrichtungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-12",
-          "status": "complete"
-        },
-        {
-          "id": "9-13",
-          "title": "Anzahl und Art der Kulturplattformen zur Vernetzung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-13",
-          "status": "complete"
-        },
-        {
-          "id": "9-14",
-          "title": "Struktur der Existenzgründungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-14",
-          "status": "complete"
-        },
-        {
-          "id": "9-15",
-          "title": "Transferleistung der Hochschulen (Förderung der Wissenschaft und deren Vernetzung mit Gesellschaft und Wirtschaft)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-15",
-          "status": "complete"
-        },
-        {
-          "id": "9-16",
-          "title": "Veranstaltungen zum Transfer von Wissen in die Gesellschaft",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/9-16",
           "status": "complete"
         }]
     }
@@ -963,46 +507,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/10-7",
-          "status": "complete"
-        },
-        {
-          "id": "10-8",
-          "title": "Anteil der Abiturienten aus Nicht-Akademiker-Haushalte",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/10-8",
-          "status": "complete"
-        },
-        {
-          "id": "10-9",
-          "title": "Anteil der Schüler an Förderschulen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/10-9",
-          "status": "complete"
-        },
-        {
-          "id": "10-10",
-          "title": "Anteil Schulabgänger - Berufsschule",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/10-10",
-          "status": "complete"
-        },
-        {
-          "id": "10-11",
-          "title": "Anzahl und Art der Teilnehmenden an Bildungsangeboten",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/10-11",
-          "status": "complete"
-        },
-        {
-          "id": "10-12",
-          "title": "Anzahl und Art inklusiver Bildungseinrichtungen und -angebote",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/10-12",
           "status": "complete"
         }]
     }
@@ -1087,7 +591,7 @@
         },
         {
           "id": "11-10",
-          "title": " Flächenneuinanspruchnahme (in %)",
+          "title": "Flächenneuinanspruchnahme (in %)",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-10",
@@ -1151,7 +655,7 @@
         },
         {
           "id": "11-18",
-          "title": "Wohnfläche je Einwohner (in m²')",
+          "title": "Wohnfläche je Einwohner (in m²)",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-18",
@@ -1163,70 +667,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-19",
-          "status": "complete"
-        },
-        {
-          "id": "11-20",
-          "title": "Anteil Gemeinflächen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-20",
-          "status": "complete"
-        },
-        {
-          "id": "11-21",
-          "title": "Anzahl der Beratungsgespräche in den Migrationsberatungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-21",
-          "status": "complete"
-        },
-        {
-          "id": "11-22",
-          "title": "Anzahl und Art der Projekte zum Abbau von Ungleichheiten (sozial und städtebaulich)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-22",
-          "status": "complete"
-        },
-        {
-          "id": "11-23",
-          "title": "Gesellschaftliche Struktur (Vielfalt) in den Stadtteilen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-23",
-          "status": "complete"
-        },
-        {
-          "id": "11-24",
-          "title": "Mietpreisentwicklung in Relation zur Einkommensentwicklung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-24",
-          "status": "complete"
-        },
-        {
-          "id": "11-25",
-          "title": "Modal Split (Anteil des Fußverkehrs, Radverkehrs und ÖPNV am gesamten Verkehrsaufkommen)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-25",
-          "status": "complete"
-        },
-        {
-          "id": "11-26",
-          "title": "Modal Split (Anteil PKW am gesamten Verkehrsaufkommen)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-26",
-          "status": "complete"
-        },
-        {
-          "id": "11-27",
-          "title": "Zufriedenheit der Bürger:innen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/11-27",
           "status": "complete"
         }]
     }
@@ -1284,102 +724,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/12-6",
           "status": "complete"
-        },
-        {
-          "id": "12-7",
-          "title": "Absatzzahlen aus regionalen Produkten",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-7",
-          "status": "complete"
-        },
-        {
-          "id": "12-8",
-          "title": "Angebot von ökologisch produzierten Lebensmitteln",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-8",
-          "status": "complete"
-        },
-        {
-          "id": "12-9",
-          "title": "Angebote für Bewusstseinsbildung und Wissensvermittlung, Anzahl von Workshops für nachhaltiges Handeln zu Hause",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-9",
-          "status": "complete"
-        },
-        {
-          "id": "12-10",
-          "title": "Anteil Leerstände (Bauten)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-10",
-          "status": "complete"
-        },
-        {
-          "id": "12-11",
-          "title": "Anzahl (Anteil) der Anbieter nachhaltiger Produkte und Services",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-11",
-          "status": "complete"
-        },
-        {
-          "id": "12-12",
-          "title": "Anzahl an Initiativen zur Förderung des nachhaltigen Konsums",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-12",
-          "status": "complete"
-        },
-        {
-          "id": "12-13",
-          "title": "Anzahl Anlaufstellen für den Erwerb regionaler Produkte",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-13",
-          "status": "complete"
-        },
-        {
-          "id": "12-14",
-          "title": "Anzahl der Beteiligten bei Themen 'Selbstversorgung und Urban Gardening'",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-14",
-          "status": "complete"
-        },
-        {
-          "id": "12-15",
-          "title": "Anzahl Projekte Selbstversorgung und Urban Gardeing",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-15",
-          "status": "complete"
-        },
-        {
-          "id": "12-16",
-          "title": "Projekte mit Initiativen des Fairen Handels",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-16",
-          "status": "complete"
-        },
-        {
-          "id": "12-17",
-          "title": "Sanierungsquote (von Bauten)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-17",
-          "status": "complete"
-        },
-        {
-          "id": "12-18",
-          "title": "Transaktionszahlen der Platformen für regionalen Konsum",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/12-18",
-          "status": "complete"
         }]
     }
   },
@@ -1419,62 +763,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/13-4",
-          "status": "complete"
-        },
-        {
-          "id": "13-5",
-          "title": "Anteil Grünflächen auf Dächern",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-5",
-          "status": "complete"
-        },
-        {
-          "id": "13-6",
-          "title": "Anzahl und Art geförderter technischer und digitaler Lösungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-6",
-          "status": "complete"
-        },
-        {
-          "id": "13-7",
-          "title": "CO2e-Ausstoß der privaten Haushalte (Tonne pro Einwohner:in, Privathaushalte)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-7",
-          "status": "complete"
-        },
-        {
-          "id": "13-8",
-          "title": "CO2e-Ausstoß Verkehr (Tonne pro Einwohner:in, Verkehr)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-8",
-          "status": "complete"
-        },
-        {
-          "id": "13-9",
-          "title": "CO2e-Ausstoß von Industrie, Gewerbe, Handel und Dienstleistungen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-9",
-          "status": "complete"
-        },
-        {
-          "id": "13-10",
-          "title": "Fördermittel für klimawandelangepasstes Bauen und Sanieren",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-10",
-          "status": "complete"
-        },
-        {
-          "id": "13-11",
-          "title": "Klimapartnerschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/13-11",
           "status": "complete"
         }]
     }
@@ -1548,54 +836,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/15-5",
           "status": "complete"
-        },
-        {
-          "id": "15-6",
-          "title": "Anahl und Art der Initiativen zum Naturschutz weltweit",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-6",
-          "status": "complete"
-        },
-        {
-          "id": "15-7",
-          "title": "Anteil zertifizierter Waldflächen nach PEFC (Programme für the Endorsement of Forest Certfication Schemes) bzw. FSC (Forest Stewardship Council)",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-7",
-          "status": "complete"
-        },
-        {
-          "id": "15-8",
-          "title": "Anzahl Biotoptypen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-8",
-          "status": "complete"
-        },
-        {
-          "id": "15-9",
-          "title": "Ausgaben für Projekte für den weltweiten Naturschutz",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-9",
-          "status": "complete"
-        },
-        {
-          "id": "15-10",
-          "title": "Veränderung des Holzvorrats",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-10",
-          "status": "complete"
-        },
-        {
-          "id": "15-11",
-          "title": "Vielfalt und Nutzung von Bildungsangeboten",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/15-11",
-          "status": "complete"
         }]
     }
   },
@@ -1652,86 +892,6 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/16-6",
           "status": "complete"
-        },
-        {
-          "id": "16-7",
-          "title": "Angebot und Nutzung des interkulturellen Dialogs",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-7",
-          "status": "complete"
-        },
-        {
-          "id": "16-8",
-          "title": "Anzahl der Präventionsmaßnahmen zum Schutz vor häuslicher und sexueller Gewalt und Diskriminierung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-8",
-          "status": "complete"
-        },
-        {
-          "id": "16-9",
-          "title": "Anzahl häuslicher Gewalttaten",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-9",
-          "status": "complete"
-        },
-        {
-          "id": "16-10",
-          "title": "Anzahl und Art der Projekte und Initiativen zur Wirtschaftförderung weltweit",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-10",
-          "status": "complete"
-        },
-        {
-          "id": "16-11",
-          "title": "Anzahl von Projekten und Initiativen zur Rechtsstaatlichkeit",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-11",
-          "status": "complete"
-        },
-        {
-          "id": "16-12",
-          "title": "Ausgaben für Entwicklungspolitik je 10.000 Einwohner:innen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-12",
-          "status": "complete"
-        },
-        {
-          "id": "16-13",
-          "title": "Partnerschaften in Ländern des Globalen Südens",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-13",
-          "status": "complete"
-        },
-        {
-          "id": "16-14",
-          "title": "Projekte mit migrantischen Organisationen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-14",
-          "status": "complete"
-        },
-        {
-          "id": "16-15",
-          "title": "Sicherheitsgefühl der Bürger:innen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-15",
-          "status": "complete"
-        },
-        {
-          "id": "16-16",
-          "title": "Wahrnehmung von Beratungsangeboten zu häuslicher und sexueller Gewalt und Diskriminierung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/16-16",
-          "status": "complete"
         }]
     }
   },
@@ -1775,42 +935,10 @@
         },
         {
           "id": "17-5",
-          "title": "Aktualität und Bekanntheit von Informationsseiten über Partnerstädte (Indikator zeigt, ob Webseiten der Partnerstädte gepflegt, aktuell & bei d. Bürger:innen bekannt sind)",
+          "title": "global_indicators.17-5-title",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/17-5",
-          "status": "complete"
-        },
-        {
-          "id": "17-6",
-          "title": "Anzahl und Art der Initiativen zur Hungerbekämpfung",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/17-6",
-          "status": "complete"
-        },
-        {
-          "id": "17-7",
-          "title": "Ausgaben für Projekte in der Entwicklungszusammenarbeit auf 10.000 Einwohner:innen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/17-7",
-          "status": "complete"
-        },
-        {
-          "id": "17-8",
-          "title": "Individuelle Konzepte für Partnerstädte",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/17-8",
-          "status": "complete"
-        },
-        {
-          "id": "17-9",
-          "title": "Themenbreite von aktiven Netzwerken",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/17-9",
           "status": "complete"
         }]
     }
