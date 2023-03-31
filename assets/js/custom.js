@@ -1,7 +1,7 @@
 // // Javascript for the lower navigation carousel --> scroll prev and next
 
 // source: https://www.codeply.com/p/0CWffz76Q9
-let items = document.querySelectorAll('.carousel .carousel-item')
+let items = document.querySelectorAll('#carouselLowerNavigation .carousel-item')
 
 items.forEach((el) => {
 	const minPerSlide = 4
@@ -16,4 +16,3 @@ items.forEach((el) => {
 		next = next.nextElementSibling
 	}
 })
-

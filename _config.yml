@@ -12,6 +12,7 @@ languages:
   - de
 
 frontpage_handlungsfelder:
+  # fields to change: title, vision, leitsatz, hf-goals
   - title: Wirtschaft
     vision: |
       Ingolstadt wirtschaftet in 2045 nachhaltig: Die Wirtschaft schützt den Planeten 
@@ -25,7 +26,9 @@ frontpage_handlungsfelder:
       Ökonomie und Ökologie betrachten wir nicht als Widersprüche, sondern als Quelle
       für Synergien.
     hf-goals: "4,5,8,9,10,11,12,13"
-    bg_color: '#007ebe'
+    hf-color: '#007ebe'
+    lighter-bg-color: '#e5f6ff'
+
   - title: Umwelt
     vision: |
       Ingolstadt verbindet Stadt und Natur und gilt als grüne Lunge unter den
@@ -38,7 +41,8 @@ frontpage_handlungsfelder:
       Mit einer positiven und effektiven Sichtweise auf die Ökologie treten wir mit Natur und Technik 
       in eine neue Beziehung.
     hf-goals: "2,6,7,9,11,12,13,14,15"
-    bg_color: '#65b448'
+    hf-color: '#65b448'
+    lighter-bg-color: '#f1f9ef'
   - title: Leben
     vision: |
       Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
@@ -50,7 +54,8 @@ frontpage_handlungsfelder:
         Wir ermöglichen ein gesundes und sicheres Miteinander im Alltag für die Menschen
         in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
     hf-goals: "2,3,6,9,10,11,12,13,15,16"
-    bg_color: '#f8b715'
+    hf-color: '#f8b715'
+    lighter-bg-color: '#fef7e7'
   - title: Vielfalt
     vision: |
       Ingolstadt ist weltoffen und leistet ihren Beitrag zur globalen Verantwortung. 
@@ -63,7 +68,8 @@ frontpage_handlungsfelder:
       uns lokal und global für ein gerechtes, gesundes und inklusives Miteinander. Damit
       fördern wir die Glokalisierung
     hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
-    bg_color: '#ed6d29'
+    hf-color: '#ed6d29'
+    lighter-bg-color: '#fef5f0'
   - title: Bildung
     vision: |
       Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
@@ -75,17 +81,18 @@ frontpage_handlungsfelder:
         Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
         eine nachhaltige Zukunft.
     hf-goals: "4,9,10,11,16"
-    bg_color: '#05afda'
+    hf-color: '#05afda'
+    lighter-bg-color: '#e0f8fe'
 
 
 country: # or place name
   name: Ingolstadt
   adjective: Ingolstadt
 
-# email_contacts:
-#   questions: nachhaltigkeit@ba-tk.berlin.de
-#   suggestions: nachhaltigkeit@ba-tk.berlin.de
-#   functional: nachhaltigkeit@ba-tk.berlin.de
+email_contacts:
+  questions: nachhaltigkeit@ba-tk.berlin.de
+  suggestions: nachhaltigkeit@ba-tk.berlin.de
+  functional: nachhaltigkeit@ba-tk.berlin.de
 
 frontpage_introduction_banner:
  title: frontpage.intro_title
@@ -103,6 +110,22 @@ environment: staging
 analytics:
   ga_prod: ''
 
+# breadcrumbs:
+#   post:
+#   - label: general.home
+#     path: /
+#   - label: menu.updates
+#     path: /news
+#   goal:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
+#   indicator:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
 
 collections:
   pages:
@@ -208,7 +231,6 @@ metadata_tabs:
   - scope: national
     title: Metadaten
     description: indicator.national_metadata_blurb
-
 
 plugins:
   - jekyll-remote-theme
