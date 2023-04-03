@@ -52,6 +52,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/1-5",
           "status": "complete"
+        },
+        {
+          "id": "1-6",
+          "title": "Empfänger/innen von sozialer Mindestsicherung insgesamt (ohne Asylbewerber und BaföG-Empfänger) in % der Gesamtbevölkerung",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/1-6",
+          "status": "complete"
         }]
     }
   },
@@ -315,22 +323,6 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/6-4",
-          "status": "complete"
-        },
-        {
-          "id": "6-5",
-          "title": "Verhältnis von Trennsystemen zu Mischwasserkanälen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-5",
-          "status": "complete"
-        },
-        {
-          "id": "6-6",
-          "title": "global_indicators.6-6-title",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/6-6",
           "status": "complete"
         }]
     }
