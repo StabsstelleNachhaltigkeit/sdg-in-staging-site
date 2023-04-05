@@ -16,3 +16,30 @@ items.forEach((el) => {
 		next = next.nextElementSibling
 	}
 })
+
+
+// cards carousel on frontpage
+// let width = screen.width;
+let cards = document.querySelectorAll('#carouselCard .carousel-item');
+let minSlide = 3;
+
+// if (width >= 1200) {
+// 	minSlide = 3;
+// } else if (width >= 768 && width < 1200 ) {
+// 	minSlide = 2;
+// } else {
+// 	minSlide = 1;
+// }
+
+cards.forEach((cc) => {
+	let next = cc.nextElementSibling
+	for (var i=1; i<minSlide; i++) {
+		if (!next) {
+			// wrap carousel by using first child
+			next = cards[0]
+		}
+		let cloneChild = next.cloneNode(true)
+		cc.appendChild(cloneChild.children[0])
+		next = next.nextElementSibling
+	}
+})
