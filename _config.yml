@@ -8,11 +8,9 @@ remote_data_prefix: "https://StabsstelleNachhaltigkeit.github.io/sdg-in-staging-
 data_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/data/indicator_[id].csv
 metadata_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/meta/[id].md
 
-languages:
-  - de
-
-frontpage_handlungsfelder:
-  # fields to change: title, vision, leitsatz, hf-goals
+# Text zu Handlungsfelder 
+# fields to change: title, vision, leitsatz, hf-goals
+frontpage_handlungsfelder:  
   - title: Wirtschaft
     vision: |
       Ingolstadt wirtschaftet in 2045 nachhaltig: Die Wirtschaft schützt den Planeten 
@@ -27,7 +25,6 @@ frontpage_handlungsfelder:
       für Synergien.
     hf-goals: "4,5,8,9,10,11,12,13"
     hf-color: '#007ebe'
-    lighter-bg-color: '#e5f6ff'
 
   - title: Umwelt
     vision: |
@@ -42,7 +39,7 @@ frontpage_handlungsfelder:
       in eine neue Beziehung.
     hf-goals: "2,6,7,9,11,12,13,14,15"
     hf-color: '#65b448'
-    lighter-bg-color: '#f1f9ef'
+
   - title: Leben
     vision: |
       Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
@@ -55,7 +52,7 @@ frontpage_handlungsfelder:
         in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
     hf-goals: "2,3,6,9,10,11,12,13,15,16"
     hf-color: '#f8b715'
-    lighter-bg-color: '#fef7e7'
+
   - title: Vielfalt
     vision: |
       Ingolstadt ist weltoffen und leistet ihren Beitrag zur globalen Verantwortung. 
@@ -69,7 +66,7 @@ frontpage_handlungsfelder:
       fördern wir die Glokalisierung
     hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
     hf-color: '#ed6d29'
-    lighter-bg-color: '#fef5f0'
+
   - title: Bildung
     vision: |
       Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
@@ -82,50 +79,18 @@ frontpage_handlungsfelder:
         eine nachhaltige Zukunft.
     hf-goals: "4,9,10,11,16"
     hf-color: '#05afda'
-    lighter-bg-color: '#e0f8fe'
 
-
-country: # or place name
-  name: Ingolstadt
-  adjective: Ingolstadt
 
 email_contacts:
   questions: nachhaltigkeit@ba-tk.berlin.de
   suggestions: nachhaltigkeit@ba-tk.berlin.de
   functional: nachhaltigkeit@ba-tk.berlin.de
 
-frontpage_introduction_banner:
- title: frontpage.intro_title
- description: frontpage.intro_body
 
-frontpage_goals_grid:
-  title: my-custom-translations.my-goals-grid-title
-  description: my-custom-translations.my-goals-grid-description
-
-title: general.site_title
-url: ""
-environment: staging
-
+# 
 # other settings are alphabetically ordered:
 analytics:
   ga_prod: ''
-
-# breadcrumbs:
-#   post:
-#   - label: general.home
-#     path: /
-#   - label: menu.updates
-#     path: /news
-#   goal:
-#   - label: general.home
-#     path: /
-#   - label: general.goals
-#     path: /goals
-#   indicator:
-#   - label: general.home
-#     path: /
-#   - label: general.goals
-#     path: /goals
 
 collections:
   pages:
@@ -139,6 +104,10 @@ collections:
   goals:
     output: true
 
+country: # or place name
+  name: Ingolstadt
+  adjective: Ingolstadt
+  
 create_indicators:
   layout: indicator
 create_goals:
@@ -172,50 +141,49 @@ exclude:
 
 footer_language_toggle: none
 footer_menu:
-  - path: https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip
+  - path: https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip
     translation_key: Download
   - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
-  #   - path: /about/cookies-and-privacy/
-  #     translation_key: Impressum
   - path: /guidance
     translation_key: menu.guidance
 
-# frontpage_cards:
-#   - include: components/card.html
+frontpage_introduction_banner:
+ title: my-custom-translations.frontpage-intro-title
+ description: my-custom-translations.frontpage-intro-description
+
+frontpage_goals_grid:
+  title: my-custom-translations.my-goals-grid-title
+  description: my-custom-translations.my-goals-grid-description
+
+frontpage_handlungsfelder_title:
+  hf-title: my-custom-translations.my-hf-title
+  hf-subtitle: my-custom-translations.my-hf-subtitle
+
+frontpage_cards:
+  - title: card1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+    href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" 
+    thumbnail_src: /SDG_logo_focus.png
+  - title: card2 - Lorem ipsum dolor sit amet, consetetur sadipscing
+    href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/IN_Magazin_dpa-CC_FINAL_DIGTAL.pdf"
+    thumbnail_src: /SDG_logo_focus.png
+  - title: card3 - Lorem ipsum dolor sit amet, consetetur
+    href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
+    thumbnail_src: /SDG_logo_focus.png
+  - title: card4 - Lorem ipsum dolor sit amet
+    href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
+    thumbnail_src: /SDG_logo_focus.png
+
+   
 
 goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 graph_color_set: accessible
 header_language_toggle: dropdown
 
-# map_options:
-#  minZoom: 5
-#  maxZoom: 20
-#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-#  tileOptions:
-#    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
-# map_layers:
-#  - min_zoom: 0
-#    max_zoom: 30
-#    subfolder: districts
-#    label: District
-#    # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
-#    colorRange: chroma.brewer.BuGn
-#    # Set the color for boundaries that have no data.
-#    noValueColor: #f0f0f0
-#    # https://leafletjs.com/reference-1.4.0.html#path-option
-#    styleNormal:
-#      weight: 1
-#      opacity: 1
-#      color: #888888
-#      fillOpacity: 0.7
-#    styleHighlighted:
-#      weight: 1
-#      opacity: 1
-#      color: #111111
-#      fillOpacity: 0.7
+languages:
+  - de
 
 menu:
   - path: /goals
@@ -226,6 +194,14 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
+  # - path:
+  #   translation_key: 
+
+menu_top:
+  - path: /leichte-sprache
+    translation_key: menu.plain_german
+  # - path:
+  #   translation_key: 
 
 metadata_tabs:
   - scope: national
@@ -237,3 +213,7 @@ plugins:
   - jekyll-open-sdg-plugins
 
 remote_theme: open-sdg/open-sdg@2.1.0
+
+title: general.site_title
+url: ""
+environment: staging

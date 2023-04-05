@@ -1,6 +1,8 @@
 <head>
     <script src="https://kit.fontawesome.com/7ee11bdcfb.js" crossorigin="anonymous"></script>
 </head>
+
+<html>
 {% include head.html %}
 <!-- custom header. Design specified in _sass/custom.scss -->
 {% include header.html %}
@@ -13,10 +15,8 @@
 <div id="main-content" class="container" role="main">
     {% if site.frontpage_introduction_banner %}
         <div class="site-intro">
-            <h1 style="font-weight: 700;">17 Ziele, um unsere Welt zu verändern</h1>
-            <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
-                Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
-                Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
+            <h1 style="font-weight: 700;">{{ site.frontpage_introduction_banner.title | t }}</h1>
+            <div class="lead-copy"><p> {{ site.frontpage_introduction_banner.description | t }}</p></div>
         </div>
     {% endif %}
 
@@ -42,8 +42,8 @@
 <div style="background-color:#efeeeb;">
     <div class="container" style="margin-top: 3rem; padding-top: 3rem; padding-bottom: 1rem;">
         <!-- <hr style="border: 1px solid black; margin-top: 5rem;"> -->
-        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">Handlungsfelder entdecken</h2>
-        <div class="frontpage-goals-grid-description"  style="font-size: 22px;">Die Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt</div>
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">{{ site.frontpage_handlungsfelder_title.hf-title| t }}</h2>
+        <div class="frontpage-goals-grid-description"  style="font-size: 22px;">{{ site.frontpage_handlungsfelder_title.hf-subtitle | t }}</div>
     </div>
     
     <!-- Handlungsfelder - expandable tabs -->
@@ -76,11 +76,6 @@
 {% if site.frontpage_handlungsfelder %}
 {% for thema in site.frontpage_handlungsfelder %}
 <div class ="wide-background tabcontent" id="frontpage-handlungsfelder-{{ thema.title }}"  style="background-color: {{ thema.hf-color }};">
-    <!-- {%- if forloop.first -%}
-    <h2 class="hf-title">Handlungsfelder entdecken</h2>
-    <div class="hf-description">Die Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt</div>
-    {%- endif -%} -->
-
     <!-- hier Handlungsfelder von _config.yml importieren -->
     {% include components/thema.html thema=thema %}
 </div>
@@ -89,10 +84,17 @@
 
 
 <!-- cards (imported from separate file) -->
-{% include components/card.html card=card %}
+{% if site.frontpage_cards %}
+<div class="container">
+    <div class="row g-0 frontpage-card">
+        {% include components/card.html card=card %}
+    </div>
+</div>
+{% endif %}
+
 <!-- footer incl. binder logos -->
 {% include footer.html %}
-
+</html>
 
 <!-- onclick expand tab for Handlungsfelder -->
 <script>

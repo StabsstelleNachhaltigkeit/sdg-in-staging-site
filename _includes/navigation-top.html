@@ -1,0 +1,18 @@
+{%- if site.menu_top -%}
+
+{%- for item in site.menu_top -%}
+    <li style="width:fit-content; list-style-type: none; padding-right: 5rem; padding-bottom: 20px;">
+        <a id="page-top-navbar-item" href="{{ page.baseurl }}{{ item.path }}">{{ item.translation_key | t }}
+        </a>
+    </li>
+
+       <!--  
+        {%- if include.dropdowns and item.dropdown and item.dropdown.size > 0 -%}
+        <li style="width:fit-content; list-style-type: none; padding-right: 5rem; padding-bottom: 20px;">
+            {%- assign dropdown_id = item.translation_key | slugify -%}
+            <a id="page-top-navbar-item" href="{% unless item_path contains 'http' %}{{ page.baseurl }}{% endunless %}{{ include.item.path }}"  target="{% if item_path contains 'http' %}_blank{% endif %}">{{ include.item.translation_key | t }}
+            </a>
+        </li>
+        {%- endif -%} -->
+    {%- endfor -%}
+{%- endif -%}
