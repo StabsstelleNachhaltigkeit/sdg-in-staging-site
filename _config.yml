@@ -82,9 +82,9 @@ frontpage_handlungsfelder:
 
 
 email_contacts:
-  questions: nachhaltigkeit@ba-tk.berlin.de
-  suggestions: nachhaltigkeit@ba-tk.berlin.de
-  functional: nachhaltigkeit@ba-tk.berlin.de
+  questions: nachhaltigkeit@ingolstadt.de
+  suggestions: nachhaltigkeit@ingolstadt.de
+  functional: nachhaltigkeit@ingolstadt.de
 
 
 # 
@@ -143,7 +143,7 @@ footer_language_toggle: none
 footer_menu:
   - path: https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
+  - path: mailto:nachhaltigkeit@ingolstadt.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
