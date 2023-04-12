@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230406080614">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20230412115313">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -401,6 +401,13 @@ layout-indicator
 
     
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>Die Pkw-Dichte in der Stadt Ingolstadt ist aktuell höher als in den anderen bayerischen Großstädten. Allerdings ist die Zahl der zugelassenen Pkw in Ingolstadt aufgrund der Zuordnung von Dienstwagen und Leasing-Fahrzeugen nach oben hin verzerrt. Ein Großteil hatten eine gewerbliche Zulassung. Das führt auch dazu, dass Ingolstadt formal eine höhere Pkw-Dichte aufweist als die Nachbarlandkreise. In der Regel ist die Pkw-Dichte im ländlichen Raum eher höher als in den Metropolen.</p>
+
+  </div>
+</div>
+
 
     
 
@@ -410,13 +417,13 @@ layout-indicator
   id="indicatorData"
   data-indicatorid='indicator_11-17'
   data-id="11-17"
-  data-country="Land Bayern"
+  data-country="Ingolstadt"
   data-charttitle="PKW-Dichte (Anzahl der PKW je 1.000 Einwohner:innen)"
   data-charttitles="null"
-  data-measurementunit="Prozent"
+  data-measurementunit="Anzahl der PKW je 1.000 EW"
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
@@ -526,10 +533,10 @@ layout-indicator
   <div id="datatableFooter">
     
     
-    <p>Geographische Abdeckung: Land Bayern</p>
+    <p>Geographische Abdeckung: Ingolstadt</p>
     
     
-    <p>Einheit: Prozent</p>
+    <p>Einheit: Anzahl der PKW je 1.000 EW</p>
     
     
   </div>
@@ -637,7 +644,7 @@ data-event-label="Change to Table tab"
 
         
         <dt>Geographische Abdeckung:</dt>
-        <dd>Land Bayern</dd>
+        <dd>Ingolstadt</dd>
         
 
         <dt class="data-controlled-footer-field unit-from-data">Einheit:</dt>
@@ -709,7 +716,7 @@ data-event-label="Change to Table tab"
 
         
         <dt>Geographische Abdeckung:</dt>
-        <dd>Land Bayern</dd>
+        <dd>Ingolstadt</dd>
         
 
         <dt class="data-controlled-footer-field unit-from-data">Einheit:</dt>
@@ -876,7 +883,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Prozent</p>
+            <p>Anzahl der PKW je 1.000 EW</p>
 
           
         </td>
@@ -892,7 +899,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Geographische Abdeckung </th>
         <td>
           
-            <p>Land Bayern</p>
+            <p>Ingolstadt</p>
 
           
         </td>
@@ -902,20 +909,13 @@ data-event-label="Change to Metadaten tab"
   
       
       
-      
-        
-          
-          
-          
-          
-        
       
       
       <tr>
         <th scope="row">Periodizität </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Jährlich</p>
 
           
         </td>
@@ -925,20 +925,13 @@ data-event-label="Change to Metadaten tab"
   
       
       
-      
-        
-          
-          
-          
-          
-        
       
       
       <tr>
         <th scope="row">Daten verfügbar seit </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>2019</p>
 
           
         </td>
@@ -949,19 +942,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Amt für Statistik und Stadtforschung</p>
 
           
         </td>
@@ -1337,12 +1323,12 @@ data-event-label="Change to Metadaten tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230406080614'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20230412115313'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230406080614"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20230412115313"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

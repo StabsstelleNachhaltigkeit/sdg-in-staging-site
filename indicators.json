@@ -459,7 +459,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/10-2",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "10-3",
@@ -483,7 +483,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/10-5",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "10-6",
@@ -523,7 +523,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-2",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "11-3",
@@ -531,7 +531,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-3",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "11-4",
@@ -539,7 +539,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-4",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "11-5",
@@ -563,7 +563,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/11-7",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "11-8",
@@ -707,7 +707,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/12-5",
-          "status": "complete"
+          "status": "notapplicable"
         },
         {
           "id": "12-6",
@@ -731,7 +731,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/13-1",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "13-2",
@@ -739,7 +739,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/13-2",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "13-3",
@@ -755,7 +755,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/13-4",
-          "status": "complete"
+          "status": "inprogress"
         }]
     }
   },
@@ -803,7 +803,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/15-2",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "15-3",
@@ -811,7 +811,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/15-3",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "15-4",
