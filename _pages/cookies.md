@@ -17,20 +17,14 @@ Oberbürgermeister Dr. Christian Scharpf
 ### Rechtsform: 											                       
 Behörde, Organ der juristischen Person des öffentlichen Rechts
 
-### Hausanschrift:
-Stadt Ingolstadt
-Direktorium - Stabsstelle Nachhaltigkeit
-Rathausplatz 2
-85049 Ingolstadt 
-
-### Postanschrift:
-Stadt Ingolstadt
-Direktorium - Stabsstelle Nachhaltigkeit
-Rathausplatz 2
-85049 Ingolstadt
+### Anschrift:
+Stadt Ingolstadt <br>
+Direktorium - Stabsstelle Nachhaltigkeit <br>
+Rathausplatz 2 <br>
+85049 Ingolstadt <br>
 
 ### Kontakt
-Telefon: +49 (841) 305 – 2004
+Telefon: +49 (841) 305 – 2004 <br>
 E-Mail: nachhaltigkeit@ingolstadt.de 
 
 ### Redaktion:
