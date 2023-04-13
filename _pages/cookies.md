@@ -8,7 +8,7 @@ permalink: /about/cookies-and-privacy/
 
 ## Herausgeber
 
-Herausgeber dieser Website ist die Stadt Ingolstadt. 
+Herausgeber dieser Webseite ist die Stadt Ingolstadt. 
 
 ### Vertretungsberechtigt
 
@@ -47,7 +47,7 @@ Neben den eigenen Inhalten bietet die Stadt Ingolstadt Querverweise („externe 
 ## Datenschutz
 Die Stadt Ingolstadt nimmt den Schutz Ihrer Privat- und Persönlichkeitssphäre ernst und beachtet die datenschutzrechtlichen Bestimmungen. Ihr coppyright allgemeinVertrauen ist uns wichtig!
 Mit diesen Hinweisen kommen wir unseren Informationspflichten nach Artikel 13 der Datenschutz-Grundverordnung (DS-GVO) bei der Erhebung personenbezogener Daten nach. Beim Zugriff auf die SDG-Online Plattform werden von der Stadt Ingolstadt keine personenbezogenen Daten erhoben.
-Sie nutzen allerdings die Dienste des Anbieters GitHub. Die Datenschutzerklärung von GitHub finden Sie unter https://help.github.com/en/articles/github-privacy-statement.
+Sie nutzen allerdings die Dienste des Anbieters GitHub. Die Datenschutzerklärung von GitHub finden Sie unter <a href="https://help.github.com/en/articles/github-privacy-statement"<https://help.github.com/en/articles/github-privacy-statement</a>.
 Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von unserem Dienstleister beachtet werden. In diesem Zusammenhang weisen wir daraufhin, dass die Daten von GitHub in den USA verarbeitet werden können.
 Als Website-Besucher werden technische Informationen, auch die IP-Adresse, erfasst: diese kann ggf. ein personenbezogenes Datum sein.
 Im Zuge der Weiterentwicklung unserer Website können auch Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Erklärung regelmäßig durchzulesen.
