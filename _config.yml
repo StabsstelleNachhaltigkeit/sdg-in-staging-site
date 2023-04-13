@@ -163,17 +163,17 @@ frontpage_handlungsfelder_title:
   hf-subtitle: my-custom-translations.my-hf-subtitle
 
 frontpage_cards:
-  - title: card1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  - title: Nachhaltigkeitsbericht - Stadt Ingolstadt 2021
     href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" 
     thumbnail_src: /SDG_logo_focus.png
-  - title: card2 - Lorem ipsum dolor sit amet, consetetur sadipscing
+  - title: Magazin - "Ingolstadt Nachhaltig" - Ausgabe 2022
     href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/IN_Magazin_dpa-CC_FINAL_DIGTAL.pdf"
     thumbnail_src: /SDG_logo_focus.png
-  - title: card3 - Lorem ipsum dolor sit amet, consetetur
+  - title: Nachhaltigkeitsfilm - Stadt Ingolstadt
     href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
     thumbnail_src: /SDG_logo_focus.png
-  - title: card4 - Lorem ipsum dolor sit amet
-    href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
+  - title: Video Rückblick - Visionen 2045 Ingolstadt
+    href: "https://www.youtube.com/watch?v=VDQF-RdU0nc"
     thumbnail_src: /SDG_logo_focus.png
 
    
