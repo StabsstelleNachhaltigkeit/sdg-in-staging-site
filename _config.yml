@@ -189,6 +189,8 @@ languages:
   - de
 
 menu:
+  - path: /
+    translation_key: Startseite
   - path: /goals
     translation_key: general.goals
   - path: /reporting-status
@@ -197,8 +199,6 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
-  - path: "https://nachhaltigkeitsagenda-ingolstadt.de/"
-    translation_key: Nachhaltigkeitsagenda
 
 menu_top:
   - path: /leichte-sprache

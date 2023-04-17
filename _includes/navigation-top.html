@@ -1,7 +1,7 @@
 {%- if site.menu_top -%}
 
 {%- for item in site.menu_top -%}
-    <li style="width:fit-content; list-style-type: none; padding-right: 5rem; padding-bottom: 20px;">
+    <li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
         <a id="page-top-navbar-item" href="{{ page.baseurl }}{{ item.path }}">{{ item.translation_key | t }}
         </a>
     </li>

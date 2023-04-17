@@ -96,8 +96,15 @@ h1.header {
   position: relative;
   padding-top: 15px;
   padding-bottom: 5px;
-  max-width: 8rem;
+  max-width: 10rem;
   text-decoration: none;
+}
+
+.page-top-navbar {
+  padding-right: 5rem;
+  @media screen and (max-width: 992px) {
+    padding-right: 1rem;
+  }
 }
 
 #page-top-navbar-item {
@@ -646,6 +653,12 @@ h1.header {
     margin-bottom: 10px;
     margin-top: -5px;
   }
+}
+
+// show reporting status label
+.layout-goal .status {
+  float: left;
+  margin-top: var(--bs-gutter-y);
 }
 
 
