@@ -194,8 +194,8 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
-  # - path:
-  #   translation_key: 
+  - path: "www.nachhaltigkeitsagenda-ingolstadt.de"
+    translation_key: Nachhaltigkeitsagenda
 
 menu_top:
   - path: /leichte-sprache
