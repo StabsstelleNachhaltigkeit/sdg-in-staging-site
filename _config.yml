@@ -71,8 +71,8 @@ frontpage_handlungsfelder:
     vision: |
       Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
       Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
-      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teil-
-      habe sind fester Bestandteil von Bildungsangeboten.
+      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teilhabe sind 
+      fester Bestandteil von Bildungsangeboten.
     leitsatz: |
         Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
         Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
@@ -82,9 +82,9 @@ frontpage_handlungsfelder:
 
 
 email_contacts:
-  questions: nachhaltigkeit@ba-tk.berlin.de
-  suggestions: nachhaltigkeit@ba-tk.berlin.de
-  functional: nachhaltigkeit@ba-tk.berlin.de
+  questions: nachhaltigkeit@ingolstadt.de
+  suggestions: nachhaltigkeit@ingolstadt.de
+  functional: nachhaltigkeit@ingolstadt.de
 
 
 # 
@@ -145,7 +145,7 @@ footer_language_toggle: none
 footer_menu:
   - path: https://StadtIngolstadt.github.io/sdg-data/de/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
+  - path: mailto:nachhaltigkeit@ingolstadt.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -167,18 +167,18 @@ frontpage_handlungsfelder_title:
 
 
 frontpage_cards:
-  - title: card1 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr
+  - title: Nachhaltigkeitsbericht - Stadt Ingolstadt 2021
     href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" 
-    thumbnail_src: /SDG_logo_focus.png
-  - title: card2 - Lorem ipsum dolor sit amet, consetetur sadipscing
+    thumbnail_src: /BNK_Titelbild.jpg
+  - title: Magazin - "Ingolstadt Nachhaltig" - Ausgabe 2022
     href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/IN_Magazin_dpa-CC_FINAL_DIGTAL.pdf"
-    thumbnail_src: /SDG_logo_focus.png
-  - title: card3 - Lorem ipsum dolor sit amet, consetetur
+    thumbnail_src: /IN_Magazin_Titelbild.jpg
+  - title: Nachhaltigkeitsfilm - Stadt Ingolstadt
     href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
-    thumbnail_src: /SDG_logo_focus.png
-  - title: card4 - Lorem ipsum dolor sit amet
-    href: "https://www.youtube.com/watch?v=LnqFFrIGQQQ"
-    thumbnail_src: /SDG_logo_focus.png
+    thumbnail_src: /Logo_Nachhaltigkeitsagenda_96dpi.jpg
+  - title: Video Rückblick - Visionen 2045 Ingolstadt
+    href: "https://www.youtube.com/watch?v=VDQF-RdU0nc"
+    thumbnail_src: /Logo_Nachhaltigkeitsagenda_96dpi.jpg
 
 
 goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
@@ -197,8 +197,8 @@ menu:
     translation_key: menu.about
   - path: /faq
     translation_key: menu.faq
-  # - path:
-  #   translation_key: 
+  - path: "https://nachhaltigkeitsagenda-ingolstadt.de/"
+    translation_key: Nachhaltigkeitsagenda
 
 menu_top:
   - path: /leichte-sprache
