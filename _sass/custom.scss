@@ -142,6 +142,10 @@ h1.header {
   border-bottom: 3px solid #000000;
 }
 
+.navbar-nav {
+  flex: 0 0 auto;
+}
+
 .navbar {
   // hamburger icon
   .navbar-toggler .navbar-toggler-icon {
@@ -223,12 +227,14 @@ h1.header {
   // show input field on click
   #search-field-input {
       position: fixed;
-      top: 70px;
+      top: 85px;
       right: 0px;
       display: none;
+      background-color: white;
 
     #search-md {
-      width: 28rem;
+      width: 25rem;
+      margin-left: 10rem;
     }
     input {
       border: 1.25px solid white;
@@ -271,6 +277,7 @@ h1.header {
     #search-field-input {
       #search-md {
         width: 18rem;
+        margin-left: 0rem;
       }
     }
   }
