@@ -1,8 +1,8 @@
 {% include head.html %}
 {% include header.html %}
 
-<div class="container">
-    {% include components/goal/breadcrumbs.html %}
+<div class="header-container">
+    {% include components/indicator/breadcrumbs.html %}
  </div>
  
 <!-- add upper navigation bar -->
@@ -15,7 +15,7 @@
 {% include multilingual-js.html key="data" %}
 
 <div class="container">
-    <div class="row g-0">
+    <div class="row">
         {% unless page.indicator.standalone %}
         <div class="col-8 col-md-9 col-lg-10 indicator-details">
         {% else %}

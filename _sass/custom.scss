@@ -44,7 +44,7 @@ h4 {
       }
     }
   }
-  padding-bottom: 8rem;
+  // padding-bottom: 8rem;
 }
 
 .row {
@@ -57,18 +57,29 @@ h4 {
 //   box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
 // }
 
-/* header color bar beneath */
+/* header color bar on top */
 #color-bar-background {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
-  top: -15px;
-  height: 15px;
+  top: 0px;
+  height: 13px;
 }
+
 /* replace original body setting */
 body{
-  background: white;
-  padding-top: -15px;
-
   font-size: 14pt;
+  background: white;
+  padding-top: 0px;
+}
+
+header {
+  position: sticky;
+  top:0;
+  background-color: white;
+  z-index: 100;
+}
+.header-container  {
+  padding-right: 32px;
+  padding-left: 30px;
 }
 
 /* page title */
@@ -83,53 +94,96 @@ h1.header {
 #home{
   display: inline-block;
   position: relative;
-  max-width: 15%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  max-width: 10rem;
   text-decoration: none;
 }
 
-/*  ab hier von open-sdg*/
-.navbar-brand {
-  width: calc(100% - 75px);
-  max-width: 80px;
-  margin-bottom: 0px;
-  margin-right: 0px;
-  padding:0;
-  img {
-    max-width: 100%;
-    text-decoration: none;
+.page-top-navbar {
+  padding-right: 5rem;
+  @media screen and (max-width: 992px) {
+    padding-right: 1rem;
   }
-  &:focus {
-    background-color: transparent !important;
-    outline: 7px solid $focusOutlineColor !important;
-  }
-}
-.navbar.navbar-nav.nav-item.nav-link {
-  font-size: 15px;
-}
-.navbar .navbar-nav > .nav-item > .nav-link:hover {
-  border-bottom: 2px solid $text-color;
 }
 
+#page-top-navbar-item {
+    color:#000000; 
+    font-size:13px; 
+    font-weight:600; 
+    text-transform:uppercase; 
+    text-decoration: none;
+    padding-bottom: 0.2rem;
+  }
+#page-top-navbar-item:hover {
+  border-bottom: 3px solid #000000;
+}
+#page-top-navbar-item:visited {
+  text-decoration: none;
+  border-bottom: 3px solid #000000;
+}
+
+.navbar {
+  justify-content: flex-end; // space out brand from logo
+}
+.navbar .navbar-nav > .nav-item {
+  padding-left: 0px;
+  padding-right: 22px; 
+}
+// set color of navigation links (upper right)
+.navbar .navbar-nav > .nav-item > .nav-link {
+  padding-top: 10px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav > .nav-item > .nav-link:hover {
+  border-bottom: 3px solid #000000;
+}
+
+.navbar {
+  // hamburger icon
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,140,0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 0.8rem;
+  }
+  .navbar-toggler {
+    border-color: rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    margin-top: 0px;
+  } 
+  .navbar-toggler:focus {
+    border-color: rgb(255,255,255);
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  }
+}
 
 
 /* search field*/
-#search, #search-bar-on-page {  
+// search bar on search-result page
+#search-bar-on-page {  
   .input-group {
     flex-wrap: nowrap; }
   input {
+    height: auto;
     border: 1.25px solid #ced4da; 
   }
   input:focus {
     background-color: white !important;
     border-color: #444444;
     outline: 0px solid transparent !important; 
+    
   }
   button {
-    background-color: transparent !important;
-    color: #444444 !important;
-    border-color: #ced4da !important;
+    right: 0px;
+    height: auto;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+    font-size: initial;
+    color: #444444 !important;
+    background-color: transparent !important;
+    border-color: #ced4da !important;
   }
   button:focus {
     color: white !important;
@@ -143,36 +197,11 @@ h1.header {
   }
 }
 
-// search bar on frontpage (screen larger than 992px)
-#search { 
-  width: 20rem; 
-  @media screen and (max-width: 992px) {
-    // show navigation dropdown when screen is small
-    display: none;
-  }
-}
-// search bar on search-result page (does not change)
-#search-bar-on-page {
-  button {
-    right: 0px;
-    height: auto;
-    font-size: initial;
-    // padding-top: 0.7rem;
-    // padding-bottom: 0.7rem;
-  }
-  input { height: auto; }
-}
-
 // frontpage search bar
-// when screen smaller than 992px --> switch to navbar-search-md
 #navbar-search-md {
-  @media screen and (min-width: 992px) {
-    // show navigation dropdown when screen is small
-    display: none;
-  }
   // search icon
   #search-btn-collapse {
-    color: #248096;
+    color: #000000;
     background-color: transparent;
     box-shadow: none;
     outline-color: transparent;
@@ -181,7 +210,7 @@ h1.header {
     }
   }
   #search-btn-collapse:is(:hover, :focus) {
-    color: #226c7e;
+    color: #ff8c00;
   }
   // hide header search button after click --> replace by "real" search field
   .hide-btn[aria-expanded="true"] {
@@ -193,8 +222,13 @@ h1.header {
   
   // show input field on click
   #search-field-input {
+      position: fixed;
+      top: 70px;
+      right: 0px;
+      display: none;
+
     #search-md {
-      width: 18rem;
+      width: 28rem;
     }
     input {
       border: 1.25px solid white;
@@ -207,12 +241,36 @@ h1.header {
         color: #444444;
       }
     }
-    #search-field-close:focus,
-    #search-btn-collapse:focus {
-      box-shadow: 0px 0px 0px 0px transparent !important;
-      background-color: transparent !important;
-      .fa.fa-close {
-        color: black;
+  }
+  #search-field-close:focus,
+  #search-btn-collapse:focus, 
+  .btn:focus {
+    box-shadow: 0px 0px 0px 0px transparent !important;
+    background-color: transparent !important;
+    .fa.fa-close {
+      color: black;
+    }
+  }
+}
+
+// small screen --> hamburger icon and dropdown menu
+@media screen and (max-width: 992px) {
+  // dropdown menu under color bar
+  .header-navigation-dropdown {
+    .nav-item {
+      background-color: white;
+    } 
+    .navbar-nav .nav-link {
+      color: #ff8c00;
+      padding-left: 1rem;
+    }
+  }
+
+  // shorten length of input area
+  #navbar-search-md {
+    #search-field-input {
+      #search-md {
+        width: 18rem;
       }
     }
   }
@@ -235,6 +293,9 @@ h1.header {
 // }
 .main-image {
   padding-bottom: 5rem;
+  img {
+    max-width: 100%;
+  }
 }
 .site-intro {
   background: none!important;
@@ -243,9 +304,56 @@ h1.header {
 }
 
 /*1-2. Handlungsfelder*/
-.wide-background {
-  padding: 50px 0 120px 0;
+
+// initialize without hf contents 
+#frontpage-handlungsfelder-Umwelt,
+#frontpage-handlungsfelder-Leben,
+#frontpage-handlungsfelder-Vielfalt,
+#frontpage-handlungsfelder-Bildung {
+  display: none;
 }
+
+// change tab color with colors of hf
+@for $i from 1 through length($ingolstadt-hf-tab-colors) {
+  $hf-bg-color: nth($ingolstadt-hf-tab-colors, $i);
+
+  /* goal-navigation-top */
+  #tabbtn-#{$i} {
+    width: 18%;
+    padding: 0.75rem 0rem;
+    margin-right: 1px;
+    font-size: calc(5px + 0.75vw);
+    font-weight:600; 
+    text-transform:uppercase; 
+    letter-spacing: 1px;
+    color: $hf-bg-color;
+    
+    border-radius: 10px 10px 0 0 ;
+    background-color: #fcfcfc;
+    border: none;
+    box-shadow: 5px 5px 5px 0px rgba(5,5,5,0.2);
+  }
+
+  #tabbtn-#{$i}:hover {
+    color: white !important;
+    background-color: $hf-bg-color !important;
+    box-shadow: 5px 5px 5px 0px rgba(5,5,5,0.2) !important;
+  }
+  #tabbtn-#{$i}:focus,
+  #tabbtn-#{$i}.active {
+    color: white !important;
+    background-color: $hf-bg-color !important;
+    box-shadow: 5px 5px 5px 0px rgba(5,5,5,0.05) !important;
+  }
+}
+
+.tabs-text {
+  display: block;
+  @media screen and (max-width: 576px) { 
+    display: none;
+  }
+}
+
 
 .hf-title{
   margin-top: 10vh;
@@ -261,37 +369,37 @@ h1.header {
   padding-bottom:1em;
 }
 .hf-subtitle{
-  margin-top: 5vh;
+  margin-top: 10vh;
   margin-bottom: 3vh;
   color: white;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 .hf-thema-title {
   margin-bottom: 0.1em;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
 }
 .hf-thema-text {
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .flex-grid {
-  width: 115%;
+  width: 100%;
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
   flex-direction: row;
 }
 .flex-grid > * {
-  flex-basis: 27%; 
+  flex-basis: 8%; 
   width: 33.33%; 
 }
 .hf-goal-tiles {
-  margin-top: 3vw;
+  margin-bottom: 8vw;
   .row {
       & > div {
       padding-bottom: 1rem;
@@ -308,38 +416,102 @@ h1.header {
 }
 
 
+
 /*#1. carousel-cards on landing page*/
-/*#1-3. cards on landing page*/
-.col-md-4 {
-  // width: 33%;
-  height: max-content;
+// cards backgorund color
+.row.frontpage-card {
+  margin-top: 2rem;
 }
-.card1, .card2, .card3{
-  // width: 33%;
-  height:28rem;
-  // margin-top: 10px!important;
-  // margin-left: 0px!important;
+#main-content {
+  .frontpage-card:before {
+    content:"";
+    background-color:#efeeeb;
+    position: absolute;
+    height: 110%;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+  }
+}
+// gap between cards
+.card-gap {
+  gap: 1rem;
+}
+.card {
+  height: fit-content;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  background-color: white;
+  background-color: #ff8c00;
+
+  .cont {
+    display: table-cell;
+    vertical-align: middle;
+    height: 8rem;
+    padding: 0rem 1.5rem;
+    color: white;
+
+    > .cont-span {
+      vertical-align: middle;
+    }
+  }
+  .card-img-top{
+    width: 100%;
+    height: max-content;
+    background-color: white;
+  } 
 }
-.card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+.card:hover {
+  background-color: #4b7d9d;
 }
-.card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+.carousel-card-prev,
+.carousel-card-next {
+  position: relative;
+  top: -50%;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  text-decoration: none !important;
 }
-.card3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
+// small screen: xs /show 1 card
+@media (max-width: 768px) {
+  #carouselCard {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+  }
 }
-.cont{
-  margin-top: 1.5rem;
-  padding: 0px 16px 2px 20px ;
-  color: black;
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
 }
-.card-img-top{
-  width:100%;
-  height:65%;
+
+// small screen: md > lg /show 2 cards
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselCard {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    // shift starting position by 1/2
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(51%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-51%); }
+  }
+}
+// large screen /show 3 cards
+@media (min-width: 992px) {
+  // shift starting position by 1/3
+  #carouselCard {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(33.8%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-33.8%); }
+  }
+}
+@media (min-width: 768px) {
+  #carouselCard {
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start {  transform: translateX(0); }
+  }
 }
 
 
@@ -481,6 +653,12 @@ h1.header {
     margin-bottom: 10px;
     margin-top: -5px;
   }
+}
+
+// show reporting status label
+.layout-goal .status {
+  float: left;
+  margin-top: var(--bs-gutter-y);
 }
 
 

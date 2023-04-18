@@ -1,7 +1,7 @@
 {% include head.html %}
 {% include header.html %}
 
-<div class="container">
+<div class="header-container">
   {% include components/goal/breadcrumbs.html %}
 </div>
 
@@ -65,12 +65,21 @@
             </a>
           </div>
           <div class="col goal-page-indicator-name">
-            {% if indicator.placeholder and indicator.placeholder != '' %}
+          {% if indicator.placeholder and indicator.placeholder != '' %}
             <span class="indicator-name">{{ indicator.placeholder }}</span>
-            {% else %}
+          {% else %}
             <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
           </div>
+          <div class="col-1 goal-page-indicator-progress">
+            {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
+          </div>
+            {% if indicator_has_progress %}
+            <div class="col-1 goal-page-indicator-progress">
+              <span class="visually-hidden">{{ site.progress_status.status_heading | t }}</span>
+              {% include components/progress/progress-status.html indicator=indicator %}
+            </div>
             {% endif %}
+          {% endif %}
         </div>
       {% endfor %}
     {% endfor %}

@@ -1,21 +1,26 @@
-<div class="row">
-    <div class="col-md-7">
-        {% if include.thema.title and include.thema.title != '' %}
-        <h3 class="hf-subtitle">{{ include.thema.title }}</h3>
-        {% endif %}
-        {% if include.thema.vision and include.thema.vision != '' %}
-        <div class="hf-thema-title">Vision</div>
-        <div class="hf-thema-text">{{ include.thema.vision }}</div>
-        {% endif %}
-        {% if include.thema.leitsatz and include.thema.leitsatz != '' %}
-        <div class="hf-thema-title">Leitsatz</div>
-        <div class="hf-thema-text">{{ include.thema.leitsatz }}</div>
-        {% endif %}
+<div class="tab container">
+    <div class="row justify-content-start">
+        <div class="col" style="margin-bottom: 3vm;">
+            {% if include.thema.title and include.thema.title != '' %}
+            <h3 class="hf-subtitle">{{ include.thema.title }}</h3>
+            {% endif %}
+            {% if include.thema.vision and include.thema.vision != '' %}
+            <div class="hf-thema-title">Vision</div>
+            <div class="hf-thema-text">{{ include.thema.vision }}</div>
+            {% endif %}
+            {% if include.thema.leitsatz and include.thema.leitsatz != '' %}
+            <div class="hf-thema-title">Leitsatz</div>
+            <div class="hf-thema-text">{{ include.thema.leitsatz }}</div>
+            {% endif %}
+        </div>
     </div>
-    <div class="col-md-1"></div>
+    
+    <hr style="border: 1px solid white;">
+
     {% if include.thema.hf-goals %}
-    <div class="col-md-4">
-        <div class="hf-goal-tiles">
+    <div class="row justify-content-start">
+        <div class="col hf-goal-tiles">
+            <div class="hf-subtitle" style="font-size: 1.5rem; margin-top: 4vh;">SDGs zu dem Handlungsfeld</div>
             <div class="flex-grid">
                 {% capture hf-goals %}{{ include.thema.hf-goals }}{% endcapture %}
                 {% assign hf-goals = hf-goals | split: "," %}
@@ -31,4 +36,4 @@
         </div>
     </div>
     {% endif %}
-</div>
+</div> 

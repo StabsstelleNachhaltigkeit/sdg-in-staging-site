@@ -7,22 +7,25 @@ layout: page
 
 ---
 
-Der Berliner Bezirk Treptow-Köpenick beschäftigt sich schon lange mit nachhaltiger Entwicklung auf kommunaler Ebene. Bereits 2004 wurde die „Lokale Agenda 21 Treptow-Köpenick“ verabschiedet, welche ein Leitbild und eine Vorgehensweise zur Umsetzung einer zukunftsfähigen Entwicklung im Bezirk Treptow-Köpenick umfasste. <br>
-
-Von 2018 bis 2020 wurde dieses Leitbild überarbeitet und dabei an der Agenda 2030 der Vereinten Nationen mit ihren 17 globalen Nachhaltigkeitszielen (SDGs) ausgerichtet. All das fand in einem praxisorientierten und partizipativen Prozess mit verschiedenen Akteuren des Bezirks statt, welche sich in insgesamt 8 Workshops vernetzen und konkrete Maßnahmen entwickeln konnten. Der erste Workshop wurde bereits im September 2018 durchgeführt, während der letzte Workshop aufgrund der Covid-19 Pandemie leider bis in den September 2020 verschoben werden musste. Jeder Workshop folgte einem ähnlichen Schema: Nach einem Vortrag von Themenpaten\*innen und Themenpaten, wurden von allen Teilnehmenden zunächst allgemeine Ideen zur Erreichung des jeweiligen SDG gesammelt. Diese Ideensammlung wurde dann in Kleingruppen aufgegriffen und in konkrete Maßnahmen überführt. <br>
-
-Das Ergebnis ist die Kommunale Nachhaltigkeitsstrategie, welche 2021 verabschiedet wurde und neben den konkreten Maßnahmen auch ein Indikatoren-basiertes Monitoring umfasst. Dieses Monitoring ist hier, in einem webbasierten Format, veröffentlicht. <br>
-
-Das Monitoringsystem besteht dabei aus zwei Bereichen: Die "Maßnahmen-Indikatoren" sollen die Ergebnisse und Wirkungen der beschlossenen Maßnahmen sichtbar machen, während die "SDG-Indikatoren" umfassendere Daten für die Erreichung der Agenda 2030 Ziele auf Bezirksebene abbilden. 
-Die Maßnahmen-Indikatoren wurden dabei direkt aus den beschlossenen Maßnahmen abgeleitet. Hier finden sich auch viele Daten, die von verschiedenen Akteuren des Bezirks zur Verfügung gestellt wurden. Ohne diese Datenkooperationen wären die beschlossenen Maßnahmen kaum abzubilden. 
-Bei der Auswahl der allgemeineren, gesamtbezirklichen SDG-Indikatoren wurde sich hingegen vor allem an gängigen (in der Literatur verbreiteten) Nachhaltigkeitsindikatoren orientiert, welche dann in einen Kontext zur Nachhaltigkeitsstrategie Treptow-Köpenicks gesetzt wurden. Hier finden auch viele amtliche Daten Verwendung. <br>
-
-Die Website selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit Studentinnen der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) weiter entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br>
-
-An der wissenschafltlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der HTW Berlin beteiligt. <br>
-
-Verantwortlicher des Bezirksamts Treptow-Köpenick ist der Koordinator für kommunale Entwicklungspolitik Dennis Lumme. <br>
-
-Harald Oehlerking war für das Design der Nachhaltigkeitsstrategie zuständig. <br>
-
-Das gesamte Vorhaben wurde von der  Servicestelle Kommunen in der Einen Welt (SKEW) im Rahmen der Projekte INDIKON und DATAKON gefördert.
+Am 27. Februar 2019 beschloss der Ingolstädter Stadtrat die Entwicklung einer Nachhaltigkeitsagenda. Als Grundlage für die jetzige Strategie diente eine im Herbst 2019 durchgeführte Bestandsaufnahme, die sich an den 17 Zielen für eine nachhaltige Entwicklung der Vereinten Nationen (SDGs) orientierte. Im Rahmen von Workshops mit Mitarbeitenden aus der Stadtverwaltung, Beteiligungsunternehmen und Mitgliedern des Stadtrates ist 2020 ein erstes Zielmodell mit Indikatoren für Ingolstadt entstanden. Darauf aufbauend sind in einem nächsten Schritt fünf Handlungsfelder und 15 Schwerpunktthemen für Ingolstadt entstanden. Diese bildeten den Rahmen für den Dialogprozess mit dem Titel „Wie wollen wir leben?“. Mit den externen Anspruchsgruppen der Stadt sowie den Bürger/-innen wurden zwischen Sommer 2021 und Sommer 2022 Visionen für 2045 erarbeitet, welche sich auf die fünf Handlungsfelder der Nachhaltigkeitsagenda Ingolstadt aufteilen:<br> 
+<br>
+<ul>
+  <li>Wirtschaft und Innovation</li>
+  <li>Klima, Umwelt und Energie</li>
+  <li>Nachhaltiges Leben im Alltag</li>
+  <li>Bildung und Kultur</li>
+  <li>Vielfalt und Engagement</li>
+</ul>
+<br>
+Die gemeinsame Erarbeitung von Meilensteinen für Teilziele und Maßnahmenwünsche zur Zielerreichung ergänzten den offenen Dialog mit der Bevölkerung. Die entstandenen Maßnahmenwünsche werden derzeit geprüft, ob diese umsetzbar sind oder sogar bereits durch die Verwaltung bearbeitet werden. Ein Maßnahmen-Monitoring soll in Zukunft einen Überblick verschaffen, welche Maßnahmen bereits existieren oder geplant sind und auf die Zielerreichung der Nachhaltigkeitsagenda Ingolstadt einzahlen.<br> 
+<br>
+<h3>Messung der Zielerreichung</h3>
+ Die Nachhaltigkeitsstrategie der Stadt Ingolstadt, umfasst neben den aktuell 80 Zielen und der Umsetzung von Maßnahmen auch ein Indikatoren-basiertes Monitoring.   Festgelegt wurden 98 Indikatoren, welche einen Überblick über den aktuellen Stand der Zielerreichung geben sollen. Dieses Monitoring finden Sie hier in einem  webbasierten Format. Die Indikatoren werden im weiteren Prozess stetig angepasst und wurden im Rahmen des Förderprojektes “Dashboard und Monitoring für Kommunale Nachhaltigkeitsstrategien (DashKon) online veröffentlicht. Bei der Auswahl der SDG-Indikatoren wurde sich vor allem an gängigen (in der Literatur verbreiteten) Nachhaltigkeitsindikatoren sowie an den Indikatoren des Berichtsrahmens Nachhaltige Kommune (BNK) des Rats für Nachhaltige Entwicklung orientiert und durch die Verwaltung in einen Kontext zur Nachhaltigkeitsstrategie Ingolstadts gesetzt. Neben öffentlich zugänglichen Quellen finden dabei auch zahlreiche amtliche Daten Verwendung.<br>
+<br>
+<h3>Webseite Open-SDG</h3>
+ Die Webseite selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit Studentinnen der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. An der wissenschaftlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der Hochschule für Technik und Wirtschaft Berlin beteiligt.<br>
+<br>
+<h3>SDG-DashKon</h3>
+ Das gesamte Vorhaben wurde von der Servicestelle Kommunen in der Einen Welt (SKEW) gefördert. Das Projekt SDG-DashKon baut auf den Erfahrungen der Projekte „SDG-Dashboard“, INDIKON und DATAKON der letzten Jahre auf. Das SDG-DashKon ist ein Gemeinschaftsprojekt der SKEW in Kooperation mit der HTW Berlin und der Forschungsstätte der Evangelischen Studiengemeinschaft e.V. FEST.<br>
+<br>
+Weitere Informationen zum Projekt SDG-DashKon unter <a href="https://skew.engagement-global.de/sdg-dashkon.html">SKEW</a> 
