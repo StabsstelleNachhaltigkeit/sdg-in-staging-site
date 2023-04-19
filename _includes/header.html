@@ -17,8 +17,8 @@
             <div class="col align-self-center">
 
                 <!-- header page-top navbar -->
-                <div class="row justify-content-end">
-                    {% include navigation-top.html dropdowns=true %}
+                <div class="row justify-content-end header-navigation-top">
+                    {% include navigation-top.html dropdowns=false %}
                 </div>
 
                 <div class="navbar navbar-expand-lg navbar-dark align-items-center" id="narbar-container">
@@ -26,7 +26,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
     
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-end">
                         {% include navigation.html dropdowns=true %}
                     </div>
                     <span class="d-flex justify-content-end">
@@ -38,6 +38,14 @@
         
     </div>
 </header>
+
+<div class="header-navigation-dropdown">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        {% include navigation.html dropdowns=true %}
+        {% include navigation-top.html dropdowns=true %}
+    </div>
+</div>
+
 
 <!--
 {% include components/page-top.html %}

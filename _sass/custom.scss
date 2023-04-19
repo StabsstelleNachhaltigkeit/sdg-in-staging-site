@@ -103,7 +103,7 @@ h1.header {
 .page-top-navbar {
   padding-right: 5rem;
   @media screen and (max-width: 992px) {
-    padding-right: 1rem;
+    display: none;
   }
 }
 
@@ -123,6 +123,7 @@ h1.header {
   border-bottom: 3px solid #000000;
 }
 
+
 .navbar {
   justify-content: flex-end; // space out brand from logo
 }
@@ -140,6 +141,10 @@ h1.header {
 }
 .navbar .navbar-nav > .nav-item > .nav-link:hover {
   border-bottom: 3px solid #000000;
+}
+
+.navbar-nav {
+  flex: 0 0 auto;
 }
 
 .navbar {
@@ -223,12 +228,15 @@ h1.header {
   // show input field on click
   #search-field-input {
       position: fixed;
-      top: 70px;
-      right: 0px;
+      top: 83px;
+      right: 5px;
+      padding-bottom: 5px;
       display: none;
+      background-color: white;
 
     #search-md {
-      width: 28rem;
+      width: 25rem;
+      margin-left: 10rem;
     }
     input {
       border: 1.25px solid white;
@@ -253,35 +261,50 @@ h1.header {
   }
 }
 
+
 // small screen --> hamburger icon and dropdown menu
+@media screen and (min-width: 992px) {
+  // show navigation dropdown when screen is small
+  .header-navigation-dropdown {
+    display: none;
+  }
+}
 @media screen and (max-width: 992px) {
   // dropdown menu under color bar
   .header-navigation-dropdown {
     .nav-item {
       background-color: white;
     } 
+    .nav-item:hover {
+      background-color: #f7f7f7;
+    }
     .navbar-nav .nav-link {
       color: #ff8c00;
       padding-left: 1rem;
     }
   }
-
+  // border on top of dropdown list
+  #navbarSupportedContent {
+    border-top: 3px solid #e09900;
+  }
   // shorten length of input area
   #navbar-search-md {
     #search-field-input {
+      top: 60px;
+
       #search-md {
         width: 18rem;
+        margin-left: 0rem;
       }
     }
   }
 }
 
-
 .header-toggles {
   margin-left: auto;
 }
 #menu {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 

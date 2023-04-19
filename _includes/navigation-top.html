@@ -1,18 +1,22 @@
 {%- if site.menu_top -%}
 
-{%- for item in site.menu_top -%}
-    <li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
-        <a id="page-top-navbar-item" href="{{ page.baseurl }}{{ item.path }}">{{ item.translation_key | t }}
-        </a>
-    </li>
+{%- if include.dropdowns -%}
+<ul class="navbar-nav" id="menu">
 
-       <!--  
-        {%- if include.dropdowns and item.dropdown and item.dropdown.size > 0 -%}
-        <li style="width:fit-content; list-style-type: none; padding-right: 5rem; padding-bottom: 20px;">
-            {%- assign dropdown_id = item.translation_key | slugify -%}
-            <a id="page-top-navbar-item" href="{% unless item_path contains 'http' %}{{ page.baseurl }}{% endunless %}{{ include.item.path }}"  target="{% if item_path contains 'http' %}_blank{% endif %}">{{ include.item.translation_key | t }}
-            </a>
-        </li>
-        {%- endif -%} -->
-    {%- endfor -%}
+{%- for item in site.menu_top -%}    
+    <li class="{% unless include.in_dropdown %}nav-item{% endunless %} {% if current_path_no_slash == item_path_no_slash %}active{% endif %}">
+        <a class="container {% if include.in_dropdown %}dropdown-item{% else %}nav-link{% endif %}" href="{% unless item_path contains 'http' %}{{ page.baseurl }}{% endunless %}{{ item.path }}"  target="{% if item.path contains 'http' %}_blank{% endif %}">{{ item.translation_key | t }}</a>
+    </li>
+</ul>
+{%- endfor -%}
+
+{%- else -%}
+{%- for item in site.menu_top -%}   
+<li class="page-top-navbar" style="width:fit-content; list-style-type: none; padding-bottom: 20px;">
+    <a id="page-top-navbar-item" href="{% unless item_path contains 'http' %}{{ page.baseurl }}{% endunless %}{{ item.path }}"  target="{% if item.path contains 'http' %}_blank{% endif %}">{{ item.translation_key | t }}
+    </a>
+</li>
+{%- endfor -%}
+{%- endif -%}
+
 {%- endif -%}
