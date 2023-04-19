@@ -43,7 +43,11 @@
   {% else %}
   <!-- add statistic data as image -->
   <div class="row g-0 justify-content-center">
+    {% if exists {{ site.baseurl }}/assets/img/indicator_img/{{ page.indicator.slug }}.png %}
     <img class="col-md-7" src="{{ site.baseurl }}/assets/img/indicator_img/{{ page.indicator.slug }}.png" alt="indicator-as-image">
+    {% elsif exists {{ site.baseurl }}/assets/img/indicator_img/{{ page.indicator.slug }}.jpg %}
+    <img class="col-md-7" src="{{ site.baseurl }}/assets/img/indicator_img/{{ page.indicator.slug }}.jpg" alt="indicator-as-image">
+    {% endif %}
   </div>
   <div id="indicator-main" class="indicator-main col-md-12">
   {% endif %}
