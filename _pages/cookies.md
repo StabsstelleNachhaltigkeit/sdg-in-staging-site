@@ -33,6 +33,13 @@ E-Mail: nachhaltigkeit@ingolstadt.de
 ### Inhalte/Produktion:
 Stadt Ingolstadt und HTW 
 
+### Datenschutzbeauftragter der Stadt Ingolstadt
+Rechtsamt<br>
+Ludwigstraße 9<br>
+85049 Ingolstadt <br>
+Tel.: 0841 305 1373<br>
+<a href="mailto:datenschutz@ingolstadt.de">datenschutz@ingolstadt.de</a>
+
 ### Umsatzsteuer-Identifikationsnummer            						     
 Die Umsatzsteueridentifikationsnummer (abgekürzt USt-IdNr. oder UID) der Stadt Ingolstadt gemäß § 27a UStG lautet: DE 128 601 333 	
 
@@ -44,10 +51,23 @@ Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt recherchiert un
 Eine Haftung für die Richtigkeit, Vollständigkeit und Aktualität dieser Website kann trotz sorgfältiger Prüfung nicht übernommen werden. Die Stadt Ingolstadt übernimmt insbesondere keinerlei Haftung für eventuelle Schäden oder Konsequenzen, die durch die direkte oder indirekte Nutzung der angebotenen Inhalte entstehen.
 Neben den eigenen Inhalten bietet die Stadt Ingolstadt Querverweise („externe Links“) auf die von anderen Anbietern bereitgehaltenen Inhalte. Die fremden Inhalte stammen weder von der Stadt Ingolstadt noch hat es die Möglichkeit, den Inhalt von Seiten Dritter zu beeinflussen. Die Inhalte fremder Seiten, auf die die Stadt Ingolstadt mittels Links hinweist, spiegeln nicht die Meinung der Stadt Ingolstadt wider, sondern dienen lediglich der Information und der Darstellung von Zusammenhängen. Die Stadt Ingolstadt haftet nicht für fremde Inhalte, auf die es lediglich im oben genannten Sinne hinweist. Die Verantwortlichkeit liegt alleine bei dem Anbieter der Inhalte. Bei Nutzungsausfällen der Website wegen technischer oder organisatorischer Störungen bestehen keinerlei Ansprüche - gleich welcher Art - gegen die Stadt Ingolstadt.
 
+## Zweck der Datenverarbeitung
+Zweck der Datenverarbeitung auf dieser Website ist, der interessierten Öffentlichkeit aktuelle Informationen über die Erreichung der Nachhaltigkeitsziele der Stadt Ingolstadt zur Verfügung zu Stellen.
+
+## Wie erfassen wir Daten?
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben. Diese nutzen wir dann nur zum Zwecke der Kommunikation.<br>
+<br>
+Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.  Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden, um so das Informationsangebot für den Nutzer zu optimieren. 
+
+## Welche Rechte haben Sie bezüglich Ihrer Daten?
+Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.<br>
+<br>
+Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
+
 ## Datenschutz
-Die Stadt Ingolstadt nimmt den Schutz Ihrer Privat- und Persönlichkeitssphäre ernst und beachtet die datenschutzrechtlichen Bestimmungen. Ihr coppyright allgemeinVertrauen ist uns wichtig!
+Die Stadt Ingolstadt nimmt den Schutz Ihrer Privat- und Persönlichkeitssphäre ernst und beachtet die datenschutzrechtlichen Bestimmungen.
 Mit diesen Hinweisen kommen wir unseren Informationspflichten nach Artikel 13 der Datenschutz-Grundverordnung (DS-GVO) bei der Erhebung personenbezogener Daten nach. Beim Zugriff auf die SDG-Online Plattform werden von der Stadt Ingolstadt keine personenbezogenen Daten erhoben.
-Sie nutzen allerdings die Dienste des Anbieters GitHub. Die Datenschutzerklärung von GitHub finden Sie unter <a href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement">https://help.github.com/en/articles/github-privacy-statement</a>.
+Sie nutzen allerdings die Dienste des Anbieters GitHub. Die Datenschutzerklärung von GitHub finden Sie unter <a href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement">https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement</a>.
 Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von unserem Dienstleister beachtet werden. In diesem Zusammenhang weisen wir daraufhin, dass die Daten von GitHub in den USA verarbeitet werden können.
 Als Website-Besucher werden technische Informationen, auch die IP-Adresse, erfasst: diese kann ggf. ein personenbezogenes Datum sein.
 Im Zuge der Weiterentwicklung unserer Website können auch Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Erklärung regelmäßig durchzulesen.
