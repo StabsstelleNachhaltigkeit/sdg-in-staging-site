@@ -24,7 +24,7 @@ Wir müssen die Umwelt schützen.<br>
 Damit Menschen in der Zukunft noch gut auf der Erde leben können.<br> 
 Folgende Gruppen und Personen haben in Ingolstadt mit-gearbeitet:<br>
 <br>
-<ol>
+<ul>
   <li>Bürgerinnen und Bürger</li>
   <li>Gruppen und Vereine</li>
   <li>Ämter</li>
@@ -32,20 +32,20 @@ Folgende Gruppen und Personen haben in Ingolstadt mit-gearbeitet:<br>
   <li>Wissenschaft</li>
   <li>Soziale Verbände</li>
   <li>Umwelt-Verbände</li>
-  </ol> <br>
+  </ul> <br>
 <br>
 Im Jahr 2020 hat die Stadt die Ziele für Ingolstadt festgelegt.<br>
 Ab 2021 haben dann Arbeits-Gruppen neue Ideen entwickelt:<br> 
 Die Frage war: Wie wollen wir leben?<br>
 <br>
 Ideen sind dabei aus diesen 5 Bereichen der Agenda entstanden:<br>
-<ol>
+<ul>
   <li>Wirtschaft und neue Lösungen für die Unternehmen</li>
   <li>Klima, Umwelt und Energie</li>
   <li>Nachhaltigkeit im Alltag</li>
   <li>Bildung und Kultur</li>
   <li>Vielfalt und Beteiligung der Bürger</li>
-  </ol><br>
+  </ul><br>
 <br>
 Um die Nachhaltigkeits-Ziele zu erreichen, haben wir kleine Teil-Ziele benannt.<br>
 Wir schauen jetzt, wie man die Ziele erreichen kann.<br>
@@ -81,11 +81,11 @@ Gefördert durch:<br>
 Servicestelle Kommunen in der Einen Welt (SKEW)<br>
 Das Projekt DashKon ist Nachfolger der Projekte Dashboard, INDIKON und DATAKON.<br>
 DashKon ist ein Gemeinschafts-Projekt von:<br>
-<ol>
+<ul>
   <li>SKWE</li>
   <li>Hochschule HTW Berlin</li>
   <li>Forschungsstätte der Evangelischen Studiengemeinschaft e. V. FEST</li>
-  </ol><br>
+  </ul><br>
 <br>
 <br>
 Übersetzung:<br>
