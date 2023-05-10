@@ -24,28 +24,28 @@ Wir müssen die Umwelt schützen.<br>
 Damit Menschen in der Zukunft noch gut auf der Erde leben können.<br> 
 Folgende Gruppen und Personen haben in Ingolstadt mit-gearbeitet:<br>
 <br>
-<ul>
-  <li>Bürgerinnen und Bürger
-    Gruppen und Vereine
-    Ämter
-    Wirtschaft
-    Wissenschaft
-    Soziale Verbände
-    Umwelt-Verbände</li>
-  </ul> <br>
+<ol>
+  <li>Bürgerinnen und Bürger</li>
+  <li>Gruppen und Vereine</li>
+  <li>Ämter</li>
+  <li>Wirtschaft</li>
+  <li>Wissenschaft</li>
+  <li>Soziale Verbände</li>
+  <li>Umwelt-Verbände</li>
+  </ol> <br>
 <br>
 Im Jahr 2020 hat die Stadt die Ziele für Ingolstadt festgelegt.<br>
 Ab 2021 haben dann Arbeits-Gruppen neue Ideen entwickelt:<br> 
 Die Frage war: Wie wollen wir leben?<br>
 <br>
 Ideen sind dabei aus diesen 5 Bereichen der Agenda entstanden:<br>
-<ul>
-  <li>Wirtschaft und neue Lösungen für die Unternehmen
-    Klima, Umwelt und Energie
-    Nachhaltigkeit im Alltag
-    Bildung und Kultur
-    Vielfalt und Beteiligung der Bürger</li>
-  </ul><br>
+<ol>
+  <li>Wirtschaft und neue Lösungen für die Unternehmen</li>
+  <li>Klima, Umwelt und Energie</li>
+  <li>Nachhaltigkeit im Alltag</li>
+  <li>Bildung und Kultur</li>
+  <li>Vielfalt und Beteiligung der Bürger</li>
+  </ol><br>
 <br>
 Um die Nachhaltigkeits-Ziele zu erreichen, haben wir kleine Teil-Ziele benannt.<br>
 Wir schauen jetzt, wie man die Ziele erreichen kann.<br>
@@ -81,11 +81,11 @@ Gefördert durch:<br>
 Servicestelle Kommunen in der Einen Welt (SKEW)<br>
 Das Projekt DashKon ist Nachfolger der Projekte Dashboard, INDIKON und DATAKON.<br>
 DashKon ist ein Gemeinschafts-Projekt von:<br>
-<ul>
-  <li>SKWE
-    Hochschule HTW Berlin
-    Forschungsstätte der Evangelischen Studiengemeinschaft e. V. FEST</li>
-  </ul><br>
+<ol>
+  <li>SKWE</li>
+  <li>Hochschule HTW Berlin</li>
+  <li>Forschungsstätte der Evangelischen Studiengemeinschaft e. V. FEST</li>
+  </ol><br>
 <br>
 <br>
 Übersetzung:<br>
