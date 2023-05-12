@@ -14,7 +14,7 @@ Wir wollen die 17 welt-weiten Nachhaltigkeits-Ziele in Ingolstadt umsetzen.<br>
 Diese Ziele nennt man auch SDGs.<br>
 Das ist die englische Abkürzung für: nachhaltige Entwicklungs-Ziele.<br>
 Die Ziele wurden 2015 von den Vereinten Nationen fest-gelegt.<br>
-<img src=“{{ site.baseurl }}/assets/img/SDG_POSTER-#NonUN#_German.jpg“/><br>
+<img src=“{{ site.baseurl }}/assets/img/SDG_POSTER-German.png“/><br>
 <br>
 Im Februar 2019 hat der Stadt-Rat beschlossen,<br> 
 dass es eine Nachhaltigkeits-Agenda geben soll.<br> 
