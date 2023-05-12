@@ -204,7 +204,7 @@ menu_top:
   - path: /leichte-sprache
     translation_key: menu.plain_german
   - path: /reiter-english
-    translation_key: Reiter English
+    translation_key: English
 
 metadata_tabs:
   - scope: national
