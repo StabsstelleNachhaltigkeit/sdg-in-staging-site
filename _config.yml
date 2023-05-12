@@ -203,8 +203,8 @@ menu:
 menu_top:
   - path: /leichte-sprache
     translation_key: menu.plain_german
-  # - path:
-  #   translation_key: 
+  - path: /reiter-english
+    translation_key: Reiter English
 
 metadata_tabs:
   - scope: national
