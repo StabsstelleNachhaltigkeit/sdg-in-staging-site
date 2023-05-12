@@ -1,105 +1,27 @@
 ---
 
-title: Reiter English Custom Title
+title: English
 language: de
 permalink: /reiter-english/
 layout: page
 
 ---
-<img src="{{ site.baseurl }}/assets/img/Leichte Sprache.png"/><br>
-Leichte Sprache<br>
-<br>
-<h1>Über uns</h1>
-Wir wollen die 17 welt-weiten Nachhaltigkeits-Ziele in Ingolstadt umsetzen.<br>
-Diese Ziele nennt man auch SDGs.<br>
-Das ist die englische Abkürzung für: nachhaltige Entwicklungs-Ziele.<br>
-Die Ziele wurden 2015 von den Vereinten Nationen fest-gelegt.<br>
-<img src=“SDG_POSTER-#NonUN#_German.jpg“/><br>
-<br>
-Im Februar 2019 hat der Stadt-Rat beschlossen,<br> 
-dass es eine Nachhaltigkeits-Agenda geben soll.<br> 
-Die Nachhaltigkeits-Agenda ist ein Arbeits-Plan für die Zukunft der Stadt.<br>
-Nachhaltigkeit bedeutet zum Beispiel:<br> 
-Wir müssen die Umwelt schützen.<br>
-Damit Menschen in der Zukunft noch gut auf der Erde leben können.<br> 
-Folgende Gruppen und Personen haben in Ingolstadt mit-gearbeitet:<br>
-<br>
+<h1>About us</h1>
+On 27 February 2019, the city council of Ingolstadt decided to develop a sustainability agenda. To underpin these efforts, the City of Ingolstadt made a voluntary commitment by signing the model resolution “2030 Agenda for Sustainable Development - Shaping Sustainability at the Municipal Level” on 23 July 2020: The aim is to address the global sustainability goals at the municipal level. Based on the guiding principle of the 17 global sustainable development goals (SDGs), the City of Ingolstadt has developed a sustainability strategy in a joint project. Citizens, all social groups, authorities, science, business and social and environmental associations have contributed to this vision of the future. The basis for the current strategy was an inventory conducted in autumn 2019, which was oriented towards the 17 SDGs. In the framework of workshops with employees from the city administration, associated companies and members of the city council, an initial target model with indicators for Ingolstadt was developed in 2020. Building on this, the next step was to develop five fields of action and 15 priority topics for Ingolstadt. These formed the framework for the dialogue process entitled "How do we want to live?”. Between the summer of 2021 and the summer of 2022, visions for 2045 were developed with the city's external stakeholders and citizens. These visions are divided into the five fields of action of the Ingolstadt sustainability agenda:<br>
 <ul>
-  <li>Bürgerinnen und Bürger</li>
-  <li>Gruppen und Vereine</li>
-  <li>Ämter</li>
-  <li>Wirtschaft</li>
-  <li>Wissenschaft</li>
-  <li>Soziale Verbände</li>
-  <li>Umwelt-Verbände</li>
-  </ul> <br>
-<br>
-Im Jahr 2020 hat die Stadt die Ziele für Ingolstadt festgelegt.<br>
-Ab 2021 haben dann Arbeits-Gruppen neue Ideen entwickelt:<br> 
-Die Frage war: Wie wollen wir leben?<br>
-<br>
-Ideen sind dabei aus diesen 5 Bereichen der Agenda entstanden:<br>
-<ul>
-  <li>Wirtschaft und neue Lösungen für die Unternehmen</li>
-  <li>Klima, Umwelt und Energie</li>
-  <li>Nachhaltigkeit im Alltag</li>
-  <li>Bildung und Kultur</li>
-  <li>Vielfalt und Beteiligung der Bürger</li>
+  <li>Economy and innovation</li>
+  <li>Climate, environment and energy</li>
+  <li>Sustainable living in everyday life</li>
+  <li>Education and culture</li>
+  <li>Diversity and engagement</li>
   </ul><br>
 <br>
-Um die Nachhaltigkeits-Ziele zu erreichen, haben wir kleine Teil-Ziele benannt.<br>
-Wir schauen jetzt, wie man die Ziele erreichen kann.<br>
-Oder ob man sogar schon auf dem Weg zum Ziel ist.<br>
+Open dialogue with the population was complemented by the joint development of milestones for sub-goals and desired measures to achieve the goals. On 28 February 2023, the strategy was finally adopted concurrently with the first sustainability report of the City of Ingolstadt. The resulting requests for measures are currently being examined to see whether they can be implemented or are even already being processed by the administration. In the future, monitoring of measures will provide an overview of which measures already exist or are planned and contribute to the goal attainment of the Ingolstadt sustainability agenda.<br>
 <br>
-<h2>Überprüfung der Ziel-Erreichung</h2>
-Es wurden 98 verschiedene Merkmale festgelegt.<br>
-Mit diesen Merkmalen können wir die Ziel-Erreichung prüfen.<br>
-So haben wir einen Überblick, was getan wurde.<br> 
-Oder was noch getan werden muss.<br>
-Das Förder-Projekt DashKon zeigt die Merkmale auf einer Internet-Seite. Die Merkmale und Daten werden immer wieder auf den neuesten Stand gebracht. Und ins Internet gestellt.<br> 
-Sie finden die Merkmale hier auf der Webseite.<br>
+<h2>Measuring goal attainment</h2>
+In addition to the current 80 goals and the implementation of measures, the sustainability strategy of the City of Ingolstadt also includes indicator-based monitoring. 98 indicators have been defined to provide an overview of the current status of goal attainment. This monitoring can be found here in a web-based format. The indicators will be continuously adapted as the process continues and were published online as part of the funding project "Dashboard and Monitoring for Municipal Sustainability Strategies* (DashKon). The SDG indicators were selected primarily on the basis of common sustainability indicators (widely used in the literature) and the indicators of the Sustainable Communities Reporting Framework (Berichtsrahmen Nachhaltige Kommune - BNK) of the German Council for Sustainable Development (Rat für Nachhaltige Entwicklung) and placed in context with Ingolstadt's sustainability strategy by the administration. In addition to publicly accessible sources, a large amount of official data is also used.<br>
 <br>
-<h2>Webseite</h2>
-Die Webseite wurde mit der Hochschule für Technik und Wirtschaft (HTW) Berlin entwickelt.<br>
-<br>
-Ein großer Dank geht an die Studentinnen:<br>
-Marlene Bueltmann<br>
-Grace Dodi<br>
-Lucia Feddersen<br>
-Christina Gottschalk<br>
-Neslihan Kilic<br>
-Mia Lohe<br>
-Mahulome Pede<br>
-Haice Pinar<br>
-<br>
-Und an die Begleiterinnen und den Begleiter des Projekts:<br>
-Professor Florian Koch<br>
-Sarah Beyer<br>
-Chih-Yu Chen<br>
-<br>
-Gefördert durch:<br>
-Servicestelle Kommunen in der Einen Welt (SKEW)<br>
-Das Projekt DashKon ist Nachfolger der Projekte Dashboard, INDIKON und DATAKON.<br>
-DashKon ist ein Gemeinschafts-Projekt von:<br>
-<ul>
-  <li>SKWE</li>
-  <li>Hochschule HTW Berlin</li>
-  <li>Forschungsstätte der Evangelischen Studiengemeinschaft e. V. FEST</li>
-  </ul><br>
-<br>
-<br>
-Übersetzung:<br>
-Offene Hilfen<br>
-Caritas-Zentrum St. Vinzenz<br>
-Büro für Leichte Sprache<br>
-Frühlingstr. 15<br>
-85055 Ingolstadt<br>
-<br>
-Bilder:<br>
-Lebenshilfe für Menschen<br>
-mit geistiger Behinderung Bremen e.V.<br>
-Illustrator Stefan Albers<br>
-Atelier Fleetinsel, 2013<br>
-<br>
-Prüferin der Leichten Sprache:<br>
-Michaela Glas
+<h2>Open SDG website</h2>
+The entire project was funded by the Service Agency Communities in One World (Servicetelle Kommunen in der Einen Welt - SKEW). The SDG-DashKon project builds on the experiences of the SDG-Dashboard, INDIKON and DATAKON projects of recent years. SDG-DashKon is a joint project of SKEW in cooperation with HTW Berlin and the Protestant Institute for Interdisciplinary Research (Forschungsstätte der Evangelischen Studiengemeinschaft e.V. - FEST).
+For more information on the SDG-DashKon project, see <a href="https://skew.engagement-global.de/sdg-dashkon.html">SKEW</a>
+
