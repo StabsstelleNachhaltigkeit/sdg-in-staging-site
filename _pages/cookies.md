@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Impressum
+title: Impressum & Datenschutz
 language: de
 permalink: /about/cookies-and-privacy/
 

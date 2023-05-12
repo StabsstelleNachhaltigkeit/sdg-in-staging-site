@@ -1,8 +1,8 @@
 ---
 
-title: Leichtes Deutsch
+title: Reiter English Custom Title
 language: de
-permalink: /leichte-sprache/
+permalink: /reiter-english/
 layout: page
 
 ---
