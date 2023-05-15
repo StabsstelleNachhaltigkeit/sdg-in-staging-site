@@ -89,8 +89,6 @@ email_contacts:
 
 # 
 # other settings are alphabetically ordered:
-analytics:
-  ga_prod: ''
 
 collections:
   pages:
@@ -103,6 +101,9 @@ collections:
     output: true
   goals:
     output: true
+
+cookie_consent_form:
+  enabled: true
 
 country:
   name: Ingolstadt
