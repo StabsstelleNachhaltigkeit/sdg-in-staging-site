@@ -22,7 +22,7 @@ var klaroConfig = {
     noticeAsModal: false,
     services: [
         {
-            name: 'Borlabs Cookie',
+            name: 'Borlabs cookie',
             default: true,
             purposes: ['functional'],
             cookies: ['cookie_settings'],
