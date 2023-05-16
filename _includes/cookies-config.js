@@ -32,16 +32,23 @@ var klaroConfig = {
             onlyOnce: true,
         },
         {
-            name: 'Contrast Cookie',
-            default: false,
-            purposes: ['analytics'],
+            name: 'cookie_settings',
+            default: true,
+            purposes: ['functional'],
+            cookies: ['cookie_settings'],
+            required: true,
+            optOut: false,
+            onlyOnce: true,
+        },
+        {
+            name: 'contrast',
+            default: true,
+            purposes: ['functional'],
             cookies: ['contrast'],
-            description: 'Speichert die Benutzereinstellungen für den Hochkontrastmodus',
             required: false,
             optOut: false,
             onlyOnce: true,
         },
-
         {% if analytics_ga_prod or analytics_ua or analytics_gtag  %}
         {
             name: 'google-analytics',
