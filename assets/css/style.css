@@ -3026,7 +3026,7 @@ h1.header {
   flex-direction: row; }
 
 .flex-grid > * {
-  flex-basis: calc(6vw + 30px);
+  flex-basis: calc(5vw + 30px);
   width: 33.33%; }
 
 .hf-goal-tiles {
