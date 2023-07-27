@@ -315,9 +315,17 @@ h1.header {
 //   scroll-snap-type: y proximity;
 // }
 .main-image {
-  padding-bottom: 5rem;
-  img {
-    max-width: 100%;
+  @media (min-width: 992px) {
+    padding-bottom: 5rem;
+    img {
+      max-width: 100%;
+    }
+  }
+  @media (max-width: 992px) {
+    padding-bottom: 1rem;
+    img {
+      height: calc(30vw + 80px);
+    }
   }
 }
 .site-intro {
