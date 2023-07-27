@@ -89,8 +89,6 @@ email_contacts:
 
 # 
 # other settings are alphabetically ordered:
-analytics:
-  ga_prod: ''
 
 collections:
   pages:
@@ -103,6 +101,9 @@ collections:
     output: true
   goals:
     output: true
+
+cookie_consent_form:
+  enabled: true
 
 country:
   name: Ingolstadt
@@ -204,7 +205,7 @@ menu_top:
   - path: /leichte-sprache
     translation_key: menu.plain_german
   - path: /reiter-english
-    translation_key: Reiter English
+    translation_key: English
 
 metadata_tabs:
   - scope: national

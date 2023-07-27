@@ -46,6 +46,9 @@ Die Umsatzsteueridentifikationsnummer (abgekürzt USt-IdNr. oder UID) der Stadt 
 ### Hosting:
 GitHub 
 
+### Hosting Subdomain:
+Diese Seite läuft über eine Subdomain der Webseite <a href="https://nachhaltigkeitsagenda-ingolstadt.de/">https://nachhaltigkeitsagenda-ingolstadt.de/</a> der Stadt Ingolstadt. Diese Seite wird über den Anbieter 1 & 1 IONOS SE gehostet. Die Datenschutzhinweise zu dieser Webseite finden Sie auf der Webseite der Nachhaltigkeitsagenda Ingolstadt: <a href="https://nachhaltigkeitsagenda-ingolstadt.de/">https://nachhaltigkeitsagenda-ingolstadt.de/</a> 
+
 ## Haftungsausschluss
 Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt recherchiert und implementiert. Fehler im Bearbeitungsvorgang sind dennoch nicht auszuschließen. Hinweise und Korrekturen senden Sie bitte an unsere E-Mail-Adresse: <a href="mailto:nachhaltigkeit@ingolstadt.de">nachhaltigkeit@ingolstadt.de</a>.
 Eine Haftung für die Richtigkeit, Vollständigkeit und Aktualität dieser Website kann trotz sorgfältiger Prüfung nicht übernommen werden. Die Stadt Ingolstadt übernimmt insbesondere keinerlei Haftung für eventuelle Schäden oder Konsequenzen, die durch die direkte oder indirekte Nutzung der angebotenen Inhalte entstehen.
