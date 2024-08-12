@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240812070741">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240812072936">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,7 +427,7 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Die prozentuale Änderungsrate von Siedlungs- und Verkehrsflächen im Vergleich zum Vorjahr in Prozent. <br />
+    <p>Der Indikator zeigt die Die prozentuale Änderungsrate von Siedlungs- und Verkehrsflächen sowie der Vegetationsflächen im Vergleich zum Vorjahr in Prozent an. Die restlichen Flächenanteile teilen sich in Abbauland und Gewässer auf, sind jedoch aufgrund ihres verhältnismäßig kleinen Anteil an der Gesamtfläche vernachlässigbar.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
 K2.3: Vernetzung, Entwicklung und Erhalt schützenswerter Flächen<br />
@@ -451,14 +451,14 @@ K2.3: Vernetzung, Entwicklung und Erhalt schützenswerter Flächen<br />
   data-country="Ingolstadt"
   data-charttitle="Flächenneuinanspruchnahme"
   data-charttitles="null"
-  data-measurementunit="Flächenneuinanspruchnahme Prozent"
+  data-measurementunit="Prozent"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Flächenart&quot;,&quot;value&quot;:&quot;Siedlungs- und Verkehrsfläche&quot;},{&quot;field&quot;:&quot;Flächenart&quot;,&quot;value&quot;:&quot;Vegetation&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -822,19 +822,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Flächenneuinanspruchnahme im vergleich zum Vorjahr in Prozent</p>
 
           
         </td>
@@ -850,7 +843,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Flächenneuinanspruchnahme Prozent</p>
+            <p>Prozent</p>
 
           
         </td>
@@ -1450,12 +1443,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240812070741'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240812072936'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240812070741"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240812072936"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
