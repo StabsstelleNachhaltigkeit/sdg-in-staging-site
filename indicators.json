@@ -23,15 +23,15 @@
         },
         {
           "id": "1-3",
-          "title": "Empfänger/-innen von Grundsicherung nach SGB II insgesamt",
+          "title": "Mietschuldenprävention",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/1-3",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "1-4-1",
-          "title": "Kinder unter 15 J. in Grundsicherung (SGB II)",
+          "title": "Empfänger/-innen von Hilfe zum Lebensunterhalt und Grundsicherung (SGB XII)",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/1-4-1",
@@ -39,7 +39,7 @@
         },
         {
           "id": "1-4-2",
-          "title": "Kinder unter 15 J. in Grundsicherung (SGB II) in %",
+          "title": "Empfänger/-innen von Grundsicherung (SGB II)",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/1-4-2",
