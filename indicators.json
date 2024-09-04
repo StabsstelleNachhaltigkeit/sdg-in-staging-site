@@ -76,6 +76,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/1-8",
           "status": "complete"
+        },
+        {
+          "id": "1-9",
+          "title": "Wohngeldempfänger",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/1-9",
+          "status": "complete"
         }]
     }
   },
