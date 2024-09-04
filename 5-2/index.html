@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240904160606">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240904161305">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -315,7 +315,7 @@ layout-indicator
         <img class="img-fluid" src="/sdg-in-staging-site/assets/img/goals/de/5.png" alt="Geschlechtergleichstellung - Ziel 5" id="goal-5"  />
       </div>
       <div class="col text-center">
-        <a href="/sdg-in-staging-site/5-3" class="btn btn-primary goal-5 btn-right goal-banner" role="button">
+        <a href="/sdg-in-staging-site/5-4" class="btn btn-primary goal-5 btn-right goal-banner" role="button">
           <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 2.8vw;"></i><span id="next-link" class="hidden-sm hidden-xs"></span>
         </a>
       </div>
@@ -427,12 +427,12 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Anzahl der Empfänger/-innen von Hilfe zum Lebensunterhalt. Zum notwendigen Lebensunterhalt gehören nach § 27a SGB XII “insbesondere Ernährung, Unterkunft, Kleidung, Körperpflege, Hausrat, Heizung und persönliche Bedürfnisse des täglichen Lebens”. Zu letzteren gehören “in vertretbarem Umfang auch Beziehungen zur Umwelt und eine Teilnahme am kulturellen Leben.”<br />
+    <p>Der Verdienstabstand zwischen Frauen und Männern in Euro, gemessen am Medianeinkommen.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
-V1.10: Armutsbekämpfung<br />
+V1.3: Förderung der geschlechterunabhängigen Chancengleichheit<br />
 <br />
-<b>Ingolstadtspezifischer Indikator</b></p>
+<b>BNK-Indikator</b></p>
 
   </div>
 </div>
@@ -451,7 +451,7 @@ V1.10: Armutsbekämpfung<br />
   data-country="Ingolstadt"
   data-charttitle="Empfänger/-innen von Hilfe zum Lebensunterhalt"
   data-charttitles="null"
-  data-measurementunit="Empfänger/innen von Hilfe zum Lebensunterhalt"
+  data-measurementunit="Euro"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -528,7 +528,7 @@ V1.10: Armutsbekämpfung<br />
           
           
           
-          <td class="table-value">535</td>
+          <td class="table-value">1965</td>
           
           
         </tr>
@@ -540,7 +540,43 @@ V1.10: Armutsbekämpfung<br />
           
           
           
-          <td class="table-value">345</td>
+          <td class="table-value">1830</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2021</td>
+          
+          
+          
+          <td class="table-value">1679</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2022</td>
+          
+          
+          
+          <td class="table-value">1876</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2023</td>
+          
+          
+          
+          <td class="table-value">2119</td>
           
           
         </tr>
@@ -557,7 +593,7 @@ V1.10: Armutsbekämpfung<br />
     <p>Geographische Abdeckung: Ingolstadt</p>
     
     
-    <p>Einheit: Empfänger/innen von Hilfe zum Lebensunterhalt</p>
+    <p>Einheit: Euro</p>
     
     
   </div>
@@ -876,19 +912,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Medianeinkommen-Abstand in Euro (Vollzeit) zwischen Frauen und Männern</p>
 
           
         </td>
@@ -904,7 +933,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Empfänger/innen von Hilfe zum Lebensunterhalt</p>
+            <p>Euro</p>
 
           
         </td>
@@ -931,19 +960,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Periodizität </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Jährlich</p>
 
           
         </td>
@@ -954,19 +976,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Daten verfügbar seit </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>2019</p>
 
           
         </td>
@@ -982,7 +997,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p>Amt für Statistik und Stadtforschung</p>
+            <p>Bundesagentur für Arbeit</p>
 
           
         </td>
@@ -1518,12 +1533,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240904160606'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240904161305'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240904160606"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240904161305"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
