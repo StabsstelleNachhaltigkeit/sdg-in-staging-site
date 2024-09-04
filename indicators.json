@@ -60,6 +60,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/1-6",
           "status": "complete"
+        },
+        {
+          "id": "1-7",
+          "title": "Anzahl der Alleinerziehenden",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/1-7",
+          "status": "inprogress"
         }]
     }
   },
