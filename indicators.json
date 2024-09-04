@@ -68,6 +68,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/1-7",
           "status": "inprogress"
+        },
+        {
+          "id": "1-8",
+          "title": "Arbeitslosenquote",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/1-8",
+          "status": "complete"
         }]
     }
   },
