@@ -105,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indikator 5.4 -
+        Indikator 5.3 -
         
-        Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag - Indikatoren für die nachhaltigen Entwicklungsziele
+        Frauenanteil im Stadtrat - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240904161808">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240904161856">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -292,7 +292,7 @@ layout-indicator
                Ziel 5
             </a>
         </li>
-        <li class="breadcrumb-item active">Indikator 5.4</li>
+        <li class="breadcrumb-item active">Indikator 5.3</li>
         
     </ol>
 </nav>
@@ -411,8 +411,8 @@ layout-indicator
         
             <div class="goal-titles">
                 
-                <h2 class="indicator-title-by-indicator goal-5">Indikator 5.4</h2>
-                <h2 class="indicator-title-by-indicator goal-5" style="font-weight:600">Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag</h2>
+                <h2 class="indicator-title-by-indicator goal-5">Indikator 5.3</h2>
+                <h2 class="indicator-title-by-indicator goal-5" style="font-weight:600">Frauenanteil im Stadtrat</h2>
                 
             </div>
         </div>
@@ -427,10 +427,10 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Prozentualer Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag.<br />
+    <p>Prozentualer Frauenanteil im Stadtrat der Stadt Ingolstadt<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
-V1.5: Förderung von Integration, Inklusion und Gleichstellung der Verwaltungsgremien<br />
+V1.1.2: Förderung der geschlechterunabhängigen Chancengleichheit <br />
 <br />
 <b>BNK-Indikator</b></p>
 
@@ -446,10 +446,10 @@ V1.5: Förderung von Integration, Inklusion und Gleichstellung der Verwaltungsgr
 
 <div class="row"
   id="indicatorData"
-  data-indicatorid='indicator_5-4'
-  data-id="5-4"
+  data-indicatorid='indicator_5-3'
+  data-id="5-3"
   data-country="Ingolstadt"
-  data-charttitle="Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag"
+  data-charttitle="Frauenanteil im Stadtrat"
   data-charttitles="null"
   data-measurementunit="Prozent"
   data-xaxislabel=""
@@ -458,14 +458,14 @@ V1.5: Förderung von Integration, Inklusion und Gleichstellung der Verwaltungsgr
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Frauenanteil&quot;,&quot;value&quot;:&quot;Stadtrat&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Frauenanteil&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Stadtrat&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Frauenanteil&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -498,81 +498,15 @@ V1.5: Förderung von Integration, Inklusion und Gleichstellung der Verwaltungsgr
   <div id="datatables">
 
     
-    <a href="https://StabsstelleNachhaltigkeit.github.io/sdg-in-staging-data/de/headline/5-4.csv" class="btn btn-primary btn-download" download="indicator_5-4.csv" tabindex="0" role="button">Speichern der Headline im CSV-Format</a>
-    
-    <a href="https://StabsstelleNachhaltigkeit.github.io/sdg-in-staging-data/de/data/5-4.csv" class="btn btn-primary btn-download" download='indicator_5-4.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
+    <a href="https://StabsstelleNachhaltigkeit.github.io/sdg-in-staging-data/de/data/5-3.csv" class="btn btn-primary btn-download" download='indicator_5-3.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
 
     <p class="no-js-disaggregation-hint">Quell-CSV für Disaggregationen herunterladen</p>
 
     
-    <h3>Schlagzeilendaten</h3>
-    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag</caption>
-      <thead>
-        
-        
-        <th scope="col">Year</th>
-        
-        
-        
-        <th scope="col" class="table-value">Value</th>
-        
-        
-      </thead>
-      <tbody>
-        
-        <tr>
-          
-          
-          <td>2019</td>
-          
-          
-          
-          <td class="table-value">30</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2020</td>
-          
-          
-          
-          <td class="table-value">26</td>
-          
-          
-        </tr>
-        
-        <tr>
-          
-          
-          <td>2021</td>
-          
-          
-          
-          <td class="table-value">26</td>
-          
-          
-        </tr>
-        
-      </tbody>
-    </table>
+    <h3>Keine Headline-Daten verfügbar</h3>
     
   </div>
 
-  
-  <div id="datatableFooter">
-    
-    
-    <p>Geographische Abdeckung: Ingolstadt</p>
-    
-    
-    <p>Einheit: Prozent</p>
-    
-    
-  </div>
   
 
 </div>
@@ -655,7 +589,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag</h4>
+          <h4 id="chart-heading" class="chart-title">Frauenanteil im Stadtrat</h4>
           <div id="chart" class="plot-container">
             <canvas
     role="img"
@@ -861,7 +795,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Indikatorennummerierung </th>
         <td>
           
-            <p>5.4</p>
+            <p>5.3</p>
 
           
         </td>
@@ -877,7 +811,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Frauenanteil im Stadtrat, Gemeinderat bzw. Kreistag</p>
+            <p>Frauenanteil im Stadtrat</p>
 
           
         </td>
@@ -888,19 +822,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Prozentualer Frauenanteil im Stadtrat der Stadt Ingolstadt</p>
 
           
         </td>
@@ -980,7 +907,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p>Amt für Statistik und Stadtforschung</p>
+            <p>Amt für Statistik und Stadtforschung der Stadt Ingolstadt</p>
 
           
         </td>
@@ -1064,11 +991,11 @@ data-event-label="Change to Metadaten tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/data/indicator_5-4.csv">Daten bearbeiten</a>
+  <a class="btn btn-primary" href="http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/data/indicator_5-3.csv">Daten bearbeiten</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/meta/5-4.md">Metadaten bearbeiten</a>
+  <a class="btn btn-primary" href="http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/meta/5-3.md">Metadaten bearbeiten</a>
   
 
   
@@ -1516,12 +1443,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240904161808'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240904161856'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240904161808"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240904161856"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
