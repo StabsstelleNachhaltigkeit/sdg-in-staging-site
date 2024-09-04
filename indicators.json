@@ -422,14 +422,6 @@
           "status": "complete"
         },
         {
-          "id": "7-3",
-          "title": "CO2e-Emissionen",
-          "description": "",
-          "keywords": "",
-          "href": "/sdg-in-staging-site/7-3",
-          "status": "complete"
-        },
-        {
           "id": "7-4",
           "title": "Ladesäuleninfrastruktur",
           "description": "",
@@ -859,6 +851,14 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/13-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-2",
+          "title": "CO2e-Emissionen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/13-2",
           "status": "complete"
         },
         {
