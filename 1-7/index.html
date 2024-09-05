@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905014529">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905071341">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,7 +427,7 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Der Indikator beschreibt wie viele Alleinerziehende Leistungsempfänger/-innen nach SGB II es in Ingolstadt gibt. <br />
+    <p>Der Indikator beschreibt die Anzahl der Alleinerziehenden in Ingolstadt und Alleinerziehende, die Leistungen nach SGB II beziehen. <br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt:</b><br /> 
 V1.2: Unterstützung von Menschen in besonderen Lebenslagen<br />
@@ -458,14 +458,14 @@ V1.2: Unterstützung von Menschen in besonderen Lebenslagen<br />
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Arbeitslose Alleinerziehende&quot;,&quot;value&quot;:&quot;weiblich&quot;},{&quot;field&quot;:&quot;Arbeitslose Alleinerziehende&quot;,&quot;value&quot;:&quot;männlich&quot;},{&quot;field&quot;:&quot;Arbeitslose Alleinerziehende&quot;,&quot;value&quot;:&quot;Deutsch&quot;},{&quot;field&quot;:&quot;Arbeitslose Alleinerziehende&quot;,&quot;value&quot;:&quot;Nicht-Deutsch&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Alleinerziehende&quot;,&quot;value&quot;:&quot;Leistungsbezieher/-innen&quot;},{&quot;field&quot;:&quot;Alleinerziehende&quot;,&quot;value&quot;:&quot;gesamt&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Arbeitslose Alleinerziehende&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;weiblich&quot;,&quot;männlich&quot;,&quot;Deutsch&quot;,&quot;Nicht-Deutsch&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Arbeitslose Alleinerziehende&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Alleinerziehende&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Leistungsbezieher/-innen&quot;,&quot;gesamt&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Alleinerziehende&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -573,7 +573,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Definitionen </th>
         <td>
           
-            <p>Anzahl der arbeitslosen Alleinerziehenden in Ingolstadt unterteilt nach Geschlecht und Herkunft</p>
+            <p>Anzahl der Alleinerziehenden in Ingolstadt und Alleinerziehende, die Leistungen nach SGB II beziehen</p>
 
           
         </td>
@@ -1189,12 +1189,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905014529'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905071341'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905014529"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905071341"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
