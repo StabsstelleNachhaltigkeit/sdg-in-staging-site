@@ -495,7 +495,7 @@
         
         {
           "id": "9-1",
-          "title": "Anzahl der angesiedelten Unternehmen in brigk und EGZ",
+          "title": "Gründungssaldo",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-1",
@@ -511,7 +511,7 @@
         },
         {
           "id": "9-3",
-          "title": "Existenzgründungen",
+          "title": "Häufigkeit der Inanspruchnahme der Cityfreiraumförderung",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-3",
@@ -519,7 +519,7 @@
         },
         {
           "id": "9-4",
-          "title": "sv-Beschäftigte mit Hochschulabschluss",
+          "title": "5G-Abdeckung",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-4",
@@ -527,7 +527,7 @@
         },
         {
           "id": "9-5",
-          "title": "Förderprojekte für technische und digitale Lösungen",
+          "title": "Anzahl öffentlich zugänglicher Datensätze",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-5",
@@ -535,7 +535,7 @@
         },
         {
           "id": "9-6",
-          "title": "Finanzielle Beteiligung für Forschung",
+          "title": "Höhe der Drittmittel",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-6",
@@ -543,7 +543,7 @@
         },
         {
           "id": "9-7",
-          "title": "EMAS-zertifizierte Betriebsstandorte",
+          "title": "Erschlossene Gewerbeflächen durch Fernwärmeanschluss",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/9-7",
