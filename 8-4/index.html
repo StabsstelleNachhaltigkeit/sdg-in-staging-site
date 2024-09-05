@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905102135">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905103114">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,8 +427,7 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Langzeitarbeitslosenquote: Prozentualer Anteil, der länger als 1 Jahr arbeitslos ist.
-Anstieg bedingt durch die Corona-Pandemie von 2020 auf 2021. Schwankung in 2022: Starker Einfluss durch Geflüchtete aus der Ukraine. Diese sind noch unter einem Jahr im Leistungsbezug und senken somit in Relation den prozentualen Anteil der Langzeitarbeitslosen deutlich. In 2022 Fokus auf die Vermittlung von Langzeitbezieher/-innen, unter denen sich auch Langzeitarbeitslose befanden. <br />
+    <p>Dieser Indikator zeigt die Anzahl der Personen, die länger als 1 Jahr arbeitslos sind, im Verhältnis zu den Lanzeitleistungsbeziehern nach Geschlecht an.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
 V1.4: Armutsbekämpfung<br />
@@ -452,21 +451,21 @@ V1.4: Armutsbekämpfung<br />
   data-country="Ingolstadt"
   data-charttitle="Langzeitarbeitslose im Verhältnis zu Langzeitleistungsbeziehern"
   data-charttitles="null"
-  data-measurementunit="Drittmittelvolumen der Technischen Hochschule Ingolstadt (THI) und der Katholischen Universität Eichstätt-Ingolstadt (KU) in EURO"
+  data-measurementunit="Anzahl Langzeitleistungsbezieher und Langzeitarbeitslos"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;Gesamt&quot;},{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;THI&quot;},{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;KU&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;,&quot;value&quot;:&quot;Langzeitleistungsbezieher Männer&quot;},{&quot;field&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;,&quot;value&quot;:&quot;Langzeitleistungsbezieher Frauen&quot;},{&quot;field&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;,&quot;value&quot;:&quot;Langzeitarbeitslos Männer&quot;},{&quot;field&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;,&quot;value&quot;:&quot;Langzeitarbeitslos Frauen&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Einrichtung&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Gesamt&quot;,&quot;THI&quot;,&quot;KU&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Einrichtung&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Langzeitleistungsbezieher Männer&quot;,&quot;Langzeitleistungsbezieher Frauen&quot;,&quot;Langzeitarbeitslos Männer&quot;,&quot;Langzeitarbeitslos Frauen&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Langzeitleistungsbezieher und Langzeitarbeitslos&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -823,19 +822,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Anzahl der Personen, die länger als 1 Jahr arbeitslos sind, im Verhältnis zu den Lanzeitleistungsbeziehern nach Geschlecht</p>
 
           
         </td>
@@ -851,7 +843,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Drittmittelvolumen der Technischen Hochschule Ingolstadt (THI) und der Katholischen Universität Eichstätt-Ingolstadt (KU) in EURO</p>
+            <p>Anzahl Langzeitleistungsbezieher und Langzeitarbeitslos</p>
 
           
         </td>
@@ -915,7 +907,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p>Technische Hochschule Ingolstadt und Katholische Universität Eichstätt-Ingolstadt</p>
+            <p>Bundesagentur für Arbeit</p>
 
           
         </td>
@@ -1451,12 +1443,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905102135'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905103114'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905102135"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905103114"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
