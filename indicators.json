@@ -575,7 +575,7 @@
         },
         {
           "id": "10-3",
-          "title": "Beschäftigungsquote - Ausländer",
+          "title": "Staatsangehörigkeit der Bevölkerung",
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/10-3",
@@ -611,7 +611,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-in-staging-site/10-7",
-          "status": "complete"
+          "status": "inprogress"
         },
         {
           "id": "10-8",
