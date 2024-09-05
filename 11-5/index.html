@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905154720">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240905154844">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,7 +427,7 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Bei Verkehrsunfällen Getötete oder Schwerverletzte. Tendenz gleichbleibend mit leichtem Anstieg 2022.<br />
+    <p>Dieser Indikator zeigt die Zahl der Verkehrsunfälle mit Personenschaden sowie bei Verkehrsunfällen Getötete oder Schwerverletzte an.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
 N4.5: Verbesserung der Verkehrssicherheit<br />
@@ -451,14 +451,14 @@ N4.5: Verbesserung der Verkehrssicherheit<br />
   data-country="Ingolstadt"
   data-charttitle="Verkehrsunfälle mit Personenschaden"
   data-charttitles="null"
-  data-measurementunit="Anzahl Getötete oder Schwerverletzte im Verkehr"
+  data-measurementunit="Anzahl Personenschaden, Getötete oder Schwerverletzte"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Unfall mit&quot;,&quot;value&quot;:&quot;Getötete oder schwer verletzte&quot;},{&quot;field&quot;:&quot;Unfall mit&quot;,&quot;value&quot;:&quot;Personenschaden&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -822,19 +822,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Zahl der Verkehrsunfälle mit Personenschaden sowie bei Verkehrsunfällen Getötete oder schwerverletzte</p>
 
           
         </td>
@@ -850,7 +843,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Anzahl Getötete oder Schwerverletzte im Verkehr</p>
+            <p>Anzahl Personenschaden, Getötete oder Schwerverletzte</p>
 
           
         </td>
@@ -914,7 +907,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p>Amtliche Daten des Amts für Statistik und Stadtforschung</p>
+            <p>Amt für Statistik und Stadtforschung der Stadt Ingolstadt</p>
 
           
         </td>
@@ -1450,12 +1443,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905154720'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240905154844'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905154720"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240905154844"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
