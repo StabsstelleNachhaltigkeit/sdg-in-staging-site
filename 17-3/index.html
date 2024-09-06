@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906074906">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906075203">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -429,8 +429,12 @@ layout-indicator
   <div class="col-xs-12">
     <p>Im Rahmen des breitgefächerten Netzwerkes mit allen Akteuren der Integrationsarbeit organisiert und realisiert die Integrationsbeauftragte der Stadt Ingolstadt zahlreiche Projekte sowohl innerhalb der Stadtverwaltung als auch zwischen den vorhandenen freien und gemeinnützigen Institutionen und der Stadt. Zu den Projekten der letzten Jahre gehören: Tag der Muttersprache, Wochen gegen Rassismus, Begegnung der Religionen, Fest der Kulturen, Interkulturelle Woche, Tag der Migranten, Sitzungen des Migrationsrates, Dialog der Religionen, Koop. mit dem Goethe-Institut / Verein ISA e.V., Schulung ausländ. Kulturvereine, Sitzungen NefAS (Netzwerk für Arbeit und Sozialbelange), Schulung muslim. Seelsorger/-innen, MiMi (Interkulturelles Gesundheitsprojekt), Sprachmittler/-innen, Veranstaltung anlässlich des Angriffskriegs auf die Ukraine. Weitere Informationen finden Sie unter: <a href="https://www.ingolstadt.de/Leben/Diversit/Integration/Integrationsbeauftragte">Integrationsbeauftragte Stadt Ingolstadt</a>. <br />
 <br />
+Die Volkshochschule Ingolstadt (VHS) kooperiert seit mehreren Jahren mit migrantischen Organisationen im Rahmen mehrerer Projekte im Jahr. Darüber hinaus sind eine Vielzahl von Kursleiterinnen und Kursleitern in der Volkshochschule tätig, die einen Migrationshintergrund bzw. ausländische Wurzeln vorweisen können. Das umfassende Programm für alle Bürgerinnen und Bürger wird durch die Vielfalt der Dozierenden erst ermöglicht.<br />
+<br />
+Darüber arbeitet die Stadtbücherei Ingolstadt ebenfalls mit vielen migrantischen Organisationen zusammen. Aufgrund der Corona-Pandemie von 2020 / 2021 ist in diesen beiden Jahren ein deutlicher Einbruch zu verzeichnen. Seit 2022 steigt die Zahl der Projekte wieder.
+<br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
-V2.7: Interkommunale/r, überregionale/r und internationale/r Austausch und Zusammenarbeit<br />
+V2.2: Interkommunale/r, überregionale/r und internationale/r Austausch und Zusammenarbeit<br />
 <br />
 <b>Ingolstadtspezifischer Indikator</b></p>
 
@@ -454,11 +458,11 @@ V2.7: Interkommunale/r, überregionale/r und internationale/r Austausch und Zusa
   data-measurementunit="Anzahl Projekte mit migrantischen Organisationen"
   data-xaxislabel=""
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;Integrationsbeauftragte&quot;},{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;VHS&quot;},{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;Stadtbücherei&quot;},{&quot;field&quot;:&quot;Einrichtung&quot;,&quot;value&quot;:&quot;gesamt&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -822,19 +826,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Anzahl der Projekte mit migrantischen Organisationen und Personen in den Einrichtungen der Stadt Ingolstadt</p>
 
           
         </td>
@@ -1450,12 +1447,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906074906'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906075203'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906074906"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906075203"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
