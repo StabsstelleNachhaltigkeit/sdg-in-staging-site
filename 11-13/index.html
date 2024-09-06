@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906055201">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906055302">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,12 +427,12 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Mietpreise ohne geförderten Wohnungsbau. Angegeben wird die durchschnittliche Nettokaltmiete in € je m². <br />
+    <p>Unter dem Begriff kommunale Grünflächen versteht man alle öffentlichen Freiflächen, die gärtnerisch gepflegt werden und die die Stadt der Allgemeinheit zugänglich gemacht hat. Unter diese Kategorie fallen nicht nur die großen Parkanlagen wie das Glacis, der Luitpoldpark, der Fort Haslang Park oder der Park Mailinger Aue, sondern auch die vielen kleineren Grünzüge wie der Güßgraben in Etting oder der Grünzug Märzenbecherstraße im Stadtteil Ringsee. Mehr Infos auf der Webseite des <a href="https://www.ingolstadt.de/Rathaus/Stadtgarten/Gr%C3%BCnplanung-Pflege/">Gartenamts Ingolstadt</a>. Von 2023 auf 2022 sank der Wert leicht aufgrund der zunehmenden Bevölkerungszahl bei gleichbleibender Größe der Grünflächen.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
-N3.1: Schaffung von bezahlbarem und barrierefreiem Wohnraum unter Berücksichtigung der Ressourcenschonung<br />
+N3.4: Schutz und Ausbau von Grünflächen und öffentlichem Raum für alle<br />
 <br />
-<b>BNK-Indikator</b></p>
+<b>Ingolstadtspezifischer Indikator</b></p>
 
   </div>
 </div>
@@ -451,7 +451,7 @@ N3.1: Schaffung von bezahlbarem und barrierefreiem Wohnraum unter Berücksichtig
   data-country="Ingolstadt"
   data-charttitle="Mietpreise (ohne geförderten Wohnungsbau)"
   data-charttitles="null"
-  data-measurementunit="Durchschnittliche Nettokaltmiete in € je m²"
+  data-measurementunit="km² je 1.000 EW"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -593,7 +593,7 @@ N3.1: Schaffung von bezahlbarem und barrierefreiem Wohnraum unter Berücksichtig
     <p>Geographische Abdeckung: Ingolstadt</p>
     
     
-    <p>Einheit: Durchschnittliche Nettokaltmiete in € je m²</p>
+    <p>Einheit: km² je 1.000 EW</p>
     
     
   </div>
@@ -912,19 +912,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Größe der öffentlichen Grünflächen in km² / 1.000 EW ohne Straßenbegleitgrün und Grünflächen der öffentlichen Einrichtungen wie Schulen oder Kindergärten</p>
 
           
         </td>
@@ -940,7 +933,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Durchschnittliche Nettokaltmiete in € je m²</p>
+            <p>km² je 1.000 EW</p>
 
           
         </td>
@@ -1004,7 +997,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p><a href="https://ivd.net/">IVD, neu abgeschlossene Mietverträge</a></p>
+            <p>Vorhandene öffentliche Grünflächen entsprechend der Flächenstatistik des Gartenamtes Ingolstadt</p>
 
           
         </td>
@@ -1540,12 +1533,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906055201'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906055302'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906055201"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906055302"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
