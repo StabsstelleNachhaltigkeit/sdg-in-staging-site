@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906071902">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20240906072155">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -428,7 +428,7 @@ layout-indicator
 <div class="row" id="page-content">
   <div class="col-xs-12">
     <p>Im Rahmen der Umsetzung der EU-WRRL-Richtlinie wird im Bereich der Stadt Ingolstadt für folgende Gewässer der Zustand bzw. das ökologische Potential ermittelt:
-Donau, Schutter, Sandrach, Mailinger Bach. Das gute ökologische Potential hat bisher nur die Donau erreicht – daher beträgt die Anzahl der Fließgewässer, die mindestens mit “gut” beurteilt wurden 25%. Die Bewirtschaftungspläne werden alle 6 Jahre fortgeschrieben, d.h. dass sich von 2019 bis 2021 keine Veränderungen ergeben haben. <br />
+Donau, Schutter, Sandrach, Mailinger Bach. Das gute ökologische Potential hat bisher nur die Donau erreicht – daher beträgt die Anzahl der Fließgewässer, die mindestens mit “gut” beurteilt wurden 25%. Die Bewirtschaftungspläne werden alle 6 Jahre fortgeschrieben. <br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
 K2.3: Vernetzung, Entwicklung und Erhalt schützenswerter Flächen<br />
@@ -452,7 +452,7 @@ K2.3: Vernetzung, Entwicklung und Erhalt schützenswerter Flächen<br />
   data-country="Ingolstadt"
   data-charttitle="Fließwasserqualität"
   data-charttitles="null"
-  data-measurementunit="Fließwasserqualität in Prozent"
+  data-measurementunit="Prozent"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
@@ -594,7 +594,7 @@ K2.3: Vernetzung, Entwicklung und Erhalt schützenswerter Flächen<br />
     <p>Geographische Abdeckung: Ingolstadt</p>
     
     
-    <p>Einheit: Fließwasserqualität in Prozent</p>
+    <p>Einheit: Prozent</p>
     
     
   </div>
@@ -913,19 +913,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Ökologisches Potenzial von x% der Fließgewässer in der Kommune ist mind. “gut” bewertet</p>
 
           
         </td>
@@ -941,7 +934,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Fließwasserqualität in Prozent</p>
+            <p>Prozent</p>
 
           
         </td>
@@ -973,7 +966,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Periodizität </th>
         <td>
           
-            <p>Jährlich</p>
+            <p>alle 6 Jahre</p>
 
           
         </td>
@@ -1541,12 +1534,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906071902'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20240906072155'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906071902"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20240906072155"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
