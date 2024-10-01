@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241001122546">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241001123334">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,7 +427,9 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Die Waldflächenbilanz ergibt sich aus den Ab- und Zugängen bewaldeter Flächen. Die Angaben beziehen sich auf die gesamte Region 10. Eine Bilanz nur für das Stadtgebiet Ingolstadt wird derzeit nicht erstellt.<br />
+    <p>Die Waldflächenbilanz ergibt sich aus den Ab- und Zugängen bewaldeter Flächen (ohne Kurzumtriebsplantagen / Christbaumkulturen) i.S.d. <a href="https://www.gesetze-bayern.de/Content/Document/BayWaldG">Bayerischen Waldgesetzes</a>. Die Angaben beziehen sich auf die gesamte Region 10.<br />
+<br />
+In Ingolstadt kamen bilanziell zwischen 2022 und 2023 kamen insgesamt knapp 5 ha Wald hinzu und ca. 1,1 ha Wald wurden gerodet.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
 K2.2: Unterstützung einer naturnahen Forstwirtschaft und Erhalt der Waldfläche<br />
@@ -458,7 +460,7 @@ K2.2: Unterstützung einer naturnahen Forstwirtschaft und Erhalt der Waldfläche
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Waldflächen&quot;,&quot;value&quot;:&quot;Abgänge&quot;},{&quot;field&quot;:&quot;Waldflächen&quot;,&quot;value&quot;:&quot;Zugänge&quot;},{&quot;field&quot;:&quot;Waldflächen&quot;,&quot;value&quot;:&quot;Bilanz&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -870,19 +872,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Periodizität </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>jährlich</p>
 
           
         </td>
@@ -1450,12 +1445,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241001122546'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241001123334'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241001122546"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241001123334"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
