@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241007142309">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241007142836">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -436,10 +436,6 @@ Bürgerhilfe Ingolstadt Kita GmbH: kinderEnergie<br />
 <br />
 Im Jahr 2022 wurden insgesamt 54 weitere Krippenplätze und 85 Kindergartenplätze geschaffen.<br /><br />
 <br />
-<b>Gesamtanzahl Kitaplätze, Stand Dezember 2022</b><br /> 
-Regelförderung 0-3 Jahre: 1206 Kinder<br /> 
-Regelförderung 3-6 Jahre: 4264 Kinder<br /> 
-<br />
 Betreuungsquote, Stichtag 1.11.2022<br /> 
 0-3 Jahre: 31,23% (1409 Kinder)<br /> 
 3-6 Jahre: 96,82% (4.321 Kinder)<br /><br />
@@ -451,10 +447,6 @@ Katholische Kindertageseinrichtungen Ingolstadt gemeinnützige GmbH: Kita St. Ru
 <br />
 Im Jahr 2023 wurden insgesamt 12 weitere Krippenplätze und 70 Kindergartenplätze geschaffen.<br /><br />
 <br />
-<b>Gesamtanzahl Kitaplätze, Stand Dezember 2023</b><br /> 
-Regelförderung 0-3 Jahre: 1256 Kinder<br /> 
-Regelförderung 3-6 Jahre: 4211 Kinder<br /> 
-<br />
 Betreuungsquote, Stichtag 1.11.2023<br />
 0-3 Jahre: 34,28% (1.496 Kinder)<br /> 
 3-6 Jahre: 96,58% (4.383 Kinder)<br /><br />
@@ -462,7 +454,7 @@ Betreuungsquote, Stichtag 1.11.2023<br />
 Eine Übersicht zu allen Kindertageseinrichtungen finden Sie im <a href="https://stadtplan.ingolstadt.de/#ll=48.761277,11.388359&amp;z=13&amp;m=custom379&amp;cat=20434,20438,20439,20440">Geoportal der Stadt Ingolstadt</a>. Mehr Informationen zur Kinderbetreuung finden Sie auf der Internetseite des <a href="https://www.ingolstadt.de/Leben/Kinder-Jugend-Familie/Kinderbetreuung/Kitas-der-Stadt-Ingolstadt/?La=1">Amts für Kinderbetreuung und -bildung</a><br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt</b><br />
-B2.3: Förderung der Bildungsteilhabe bzw. Bildungsgerechtigkeit<br />
+B2.3: Förderung der Bildungsteilhabe / Bildungsgerechtigkeit und lebenslangem Lernen<br />
 <br />
 <b>Ingolstadtspezifischer Indikator</b></p>
 
@@ -483,21 +475,21 @@ B2.3: Förderung der Bildungsteilhabe bzw. Bildungsgerechtigkeit<br />
   data-country="Ingolstadt"
   data-charttitle="Wohnungsnahe Grundversorgung - Kita"
   data-charttitles="null"
-  data-measurementunit=""
+  data-measurementunit="Anzahl Kitaplätze"
   data-xaxislabel=""
   data-showdata="false"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Kitaplätze&quot;,&quot;value&quot;:&quot;0-3 Jahre&quot;},{&quot;field&quot;:&quot;Kitaplätze&quot;,&quot;value&quot;:&quot;3-6 Jahre&quot;},{&quot;field&quot;:&quot;Kitaplätze&quot;,&quot;value&quot;:&quot;Gesamt&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Jahr&quot;},{&quot;name&quot;:&quot;Kitaplätze&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;0-3 Jahre&quot;,&quot;3-6 Jahre&quot;,&quot;Gesamt&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Kitaplätze&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
   data-proxy=""
@@ -600,19 +592,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Definitionen </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Anzahl Kitaplätze in Ingolstadt (in städtischer und nicht-städtischer Trägerschaft)</p>
 
           
         </td>
@@ -623,19 +608,12 @@ data-event-label="Change to Metadaten tab"
       
       
       
-        
-          
-          
-          
-          
-        
-      
       
       <tr>
         <th scope="row">Einheit </th>
         <td>
           
-            <p><span class="empty-metadata-placeholder"></span></p>
+            <p>Anzahl Kitaplätze</p>
 
           
         </td>
@@ -1235,12 +1213,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241007142309'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241007142836'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241007142309"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241007142836"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
