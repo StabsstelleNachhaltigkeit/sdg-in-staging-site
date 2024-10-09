@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241009104125">
+        <link rel="stylesheet" href="/sdg-in-staging-site/assets/css/style.css?v=20241009104824">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -427,7 +427,11 @@ layout-indicator
 
 <div class="row" id="page-content">
   <div class="col-xs-12">
-    <p>Absolute Anzahl der zugelassenen, angestellten und ermächtigten Ärzt/-innen zur vertragsärztlichen Versorgung, unabhängig von ihrem Tätigkeitsumfang oder ihrer Berücksichtigung in der Bedarfsplanung.<br />
+    <p>Der Indikator zeigt die fachärztliche Versorgung nach allgemeiner und spezialisierter fachärztlicher Versorgung je 100.000 Einwohner/-innen an.<br />
+<br />
+Zur allgemeinen fachärztlichen Versorgung zählen folgende Berufsgruppen: Augenärzte, Chirurgen und Orthopäden, Frauenärzte, Hautärzte, HNO-Ärzte, Kinder- und Jugendärzte, Nervenärzte, Psychotherapeuten, Urologen.<br />
+<br />
+Zur spezialisierten fachärztlichen Versorgung zählen folgende Berufsgruppen: Anästhesisten, fachärztlich tätige Internisten, Kinder- und Jugendpsychiater, Radiologen.<br />
 <br />
 <b>Ziel Nachhaltigkeitsagenda Ingolstadt:</b><br />
 N2.4: Sicherstellung einer ausreichenden medizinischen Infrastruktur<br />
@@ -458,7 +462,7 @@ N2.4: Sicherstellung einer ausreichenden medizinischen Infrastruktur<br />
   data-graphtypes="null"
   data-geocoderegex=""
   data-showmap=""
-  data-startvalues="[{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Ingolstadt&quot;},{&quot;field&quot;:&quot;Region&quot;,&quot;value&quot;:&quot;Bayern&quot;}]"
+  data-startvalues="[{&quot;field&quot;:&quot;Fachärzte&quot;,&quot;value&quot;:&quot;allgemeine fachärztliche Versorgung&quot;},{&quot;field&quot;:&quot;Fachärzte&quot;,&quot;value&quot;:&quot;spezialisierte fachärztliche Versorgung&quot;},{&quot;field&quot;:&quot;Fachärzte&quot;,&quot;value&quot;:&quot;gesamt&quot;}]"
   data-graphlimits="null"
   data-stackeddisaggregation=""
   data-graphannotations="null"
@@ -827,7 +831,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Definitionen </th>
         <td>
           
-            <p>Versorgung durch Fachärztinnen je 100.000 EW nach Fachgebieten</p>
+            <p>Versorgung durch Fachärztinnen je 100.000 EW nach Fachgebieten (allgemeine fachärztliche und spezialisierte fachärztliche Versorgung)</p>
 
           
         </td>
@@ -891,7 +895,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Daten verfügbar seit </th>
         <td>
           
-            <p>2022</p>
+            <p>2019</p>
 
           
         </td>
@@ -907,7 +911,7 @@ data-event-label="Change to Metadaten tab"
         <th scope="row">Datenquellen </th>
         <td>
           
-            <p><a href="https://www.kvb.de/ueber-uns/versorgungsatlas/">Kassenärztliche Vereinigung Bayerns, Versorgungsatlas, Januar 2023</a></p>
+            <p><a href="https://www.kvb.de/ueber-uns/versorgungsatlas/">Kassenärztliche Vereinigung Bayerns</a>, eigene Berechnung auf Grundlage der Fortschreibung des ZENSUS 2022 der Stadt Ingolstadt</p>
 
           
         </td>
@@ -1443,12 +1447,12 @@ if (allRequired) {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241009104125'></script>
+<script src='/sdg-in-staging-site/assets/js/sdg.js?v=20241009104824'></script>
 
 
     
     
-    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241009104125"></script><script>
+    <script src="/sdg-in-staging-site/assets/js/custom.js?v=20241009104824"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
