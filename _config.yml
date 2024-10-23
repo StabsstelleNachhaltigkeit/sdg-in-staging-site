@@ -9,74 +9,44 @@ data_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/ed
 metadata_edit_url: http://prose.io/#StabsstelleNachhaltigkeit/sdg-in-staging-data/edit/develop/meta/[id].md
 
 # Text zu Handlungsfelder 
-# fields to change: title, vision, leitsatz, hf-goals
+# fields to change: title, leitsatz, hf-goals
 frontpage_handlungsfelder:  
   - title: Wirtschaft
-    vision: |
-      Ingolstadt wirtschaftet in 2045 nachhaltig: Die Wirtschaft schützt den Planeten 
-      und stärkt das Gemeinwohl. Nicht nur die Lebensqualität ist auf einem Höchststand. Auch sind 
-      Ingolstädter/-innen die zufriedensten Bürger/-innen in Deutschland:
-      Die Balance zwischen Arbeit und Leben steht in Ingolstadt im Vordergrund.
     leitsatz: |
-      Ingolstadt ist ein attraktiver und nachhaltiger Wirtschaftsstandort. Als
-      vernetzte und zukunftsorientierte Stadt sichern wir mit technologischem, sozialem
+      Wir schaffen die Rahmenbedingungen für eine nachhaltige Entwicklung der Wirtschaft. 
+      Als vernetzte, zukunftsorientierte und attraktive Stadt sichern wir mit technologischem 
       und gesellschaftlichem Fortschritt den Wohlstand für alle Menschen in Ingolstadt.
-      Ökonomie und Ökologie betrachten wir nicht als Widersprüche, sondern als Quelle
-      für Synergien.
     hf-goals: "4,5,8,9,10,11,12,13"
     hf-color: '#007ebe'
 
   - title: Umwelt
-    vision: |
-      Ingolstadt verbindet Stadt und Natur und gilt als grüne Lunge unter den
-      Städten Bayerns. Ingolstadt versorgt sich selbst mit Energie - ist autark und setzt
-      Kreislaufwirtschaft um. Die Donau ist sauber und die CO2-Bilanz der Stadt weist
-      aus: Ingolstadt ist klimapositiv.
     leitsatz: |
-      Ingolstadt lebt und wirtschaftet klima- und ressourcenschützend. Wir
-      schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese.
-      Mit einer positiven und effektiven Sichtweise auf die Ökologie treten wir mit Natur und Technik 
-      in eine neue Beziehung.
+      Wir fördern Klimaneutralität und Umweltschutz auch durch technische und digitale Lösungen. 
+      Ökologische und regionale Landwirtschaft sowie der Erhalt der Biodiversität werden unterstützt. 
+      Wir schaffen Bewusstsein für den Erhalt unserer natürlichen Lebensgrundlagen und sichern diese durch ressourcenschonendes Planen und Handeln.
     hf-goals: "2,6,7,9,11,12,13,14,15"
     hf-color: '#65b448'
 
   - title: Leben
-    vision: |
-      Der Alltag in Ingolstadt ist geprägt von Lebensqualität – und von einer vielfältigen Mobilität mit einem
-      breiten und nutzer/-innenfreundlichen Angebot für alle. Gemeinschaftlichkeit und Wohlbefinden sind Kennzeichen der
-      nachhaltigen Stadtviertel der kurzen Wege, in denen sich die Generationen treffen. Zukunftskaufhäuser verdienen an
-      langlebigen Produkten zur Nutzung statt zum Besitz, weil sie auch Reparatur anbieten. Seltener wird ganz neu Pro-
-      duziertes gekauft.
     leitsatz: |
-        Wir ermöglichen ein gesundes und sicheres Miteinander im Alltag für die Menschen
-        in Ingolstadt. Das urbane Leben läuft im Einklang mit Mobilität und Ökologie.
+        Wir ermöglichen gesundes und sicheres Miteinander, Wohnen und Arbeiten für alle Menschen in Ingolstadt. 
+        Wir planen unsere Stadt mit ihren öffentlichen Räumen nachhaltig, generationsgerecht und inklusiv. 
+        Wir sichern bedarfsgerechten Wohnbau, soziale Einrichtungen und eine gute Infrastruktur.
     hf-goals: "2,3,6,9,10,11,12,13,15,16"
     hf-color: '#f8b715'
 
   - title: Vielfalt
-    vision: |
-      Ingolstadt ist weltoffen und leistet ihren Beitrag zur globalen Verantwortung. 
-      Verschiedenheit wird in Ingolstadt respektiert und wertgeschätzt. Engagierte 
-      Ingolstädter/-innen stärken den Gemeinsinn. Diskriminierungen hingegen – auch
-       bei der Entlohnung – gehören schon lange der Vergangenheit an.
     leitsatz: |
-      Die Stadt Ingolstadt steht für Vielfalt, Offenheit und Toleranz. Durch unsere 
-      vielfältige Gesellschaft fördern wir Kreativität und Produktivität. Wir engagieren
-      uns lokal und global für ein gerechtes, gesundes und inklusives Miteinander. Damit
-      fördern wir die Glokalisierung
+      Wir arbeiten aktiv an einer Stadtgesellschaft, die für Vielfalt und Respekt steht. 
+      Unser Ziel sind Teilhabe und Chancengleichheit aller. 
+      Wir fördern bürgerschaftliches Engagement für ein gutes Miteinander – lokal und global.
     hf-goals: "1,2,3,4,5,6,10,11,15,16,17"
     hf-color: '#ed6d29'
 
   - title: Bildung
-    vision: |
-      Nachhaltigkeit hat Einzug in Bildungs- und Kultureinrichtungen gehalten.
-      Der Zugang zur Kultur ist offen, für alle attraktiv und leicht zugänglich. Bildung selbst
-      hat eine neue Qualität: Erfahrungslernen, vernetzter Umgang miteinander und Teilhabe sind 
-      fester Bestandteil von Bildungsangeboten.
     leitsatz: |
-        Wir fördern Bildung für alle Menschen in unserer Stadt, auch mit den 
-        Mitteln der Kultur und kulturellen Bildung und leisten damit einen wichtigen Beitrag für
-        eine nachhaltige Zukunft.
+        Wir fördern Bildung, Kunst und Kultur für alle Menschen in unserer Stadt. 
+        Besondere Aufmerksamkeit verdienen dabei Kreativität und freie individuelle Entfaltung und Entwicklung. 
     hf-goals: "4,9,10,11,16"
     hf-color: '#05afda'
 
