@@ -996,6 +996,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/15-5",
           "status": "complete"
+        },
+        {
+          "id": "15-6",
+          "title": "Gesamtheit aller Eingriffe des Menschen in den Naturhaushalt (Hemerobieindex)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/15-6",
+          "status": "inprogress"
         }]
     }
   },
