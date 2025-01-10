@@ -122,6 +122,8 @@ footer_menu:
     translation_key: menu.cookies
   - path: /guidance
     translation_key: menu.guidance
+  - path: /barrierefreiheit/
+    translation_key: menu.accessibility  
 
 
 frontpage_introduction_banner:
