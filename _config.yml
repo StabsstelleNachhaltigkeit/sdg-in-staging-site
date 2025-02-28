@@ -140,6 +140,9 @@ frontpage_handlungsfelder_title:
 
 
 frontpage_cards:
+  - title: Nachhaltigkeitsbericht - Stadt Ingolstadt 2022/2023
+    href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2025/01/Zweiter-Nachhaltigkeitsbericht-der-Stadt-Ingolstadt.pdf" 
+    thumbnail_src: /Zweiter_Nachhaltigkeitsbericht_der Stadt_Ingolstadt_Titelseite_1_1.jpg
   - title: Nachhaltigkeitsbericht - Stadt Ingolstadt 2021
     href: "https://nachhaltigkeitsagenda-ingolstadt.de/wp-content/uploads/2023/01/221208_BNK_final_web.pdf" 
     thumbnail_src: /BNK_Titelbild_1_1.jpg
