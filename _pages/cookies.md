@@ -12,7 +12,7 @@ Herausgeber dieser Webseite ist die Stadt Ingolstadt.
 
 ### Vertretungsberechtigt
 
-Oberbürgermeister Dr. Christian Scharpf
+Oberbürgermeister Dr. jur. Michael Kern
 
 ### Rechtsform: 											                       
 Behörde, Organ der juristischen Person des öffentlichen Rechts
