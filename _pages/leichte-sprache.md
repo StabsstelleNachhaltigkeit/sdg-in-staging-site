@@ -39,6 +39,7 @@ Ab 2021 haben dann Arbeits-Gruppen neue Ideen entwickelt:<br>
 Die Frage war: Wie wollen wir leben?<br>
 <br>
 Ideen sind dabei aus diesen 5 Bereichen der Agenda entstanden:<br>
+<br>
 <ul>
   <li>Wirtschaft und neue Lösungen für die Unternehmen</li>
   <li>Klima, Umwelt und Energie</li>
@@ -46,13 +47,14 @@ Ideen sind dabei aus diesen 5 Bereichen der Agenda entstanden:<br>
   <li>Bildung und Kultur</li>
   <li>Vielfalt und Beteiligung der Bürger</li>
   </ul><br>
+Im Jahr 2024 hat die Stadt die Ziele für Ingolstadt angepasst.<br>
 <br>
 Um die Nachhaltigkeits-Ziele zu erreichen, haben wir kleine Teil-Ziele benannt.<br>
 Wir schauen jetzt, wie man die Ziele erreichen kann.<br>
 Oder ob man sogar schon auf dem Weg zum Ziel ist.<br>
 <br>
 <h2>Überprüfung der Ziel-Erreichung</h2>
-Es wurden 119 verschiedene Merkmale festgelegt.<br>
+Es wurden 123 verschiedene Merkmale festgelegt.<br>
 Mit diesen Merkmalen können wir die Ziel-Erreichung prüfen.<br>
 So haben wir einen Überblick, was getan wurde.<br> 
 Oder was noch getan werden muss.<br>
