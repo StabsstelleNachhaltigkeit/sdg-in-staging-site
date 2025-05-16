@@ -892,6 +892,14 @@
           "keywords": "",
           "href": "/sdg-in-staging-site/11-20/",
           "status": "complete"
+        },
+        {
+          "id": "11-21",
+          "title": "global_indicators.11-21-title",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-in-staging-site/11-21/",
+          "status": "inprogress"
         }]
     }
   },
