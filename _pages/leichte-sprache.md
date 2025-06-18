@@ -54,7 +54,7 @@ Wir schauen jetzt, wie man die Ziele erreichen kann.<br>
 Oder ob man sogar schon auf dem Weg zum Ziel ist.<br>
 <br>
 <h2>Überprüfung der Ziel-Erreichung</h2>
-Es wurden 123 verschiedene Merkmale festgelegt.<br>
+Es wurden 134 verschiedene Merkmale festgelegt.<br>
 Mit diesen Merkmalen können wir die Ziel-Erreichung prüfen.<br>
 So haben wir einen Überblick, was getan wurde.<br> 
 Oder was noch getan werden muss.<br>
